@@ -1,0 +1,54 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+nav#post-nav {
+  padding-bottom: 20px;
+
+  span.prev {
+    float: left;
+  }
+
+  span.next {
+    float: right;
+  }
+}
+
+ul#post-list {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1.25em;
+    padding: 0 0 1.25em 10em;
+
+    a.date {
+      display: inline-block;
+      float: left;
+      margin-left: -10em;
+      max-width: 10em;
+
+      time {
+        font-size: 1.17em;
+        line-height: 1.1em;
+      }
+    }
+
+    a.date:hover {
+      font-weight: normal;
+    }
+
+    h3 {
+      display: inline-block;
+      font-size: 1.17em;
+      margin: 0;
+    }
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  ul#post-list li { border-bottom: none; }
+}

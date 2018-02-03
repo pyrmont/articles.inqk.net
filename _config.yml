@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
 title: articles.inqk.net
 description: Usually more extended thoughts by Michael Camilleri.
+timezone: Asia/Tokyo
+author: Michael Camilleri
+
+plugins: [jekyll-paginate]
+
+paginate: 10
+paginate_path: "/list/:num/"
