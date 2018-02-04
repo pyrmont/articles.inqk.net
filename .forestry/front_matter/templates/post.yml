@@ -11,3 +11,9 @@ fields:
   description: The title of the post
   config:
     required: true
+- type: datetime
+  name: date
+  label: Date
+  description: The date of the post
+  config:
+    date_format: YYYY-MM-DD
