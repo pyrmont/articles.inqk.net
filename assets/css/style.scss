@@ -49,6 +49,18 @@ ul#post-list {
   }
 }
 
+div.footnotes {
+  border-top: 1px dotted #e5e5e5;
+  padding-top: 1em;
+
+  > ol {
+    color: #b3b3b3;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0 0 0 1.4em;
+  }
+}
+
 @media print, screen and (max-width: 960px) {
   ul#post-list li { border-bottom: none; }
 }
