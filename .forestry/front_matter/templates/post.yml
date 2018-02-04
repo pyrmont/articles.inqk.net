@@ -1,0 +1,13 @@
+---
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: Layout
+  description: The layout for the post
+- type: text
+  name: title
+  label: Title
+  description: The title of the post
+  config:
+    required: true
