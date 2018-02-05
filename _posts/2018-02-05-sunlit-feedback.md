@@ -7,11 +7,11 @@ tags: []
 
 # Feedback on Sunlit 2.0 Beta
 
-_Sunlit 2.0[^1] is currently in beta. Since the developer is [Manton Reece][mr] (and Jonathan?[^2]), I thought I'd write my feedback up in the form of a blog post._
+_Sunlit 2.0[^1] is currently in beta. Since one of the developers is [Manton Reece][mr],[^2] I thought I'd write my feedback up in the form of a blog post._
 
 [mr]: https://manton.org/
 
-_One could read this as me being a lot more aggreived than I actually am. Indeed, I’m not aggrieved at all; I’m delighted Manton is working on Sunlit! My strong feelings come from a place of deep excitement about what Sunlit could be._
+_One could read this as me being a lot more aggreived than I actually am. Indeed, I’m not aggrieved at all; I’m delighted Manton and Jonathan are working on Sunlit! My strong feelings come from a place of deep excitement about what Sunlit could be._
 
 ## My Use Case
 
@@ -30,7 +30,7 @@ I want:
 I would like:
 
 * for the app to have some social component, so that I could discover other people’s photos and have (at least some) of my photos be easily discoverable;
-* I would like to be able to post certain collections to ‘secret’ pages that are only visible by going to the specific (and quasi-random) URL. 
+* to be able to post certain collections to ‘secret’ pages that are only visible by going to the specific (and quasi-random) URL.[^3]
 
 ## Feedback
 
@@ -38,12 +38,12 @@ Sunlit is the closest thing I’ve found to my ideal photo sharing app. I’m ex
 
 ### Multiple Microblogs
 
-The biggest problem I have is how Sunlit works with Micro.blog. Micro.blog is one of the publishing endpoints you can select and this is a large part of the appeal for me (two of my three wants relate to the resulting website, not the actual app). Because I like compartmentalising, I want to separate the microblog I use as [my Twitter replacement][uiq], from the microblog I want to use as [my Instagram/Flickr replacement][oiq].[^3]
+The biggest problem I have is how Sunlit works with Micro.blog. Micro.blog is one of the publishing endpoints you can select and this is a large part of the appeal for me (two of my three wants relate to the resulting website, not the actual app). Because I like compartmentalising, I want to separate the microblog I use as [my Twitter replacement][uiq], from the microblog I want to use as [my Instagram/Flickr replacement][oiq].[^4]
 
 [uiq]: https://updates.inqk.net
 [oiq]: http://outings.inqk.net
 
-Unfortunately, although it’s possible to have multiple microblogs associated with a single Micro.blog account,[^4] Sunlit can only publish to the particular microblog you _currently have set as the default on the Micro.blog website_. There is no way to change the default microblog, either in Sunlit or in the native Micro.blog apps.
+Unfortunately, although it’s possible to have multiple microblogs associated with a single Micro.blog account,[^5] Sunlit can only publish to the particular microblog you _currently have set as the default on the Micro.blog website_. There is no way to change the default microblog, either in Sunlit or in the native Micro.blog apps.
 
 The expectation that you will have only one microblog associated with your Micro.blog account causes problems in other areas. When you first link Sunlit to your Micro.blog account, it will use your default microblog as the registered endpoint. However, it will continue to display this as the endpoint even if you change the default on the Micro.blog website (the microblog used is always the one set as your default).
 
@@ -63,7 +63,7 @@ A [recent update][rum] to Micro.blog improved the themes available for hosted mi
 
 [rum]: http://www.manton.org/2018/01/micro-blog-theme-updates.html
 
-On the one hand, I can understand if Manton’s attitude is that since the entire ethos of Micro.blog is about owning your own content, relying on him to provide all this stuff is somewhat counterproductive. I can have all the customisation I want if I run my own microblog or simply set up a WordPress installation. I see the logic to this argument, but I have two counterpoints: (1) providing this kind of turn-key solution is a great way to encourage people to pay Manton money; and (2) all of the self-hosted solutions I’ve looked at so far are varying degrees of gross.
+On the one hand, I can understand if Manton and Jonathan’s attitude is that since the entire ethos of Micro.blog is about owning your own content, relying on Micro.blog to provide all this stuff is somewhat counterproductive. I can have all the customisation I want if I run my own microblog or simply set up a WordPress installation. I see the logic to this argument, but I have two counterpoints: (1) providing this kind of turn-key solution is a great way to encourage people to pay Micro.blog money; and (2) all of the self-hosted solutions I’ve looked at so far are varying degrees of gross.
 
 ### Location, Location, Location?
 
@@ -77,7 +77,7 @@ Why this limitation? Why can’t I choose any location? Why not at least look at
 
 ### The Discover Tab
 
-The key difference between version 1 and version 2 of Sunlit is the way that Micro.blog allows Manton to layer in a social network onto the app. This is primarily exposed through the Discover tab, which shows a grid of photos people have posted to Micro.blog (regardless of whether those photos were sent through Sunlit or not).
+The key difference between version 1 and version 2 of Sunlit is the way that Micro.blog allows for a social network to be layered onto the app. This is primarily exposed through the Discover tab, which shows a grid of photos people have posted to Micro.blog (regardless of whether those photos were sent through Sunlit or not).
 
 This is an interesting decision and potentially makes Sunlit much more of an app you’d regularly want to check. Unfortunately, the experience so far isn’t super great. If you want to view the photos in a timeline kind of way (a la Instagram), you can do that but the presentation is pretty… rough. 
 
@@ -85,7 +85,7 @@ For example, there’s no way to tell if photos in Discover are one-shots or gal
 
 More significantly, the actual social interactions are strangely limited. There is no way to interact with any of the photos directly. All you can do is open the photo in an in-app browser. Even then, you still can’t interact with the content easily. When you tap on a photo, you move to a light box mode where you see the URL to the photo and a link to open in the Micro.blog app. You might think that tapping on the Micro.blog app would open the post in Micro.blog. It does not. Instead, it opens the profile for that user. You have to scroll through their timeline to try to find the particular photo if you want to interact with it. Alternatively, you can tap on the link but since that takes you to the URL of the actual webpage, none of the Micro.blog social features (favouriting, replying) are available there.
 
-Manton’s been careful in building out Micro.blog not just to ape features of Twitter. I assume the logic is the same here (replace ‘Twitter’ with ‘Instagram’). I feel Micro.blog has a baseline that provides a minimum viable level; it feels less that way with Sunlit.
+Manton’s been careful in building out Micro.blog not just to ape features of Twitter. I assume Manton and Jonathan are thinking along similar lines here (replace ‘Twitter’ with ‘Instagram’). The difference is that I feel Micro.blog has a baseline that provides a minimum viable level; it feels less that way with Sunlit.
 
 ### Miscellanney
 
@@ -98,17 +98,20 @@ Finally, some minor points. No doubt some of these are merely the result of the 
 
 ## Conclusion
 
-As I hopefull made clear at the beginning, I really want Sunlit to be great. I think Manton has the germ of something terrific here that will, when fully realised, increase the value people can derive from Micro.blog. I worry if he has the time to devote to Sunlit but I’m strongly hoping that he does.
+As I hopefull made clear at the beginning, I really want Sunlit to be great. I think Manton and Jonathan have the germ of something terrific here that will, when fully realised, increase the value people can derive from Micro.blog. I'm greatly looking forward to watching it evolve.
 
-[^1]: At the centre of the app is its concept of the ‘story’. A story is essentially a blog post. It’s a unit of ‘content’, which can be published ‘somewhere’ (at present: a microblog, a WordPress installation, Flickr, Instagram and Dropbox). A story can contain photos, locations and text. The photos in a story are grouped by date, with the intention being that you will create a story for a trip and that the sections of the story will be broken up by day. That said, there’s nothing to stop a trip having a single photo or to use multiple stories to share photos that occurred on the same trip. 
+[^1]: At the centre of the app is its concept of the ‘story’. A story is essentially a blog post. It’s a unit of ‘content’, which can be published ‘somewhere’ (at present: a microblog, a WordPress installation, Flickr, Instagram and Dropbox). A story can contain photos, locations and text. The photos in a story are grouped by date, with the intention being that you will create a story for a trip and that the sections of the story will be broken up by day. That said, there’s nothing to stop a trip having a single photo or to use multiple stories to share photos that occurred on the same trip.
 
-[^2]: This is the beta of version 2 of Sunlit. The original version of Sunlit was developed by Jonathan and Manton but it’s not clear from [Manton’s announcement of version 2][v2a] what role Jonathan is playing now.
+[^2]: In [an earlier version][aev] of this article, I said I wasn't sure if Jonathan Hays, the other half of the original development team, was still working on Sunlit. [He very much is][mfm]. I've made adjustments to the text to reflect this. 
 
-[v2a]: http://www.manton.org/2018/01/sunlit-2-0-demo.html
+[aev]: https://github.com/pyrmont/articles/commits/master/_posts/2018-02-05-sunlit-feedback.md
+[mfm]: https://micro.blog/manton/316365
 
-[^3]: I have to pay for these microblogs separately. This is not a disincentive to me but I can imagine it is to a lot of people. Since my biggest issue with Sunlit arises from using Micro.blog like this, I’m sympathetic if Manton considers supporting this workflow a low priority (even if it does make me more valuable on an individual customer basis!).
+[^3]: Since this is an additional feature, rather than feedback on Sunlit's existing feature set, I don't discuss it any further in this article. But it would be cool. 
 
-[^4]:
+[^4]: I have to pay for these microblogs separately. This is not a disincentive to me but I can imagine it is to a lot of people. Since my biggest issue with Sunlit arises from using Micro.blog like this, I’m sympathetic if Manton and Jonathan consider supporting this workflow a low priority (even if it does make me more valuable on an individual customer basis!).
+
+[^5]:
     The fact you can use the term ‘Micro.blog’ to describe both the overarching Micro.blog service as well as a website that conforms to the requirements to be an endpoint for Micro.blog is one of the most confusing elements of the entire thing. I understand how it works but I had to literally email Manton to check I had it correctly.
 
     It’s even more complicated than it appears at first blush  because there are actually three parts: (1) Micro.blog, the social network; (2) a Micro.blog-compatible blog hosted on Micro.blog; and (3) a Micro.blog-compatible blog not hosted on Micro.blog.
