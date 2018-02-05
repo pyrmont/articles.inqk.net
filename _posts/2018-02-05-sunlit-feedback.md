@@ -109,9 +109,9 @@ As I hopefull made clear at the beginning, I really want Sunlit to be great. I t
 [^3]: I have to pay for these microblogs separately. This is not a disincentive to me but I can imagine it is to a lot of people. Since my biggest issue with Sunlit arises from using Micro.blog like this, I’m sympathetic if Manton considers supporting this workflow a low priority (even if it does make me more valuable on an individual customer basis!).
 
 [^4]:
-  The fact you can use the term ‘Micro.blog’ to describe both the overarching Micro.blog service as well as a website that conforms to the requirements to be an endpoint for Micro.blog is one of the most confusing elements of the entire thing. I understand how it works but I had to literally email Manton to check I had it correctly.
-  
-  It’s even more complicated than it appears at first blush  because there are actually three parts: (1) Micro.blog, the social network; (2) a Micro.blog-compatible blog hosted on Micro.blog; and (3) a Micro.blog-compatible blog not hosted on Micro.blog.
+    The fact you can use the term ‘Micro.blog’ to describe both the overarching Micro.blog service as well as a website that conforms to the requirements to be an endpoint for Micro.blog is one of the most confusing elements of the entire thing. I understand how it works but I had to literally email Manton to check I had it correctly.
 
-  For the purposes of this article, I’ll use the term Micro.blog to refer to the social network and microblog to refer to a conforming website (whether hosted on Micro.blog or not).
+    It’s even more complicated than it appears at first blush  because there are actually three parts: (1) Micro.blog, the social network; (2) a Micro.blog-compatible blog hosted on Micro.blog; and (3) a Micro.blog-compatible blog not hosted on Micro.blog.
+
+    For the purposes of this article, I’ll use the term Micro.blog to refer to the social network and microblog to refer to a conforming website (whether hosted on Micro.blog or not).
 
