@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+layout: post
 ---
 
 # Hello World
@@ -16,7 +17,7 @@ I’ve meant for a long time to start writing again but every time I’ve tried 
 
 [rh]: http://robhoward.id.au
 
-[Micro.blog][mb] has changed things. I’m still not entirely happy with my current ‘stack’[^1] (as it were) but I have things I want to write _now_. I could do that through Micro.blog itself, of course, but I like to box things (as [Amanda][as] would say) and that extends to longer form writing and status updates. 
+[Micro.blog][mb] has changed things. I’m still not entirely happy with my current ‘stack’[^1] (as it were) but I have things I want to write _now_. I could do that through Micro.blog itself, of course, but I like to box things (as [Amanda][as] would say) and that extends to longer form writing and status updates.
 
 [mb]: https://micro.blog
 [as]: https://www.amandaestablished.com/

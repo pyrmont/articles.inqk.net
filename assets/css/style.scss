@@ -15,7 +15,14 @@ nav#post-nav {
   }
 }
 
-ul#post-list {
+section.post ul {
+
+  li {
+    margin: 0 0 10px;
+  }
+}
+
+section ul#post-list {
   list-style-type: none;
   margin-bottom: 0;
   padding: 0;
@@ -47,6 +54,10 @@ ul#post-list {
       margin: 0;
     }
   }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 div.footnotes {
@@ -54,7 +65,7 @@ div.footnotes {
   padding-top: 1em;
 
   > ol {
-    color: #b3b3b3;
+    color: #a6a6a6;
     font-size: 0.9em;
     margin: 0;
     padding: 0 0 0 1.4em;
@@ -62,5 +73,11 @@ div.footnotes {
 }
 
 @media print, screen and (max-width: 960px) {
-  ul#post-list li { border-bottom: none; }
+  section {
+    padding-bottom: 0;
+  }
+
+  section ul#post-list li {
+    border-bottom: none;
+  }
 }

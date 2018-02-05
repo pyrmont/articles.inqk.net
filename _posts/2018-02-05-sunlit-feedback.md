@@ -1,7 +1,8 @@
 ---
 title: Feedback on Sunlit 2.0 Beta
-date: 2018-02-05 17:19:15
-category: 
+layout: post
+date: 2018-02-05 17:19:15 +0900
+category:
 tags: []
 ---
 
@@ -67,19 +68,19 @@ On the one hand, I can understand if Manton and Jonathan’s attitude is that si
 
 ### Location, Location, Location?
 
-One of the unique ideas in Sunlit is allowing ‘check-ins’ to be associated with a story. A story can then consist of text, photos and maps. There are two disappointing limitations to this at present. 
+One of the unique ideas in Sunlit is allowing ‘check-ins’ to be associated with a story. A story can then consist of text, photos and maps. There are two disappointing limitations to this at present.
 
 The first is the nature of the map itself. Choosing a location (more on that below) results in an image of your location being added to the story. This seems like a missed opportunity to take advantage of the very fact Sunlit exports webpages and so can drag in a fully functioning map (be that from Google, MapBox or whomever).
 
 The second is with the very way you add a location. As things currently stand, you can only add a location based on where you literally are at the moment you’re creating the story or from your Swarm check-in history (and even then, only to a particular point in time—I couldn’t work out how far back it searched but it definitely wasn’t my entire Swarm check-in history)
 
-Why this limitation? Why can’t I choose any location? Why not at least look at the location data embedded in the photos? It seems reasonable that people will use Sunlit after they’ve returned from a trip (or at the very least, gone back to their hotel). Unless you use Swarm and remember to check in from where you took the photo, the locations you’ll be able to add won’t be much help. 
+Why this limitation? Why can’t I choose any location? Why not at least look at the location data embedded in the photos? It seems reasonable that people will use Sunlit after they’ve returned from a trip (or at the very least, gone back to their hotel). Unless you use Swarm and remember to check in from where you took the photo, the locations you’ll be able to add won’t be much help.
 
 ### The Discover Tab
 
 The key difference between version 1 and version 2 of Sunlit is the way that Micro.blog allows for a social network to be layered onto the app. This is primarily exposed through the Discover tab, which shows a grid of photos people have posted to Micro.blog (regardless of whether those photos were sent through Sunlit or not).
 
-This is an interesting decision and potentially makes Sunlit much more of an app you’d regularly want to check. Unfortunately, the experience so far isn’t super great. If you want to view the photos in a timeline kind of way (a la Instagram), you can do that but the presentation is pretty… rough. 
+This is an interesting decision and potentially makes Sunlit much more of an app you’d regularly want to check. Unfortunately, the experience so far isn’t super great. If you want to view the photos in a timeline kind of way (a la Instagram), you can do that but the presentation is pretty… rough.
 
 For example, there’s no way to tell if photos in Discover are one-shots or galleries so if you’re wondering if something is merely the first in a series, you have to go tapping on the photo just to see.
 
@@ -91,8 +92,8 @@ Manton’s been careful in building out Micro.blog not just to ape features of T
 
 Finally, some minor points. No doubt some of these are merely the result of the app being in beta but I note them for completeness nevertheless.
 
-* You bizarrely can’t take a photo _in_ Sunlit. This is despite the location limitation mentioned above. 
-* When you publish a story, a link to the individual post is displayed. If you tap the link, you’re presented with iOS’s action/share sheet. There’s no way to simply open the link in Safari. You need to tap the link, tap copy, open Safari, paste the link. 
+* You bizarrely can’t take a photo _in_ Sunlit. This is despite the location limitation mentioned above.
+* When you publish a story, a link to the individual post is displayed. If you tap the link, you’re presented with iOS’s action/share sheet. There’s no way to simply open the link in Safari. You need to tap the link, tap copy, open Safari, paste the link.
 * If you don’t provide a description for a story involving multiple posts, most themes will display raw dates. Short of possible CSS tomfoolery, there’s no way to customise the output of these dates.
 * If you delete a story with no title, the modal dialog box says, ‘The story “” will be deleted from your phone.’
 
@@ -102,12 +103,12 @@ As I hopefull made clear at the beginning, I really want Sunlit to be great. I t
 
 [^1]: At the centre of the app is its concept of the ‘story’. A story is essentially a blog post. It’s a unit of ‘content’, which can be published ‘somewhere’ (at present: a microblog, a WordPress installation, Flickr, Instagram and Dropbox). A story can contain photos, locations and text. The photos in a story are grouped by date, with the intention being that you will create a story for a trip and that the sections of the story will be broken up by day. That said, there’s nothing to stop a trip having a single photo or to use multiple stories to share photos that occurred on the same trip.
 
-[^2]: In [an earlier version][aev] of this article, I said I wasn't sure if Jonathan Hays, the other half of the original development team, was still working on Sunlit. [He very much is][mfm]. I've made adjustments to the text to reflect this. 
+[^2]: In [an earlier version][aev] of this article, I said I wasn't sure if Jonathan Hays, the other half of the original development team, was still working on Sunlit. [He very much is][mfm]. I've made adjustments to the text to reflect this.
 
 [aev]: https://github.com/pyrmont/articles/commits/master/_posts/2018-02-05-sunlit-feedback.md
 [mfm]: https://micro.blog/manton/316365
 
-[^3]: Since this is an additional feature, rather than feedback on Sunlit's existing feature set, I don't discuss it any further in this article. But it would be cool. 
+[^3]: Since this is an additional feature, rather than feedback on Sunlit's existing feature set, I don't discuss it any further in this article. But it would be cool.
 
 [^4]: I have to pay for these microblogs separately. This is not a disincentive to me but I can imagine it is to a lot of people. Since my biggest issue with Sunlit arises from using Micro.blog like this, I’m sympathetic if Manton and Jonathan consider supporting this workflow a low priority (even if it does make me more valuable on an individual customer basis!).
 
