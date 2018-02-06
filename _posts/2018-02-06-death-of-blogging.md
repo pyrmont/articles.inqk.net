@@ -6,7 +6,7 @@ category:
 tags: []
 ---
 
-#The Death of (Mass-Market, Ad-Supported) Blogging
+# The Death of (Mass-Market, Ad-Supported) Blogging
 
 I’ve been wondering since I saw this [maudlin piece][nyp] on the end of blogging linked from Andy Baio’s website: why do these posts never resonate with me? 
 
