@@ -8,11 +8,13 @@ tags: []
 
 # The Death of (Mass-Market, Ad-Supported) Blogging
 
-I’ve been wondering since I saw this [maudlin piece][nyp] on the end of blogging linked from Andy Baio’s website: why do these posts never resonate with me? 
-
-I think it’s because they’re typically by bloggers who had an audience ruing the disappearance of that audience. To those of us who have always blogged in obscurity, welcome to the club. For us, there never was an audience. That’s _why_ social networks (particularly Facebook) are such an attractive place to post instead.[^1]
+I’ve been wondering since I saw this [maudlin piece][nyp] on the end of blogging [linked][abl] from Andy Baio’s website: why do these posts never resonate with me?
 
 [nyp]: https://www.newyorker.com/culture/cultural-comment/the-end-of-the-awl-and-the-vanishing-of-freedom-and-fun-from-the-internet
+
+[abl]: https://waxy.org/2018/01/jia-tolentino-on-the-end-of-the-awl/
+
+I think it’s because they’re typically by bloggers who had an audience ruing the disappearance of that audience. To those of us who have always blogged in obscurity, welcome to the club. For us, there never was an audience. That’s _why_ social networks (particularly Facebook) are such an attractive place to post instead.[^1]
 
 However, the absence of large audiences for blogs doesn’t mean blogging is over. Indeed, it could never have begun if that was a prerequisite. What is (probably)[^2] over are multi-member blogs that target the mass market and are advertising supported.
 
