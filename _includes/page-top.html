@@ -6,6 +6,8 @@
 
 {% seo %}
 
+{% feed_meta %}
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -17,5 +19,5 @@
       <header>
         <a href="{{ site.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>Usually more extended thoughts by <a href="https://inqk.net/">Michael Camilleri</a>.</p>
-        <p class="instructions">Read <a href="/how.html">how</a> to use this blog.</p>
+        <p class="instructions">Read <a href="{% link pages/how.md %}">how</a> to use this blog.</p>
       </header>
