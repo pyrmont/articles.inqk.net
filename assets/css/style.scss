@@ -1,7 +1,16 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+@import "base";
+
+header {
+  p.instructions {
+    border-top: 1px dotted #e5e5e5;
+    margin-top: 2em;
+    padding-top: 2em;
+  }
+}
+
 
 nav#post-nav {
   padding-bottom: 20px;
@@ -15,10 +24,19 @@ nav#post-nav {
   }
 }
 
-section.post ul {
+section.post {
 
-  li {
-    margin: 0 0 10px;
+  sup {
+    font-size: 0.6em;
+    position: relative;
+    top: -1.0em;
+    vertical-align: top;
+  }
+
+  ul {
+    li {
+      margin: 0 0 10px;
+    }
   }
 }
 
@@ -51,6 +69,7 @@ section ul#post-list {
     h3 {
       display: inline-block;
       font-size: 1.17em;
+      line-height: 1.17em;
       margin: 0;
     }
   }
@@ -79,5 +98,11 @@ div.footnotes {
 
   section ul#post-list li {
     border-bottom: none;
+    padding-left: 7.5em;
+
+    a.date {
+      margin-left: -7.5em;
+      max-width: 7.5em;
+    }
   }
 }
