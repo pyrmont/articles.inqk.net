@@ -1,6 +1,7 @@
 ---
+title: How to Use This Blog
 layout: page
-permalink: how.html
+permalink: instructions.html
 ---
 
 # How to Use this Blog
@@ -15,7 +16,7 @@ This blog is designed with the expectation that there are three types of reader:
 2. the reader who follows a shared link; and
 3. the reader who reads updates in a feed reader.
 
-Since none of these readers need the traditional front page, it has instead been replaced with a simple list of post titles ordered by date.
+Since none of these readers need the traditional front page, I've replaced it with a simple list of post titles ordered by date.
 
 ### Comments
 
