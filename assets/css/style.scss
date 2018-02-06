@@ -24,7 +24,7 @@ nav#post-nav {
   }
 }
 
-section.post {
+section.page, section.post {
 
   sup {
     font-size: 0.6em;
@@ -36,6 +36,28 @@ section.post {
   ul, ol {
     li {
       margin: 0 0 7.5px;
+    }
+  }
+}
+
+section.post {
+
+  div.metadata {
+    margin-bottom: 15px;
+
+    time {
+      color: #a6a6a6;
+      display: inline-block;
+      font-size: 1.4em;
+      width: 49%;
+    }
+
+    span.history {
+      color: #a6a6a6;
+      display: inline-block;
+      font-size: 0.9em;
+      text-align: right;
+      width: 50%;
     }
   }
 }
