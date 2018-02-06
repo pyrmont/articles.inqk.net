@@ -2,11 +2,11 @@
 title: The Death of (Mass-Market, Ad-Supported) Blogging
 layout: post
 date: 2018-02-06 10:06:22 +0900
-category: 
+category:
 tags: []
 ---
 
-# The Death of (Mass-Market, Ad-Supported) Blogging
+# The Death of (Mass-Market, Ad&#8209;Supported) Blogging
 
 I’ve been wondering since I saw this [maudlin piece][nyp] on the end of blogging [linked][abl] from Andy Baio’s website: why do these posts never resonate with me?
 
