@@ -114,6 +114,18 @@ div.footnotes {
 }
 
 @media print, screen and (max-width: 960px) {
+  header {
+    padding-bottom: 15px;
+
+    p {
+      display: inline;
+    }
+
+    p.instructions {
+      border: none;
+    }
+  }
+
   section {
     padding-bottom: 0;
   }
