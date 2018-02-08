@@ -2,6 +2,7 @@
 /.ruby-version
 /.yardoc
 /Gemfile.lock
+/_site/
 /_yardoc/
 /coverage/
 /doc/
@@ -10,5 +11,5 @@
 /vendor/
 /tmp/
 *.swp
-.sass-cache/
 .jekyll-metadata
+.sass-cache/
