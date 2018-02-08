@@ -3,10 +3,5 @@ description: Usually more extended thoughts by Michael Camilleri.
 timezone: Asia/Tokyo
 author: Michael Camilleri
 
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-
 paginate: 10
 paginate_path: "/list/:num/"
