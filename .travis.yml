@@ -1,0 +1,12 @@
+language: ruby
+
+rvm:
+   - 2.4.2
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN 
+  keep-history: true
+  on:
+    branch: gh-pages 
