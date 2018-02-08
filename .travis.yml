@@ -1,15 +1,15 @@
 language: ruby
-
 rvm:
-   - 2.4.2
-
+- 2.4.2
 script:
-  - bundle exec jekyll build
-
+- bundle exec jekyll build
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN 
+  github-token: "$GITHUB_TOKEN"
   keep-history: true
   on:
-    branch: master 
+    branch: master
+env:
+  global:
+    secure: gNhHfhKh8FSAyAQ99vF5Wlry+b2GYgCOuqorH7VXTE2smtAfGPA9iifvnNLR5dGb39spt46MN8eMTUuCuhlxipiMHgKcSwPpLU8bBu9CAcFy/yLaiCmTM2J7pm9XHaqJeR8SNPwcwwH7ivWBhDw5E9aiW4IN3c2CT0J4VTHoGE4h++jSQtgXlWD+YXd1yITglBntaJ7rYPoIIJngdx9ntvT/YxPD/sE8/P3tJMhD/MNGjmCyLoP2XbjcTSJuMBD5iHnjCjDwXlJG/9REk2MTu2nCgKls6JN3Eb9ohSRTEeIp2PJ3OM21260XXFy4fodeY7H93WmEJ9oJZElMYBeTHo4OGwdlIzJBpKe8//4Ms9R10x18MYACBea0Z6rukgvj/TvYLYCZv6KjnsFvjTz3cTY+vqup2aF6JxydD/yU70MP4TMJ9TZOn8rYvMaV5Hf0D26jckmTmMHdX5fDelUyRaHX6xIz0cYh2GOU20P4+vgZe5eMTFDNkOhQeJSNP0FuRnR/jBppn1yiypbiytt+v/MeV9Lns6831wlDdAUIEEG2Bx/cgDVujxP3bdVUwaOS/1k5B05BaKntf0/x14cX3ADTXINLb4wrOML/S055uJPxzSTIqPoTFbGP9vrR5HLf7+fJIxtag1DSk8fq7Z9K2ol5DqO3iaZvN1TM1ZlGOmg=
