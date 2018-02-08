@@ -10,6 +10,5 @@
 /vendor/
 /tmp/
 *.swp
-_site/
 .sass-cache/
 .jekyll-metadata
