@@ -27,10 +27,9 @@ nav#post-nav {
 section.page, section.post {
 
   sup {
-    font-size: 0.6em;
-    position: relative;
-    top: -1.0em;
-    vertical-align: top;
+    font-size: 0.8em;
+    line-height: 0px;
+    vertical-align: super;
   }
 
   ul, ol {
