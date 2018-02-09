@@ -4,15 +4,13 @@ layout: page
 permalink: instructions.html
 ---
 
-# How to Use this Blog
-
 Since this blog is organised a little differently to most, I thought it might be helpful to explain how it's designed to be used.
 
 ## The Reader
 
 The articles published here share no unifying element other than the fact they were written by me. Traditional parts of a blog such as archives, categories and so on felt of limited value and have been omitted.
 
-At some point, I might put together a 'greatest hits' collection but for the moment that feels premature. If you're interested in reading whatever I write, there is an [ATOM feed][xml].
+At some point, I might put together a 'greatest hits' collection but for the moment that feels premature. If you're interested in reading whatever I write, there is an [Atom feed][xml].
 
 [xml]: http://articles.inqk.net/feed.xml
 
@@ -27,7 +25,7 @@ The [content for this blog][gha] is hosted on GitHub. Original content is placed
 
 [gha]: https://github.com/pyrmont/articles/
 
-At some point, I'd like to have an API for the site but in the meantime there is an [ATOM feed][xml] that you might find useful.
+At some point, I'd like to have an API for the site but in the meantime there is an [Atom feed][xml] that you might find useful.
 
 ## The Author
 

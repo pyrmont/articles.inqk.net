@@ -6,8 +6,6 @@ category:
 tags: []
 ---
 
-# Feedback on Sunlit 2.0 Beta
-
 _Sunlit 2.0[^1] is currently in beta. Since one of the developers is [Manton Reece][mr],[^2] I thought I'd write my feedback up in the form of a blog post._
 
 [mr]: https://manton.org/
@@ -93,15 +91,25 @@ Manton’s been careful in building out Micro.blog not just to ape features of T
 Finally, some minor points. No doubt some of these are merely the result of the app being in beta but I note them for completeness nevertheless.
 
 * You bizarrely can’t take a photo _in_ Sunlit. This is despite the location limitation mentioned above.
+
 * When you publish a story, a link to the individual post is displayed. If you tap the link, you’re presented with iOS’s action/share sheet. There’s no way to simply open the link in Safari. You need to tap the link, tap copy, open Safari, paste the link.
+
 * If you don’t provide a description for a story involving multiple posts, most themes will display raw dates. Short of possible CSS tomfoolery, there’s no way to customise the output of these dates.
+
 * If you delete a story with no title, the modal dialog box says, ‘The story “” will be deleted from your phone.’
 
 ## Conclusion
 
 As I hopefull made clear at the beginning, I really want Sunlit to be great. I think Manton and Jonathan have the germ of something terrific here that will, when fully realised, increase the value people can derive from Micro.blog. I'm greatly looking forward to watching it evolve.
 
-[^1]: At the centre of the app is its concept of the ‘story’. A story is essentially a blog post. It’s a unit of ‘content’, which can be published ‘somewhere’ (at present: a microblog, a WordPress installation, Flickr, Instagram and Dropbox). A story can contain photos, locations and text. The photos in a story are grouped by date, with the intention being that you will create a story for a trip and that the sections of the story will be broken up by day. That said, there’s nothing to stop a trip having a single photo or to use multiple stories to share photos that occurred on the same trip.
+[^1]:
+    Sunlit is an app for sharing collections of photos called 'stories'. A story is essentially a blog post. It’s a unit of ‘content’, which can be published ‘somewhere’.
+
+    In version 1 (since discontinued), stories could be published to a website ([sunlit.io]) where they could be shared with others. In version 2, the dedicated hosting service has been replaced with various options: a microblog, a WordPress installation, Flickr, Instagram and Dropbox.
+
+     [sunlit.io]: http://sunlit.io
+
+    A story can contain photos, locations and text. The photos in a story are grouped by date, with the intention being that you will create a story for a trip and that the sections of the story will be broken up by day. That said, there’s nothing to stop a trip having a single photo or to use multiple stories to share photos that occurred on the same trip.
 
 [^2]: In [an earlier version][aev] of this article, I said I wasn't sure if Jonathan Hays, the other half of the original development team, was still working on Sunlit. [He very much is][mfm]. I've made adjustments to the text to reflect this.
 

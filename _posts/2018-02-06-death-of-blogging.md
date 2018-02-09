@@ -6,8 +6,6 @@ category:
 tags: []
 ---
 
-# The Death of (Mass-Market, Ad&#8209;Supported) Blogging
-
 I’ve been wondering since I saw this [maudlin piece][nyp] on the end of blogging [linked][abl] from Andy Baio’s website: why do these posts never resonate with me?
 
 [nyp]: https://www.newyorker.com/culture/cultural-comment/the-end-of-the-awl-and-the-vanishing-of-freedom-and-fun-from-the-internet

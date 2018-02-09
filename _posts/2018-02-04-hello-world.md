@@ -3,8 +3,6 @@ title: "Hello World"
 layout: post
 ---
 
-# Hello World
-
 Hello world. It's been [a while][aw].
 
 [aw]: http://notes.inqk.net/post/147923960300

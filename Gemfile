@@ -4,8 +4,9 @@ gem 'jekyll'
 gem 'kramdown'
 
 group :jekyll_plugins do
+  gem 'jekyll-github-metadata'
+  gem 'jekyll-last-modified-at'
   gem 'jekyll-paginate'
-  gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
 end
 

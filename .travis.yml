@@ -1,8 +1,10 @@
 language: ruby
 rvm:
-- 2.5.0
+  - 2.5.0
+install:
+  - bundle install --without development --path vendor/bundle
 script:
-- bundle exec jekyll build
+  - bundle exec jekyll build
 deploy:
   provider: pages
   skip-cleanup: true
