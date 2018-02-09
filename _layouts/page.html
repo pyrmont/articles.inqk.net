@@ -2,6 +2,7 @@
 
 <section class="page">
   <article>
+    <h1>{{ page.title | replace: '-', '&#8209;' }}</h1>
     {{ content | colophon }}
   </article>
 </section>

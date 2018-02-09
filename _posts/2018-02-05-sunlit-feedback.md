@@ -6,8 +6,6 @@ category:
 tags: []
 ---
 
-# Feedback on Sunlit 2.0 Beta
-
 _Sunlit 2.0[^1] is currently in beta. Since one of the developers is [Manton Reece][mr],[^2] I thought I'd write my feedback up in the form of a blog post._
 
 [mr]: https://manton.org/
