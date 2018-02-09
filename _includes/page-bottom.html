@@ -3,7 +3,7 @@
       </footer>
     </div>
 
-    <script src="{{ '/assets/js/barefoot.min.js?v=' | site.github.build_revision | relative_url }}"></script>
+    <script src="{{ '/assets/js/barefoot.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
     <script>
       lf = new BareFoot();
       lf.init();
