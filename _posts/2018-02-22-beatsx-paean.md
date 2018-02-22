@@ -1,8 +1,8 @@
 ---
 title: In Praise of BeatsX
 layout: post
-date: 2018-02-22 16:40:54 +0900 
-category: 
+date: 2018-02-22 16:40:54 +0900
+category:
 tags: []
 ---
 
@@ -28,7 +28,7 @@ The BeatsX earphones aren’t perfect. Things that should be improved:
 
 * The power button is awful. It’s a mushy, shameful excuse for a real button that is essential to use (you have to hold down for a second to turn the earphones on and off). Every interaction with it is awful.
 
-* There appears to be (or, at the very least, [issues with the battery][rbp] have been) . I encountered this problem within six months of purchasing my initial set.[^4] After sending it back to Apple for service, I’ve not had any significant problems with my second set. 
+* There appears to be (or, at the very least, [issues with the battery][rbp] have been) . I encountered this problem within six months of purchasing my initial set.[^4] After sending it back to Apple for service, I’ve not had any significant problems with my second set.
 
 [rpb]: https://www.reddit.com/r/apple/comments/63gqzk/trying_to_turn_on_my_beatsx_and_just_get_a/
 
@@ -42,7 +42,7 @@ Here's hoping for an improved version 2.
 
 [mbp]: https://micro.blog/pyrmont/333953
 
-[^2]: The name is undeniably awkward. How do you even say it in casual conversation? Beat-sex? Beat-sexes? The verbal salad that is ‘BeatsX earphones’?  ‘AirPods’ is the clear winner here. 
+[^2]: The name is undeniably awkward. How do you even say it in casual conversation? Beat-sex? Beat-sexes? The verbal salad that is ‘BeatsX earphones’?  ‘AirPods’ is the clear winner here.
 
 [^3]:
     The eartips that fit over the earphones proper are a different story. Four sets of differing sizes are provided in the box with the idea being that you can customise the ‘fit’ for your ears. That’s fine as it goes but I lost one and was left having to order a third party replacement.
