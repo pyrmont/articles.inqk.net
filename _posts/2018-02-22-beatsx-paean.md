@@ -45,8 +45,8 @@ Here's hoping for an improved version 2.
 [^2]: The name is undeniably awkward. How do you even say it in casual conversation? Beat-sex? Beat-sexes? The verbal salad that is ‘BeatsX earphones’?  ‘AirPods’ is the clear winner here. 
 
 [^3]:
-    The eartips that fit over the earphones proper are a different story. Four sets of differing sizes are provided in the box with the idea being that you can customise the ‘fit’ for your ears. That’s fine as it goes but I lost one and was left having to order a third party replacement.
-  
-    Apple supposedly will replace them if you make a support request but there’s no indication of this on their site and I’m not sure how much it would have cost if I’d done it.
+    The eartips that fit over the earphones proper are a different story. Four sets of differing sizes are provided in the box with the idea being that you can customise the ‘fit’ for your ears. That’s fine as it goes but I lost one and was left having to order a third party replacement.
+
+    Apple supposedly will replace them if you make a support request but there’s no indication of this on their site and I’m not sure how much it would have cost if I’d done it.
 
 [^4]: I _almost_ bought a replacement set after giving them to the Apple Genius because I didn’t want to go home without a pair. To be clear, the repair was free.
