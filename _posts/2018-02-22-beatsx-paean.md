@@ -28,7 +28,7 @@ The BeatsX earphones aren’t perfect. Things that should be improved:
 
 * The power button is awful. It’s a mushy, shameful excuse for a real button that is essential to use (you have to hold down for a second to turn the earphones on and off). Every interaction with it is awful.
 
-* There appears to be (or, at the very least, [issues with the battery][rpb] have been) . I encountered this problem within six months of purchasing my initial set.[^4] After sending it back to Apple for service, I’ve not had any significant problems with my second set.
+* There appears to be (or, at the very least, [have been][rpb]) issues with the battery. I encountered this problem within six months of purchasing my initial set.[^4] After sending it back to Apple for service, I’ve not had any significant problems with my second set.
 
 [rpb]: https://www.reddit.com/r/apple/comments/63gqzk/trying_to_turn_on_my_beatsx_and_just_get_a/
 
