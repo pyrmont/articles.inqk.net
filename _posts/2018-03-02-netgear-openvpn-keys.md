@@ -13,7 +13,7 @@ OpenVPN's iOS app recently started displaying the following warning for OpenVPN 
 > stronger algorithm. Support for MD5 will be
 > dropped at end of Apr 2018
 
-If you're seeing it when connecting to a VPN running on your Netgear router, you need to change the OpenVPN keys to fix the problem.[^1] Netgear community forum user [Diggie3][dpp] put together a [guide explains just how to do that][drg]. The guide was written for users on Windows so I've used that as a base and modified it for users running Debian-like systems. (I was using Raspbian but it should work regardless of the variant.)
+If you're seeing it when connecting to a VPN running on your Netgear router, you need to change the OpenVPN keys to fix the problem.[^1] Netgear community forum user [Diggie3][dpp] put together a [guide explaining just how to do that][drg]. The guide was written for users on Windows; I've used that as a base and modified it for users running Debian-like systems. (I was using Raspbian but it should work regardless of the variant.)
 
 [dpp]: https://community.netgear.com/t5/user/viewprofilepage/user-id/187168
 
