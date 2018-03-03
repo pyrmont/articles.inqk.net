@@ -41,6 +41,16 @@ section.page, section.post {
       margin: 0 0 5px;
     }
   }
+
+  pre code ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 0;
+    }
+  }
 }
 
 section.page {

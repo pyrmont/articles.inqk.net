@@ -207,3 +207,19 @@
 .highlight {
   background-color: #f8f8f8;
 }
+
+.language-sh {
+  li::before {
+    content: '$ ';
+  }
+}
+.language-sh.sh-root {
+  li::before {
+    content: '# ';
+  }
+}
+.language-ftp {
+  li::before {
+    content: '> ';
+  }
+}
