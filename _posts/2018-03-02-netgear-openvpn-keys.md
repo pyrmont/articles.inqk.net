@@ -194,7 +194,7 @@ You're in, as they say in the classics. Now it's time to back up the original ke
 ```sh
 cd /tmp/openvpn/
 mkdir originals
-mv *.* originals
+cp *.* originals
 tar cvf originals.tar originals/*.*
 ```
 {: .sh-root}
