@@ -156,7 +156,7 @@ Depending on the number of devices, you should see something like this:
 ? (<Router IP>) at <MAC Address> [ether] on eth0
 ```
 
-Now let's install the necessary dependencies and run the script. When entering the MAC address, enter it _without_ colon separators. So if your MAC address is `ff:ff:ff:ff:ff:ff`, you would enter this as `ffffffffffff`.
+Now let's run the script. When entering the MAC address, enter it _without_ colon separators. So if your MAC address is `ff:ff:ff:ff:ff:ff`, you would enter this as `ffffffffffff`.
 
 ```sh
 python ./telnetenable.py <Router IP> <Router MAC> admin <Router password>
@@ -174,7 +174,7 @@ Time to transfer our new keys.
 
 ## Step 5. File Transfer
 
-Now open a new shell so we can telnet in to the router.
+Now open a new shell so we can telnet in to the router. In your new shell, type the following.
 
 ```sh
 telnet <Router IP>
@@ -209,6 +209,11 @@ Now let's transfer our files. By default, the Python FTP server will be running 
 
 ```ftp
 open <Your IP> 2121
+```
+
+When asked for your username, enter 'anonymous'. When asked for a password, leave this blank and hit enter.
+
+```ftp
 put originals.tar
 get keys.tar
 quit
