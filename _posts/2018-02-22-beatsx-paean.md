@@ -10,7 +10,7 @@ Sometimes it can feel lonely being the owner of a pair of BeatsX earphones.[^1] 
 
 And so while it’s common to hear tech enthusiasts—particularly those who use Apple products—sing the praises of AirPods, I can’t recall hearing anyone talking up BeatsX. That’s a shame because the BeatsX earphones not only do almost everything the AirPods do, they have a few features that arguably make them a superior product.
 
-The most obvious difference between the BeatsX earphones and the AirPods is the cable  This connects the two earpieces together, falling down to your shoulders and wrapping around the back of your neck. Because it wraps around your neck, it allows the earpieces to be magnetically clasped together on your chest when not in use.
+The most obvious difference between the BeatsX earphones and the AirPods is the cable. This connects the two earpieces together, falling down to your shoulders and wrapping around the back of your neck. Because it wraps around your neck, it allows the earpieces to be magnetically clasped together on your chest when not in use.
 
 The cord makes the killer feature of BeatsX possible: their omnipresence. The AirPods need to be put somewhere when not in use (be it a pocket or a bag). Because the BeatsX can be worn around your neck when you’re not listening to something, they are always  _there_, ready for whenever you need them. This kind of convenience has no measurable value, and may even sound absurd, but I swear to you, it’s real and significant.
 
@@ -22,13 +22,13 @@ Then there are the more mundane benefits that come from having a cable.
 
 * Nor is it a problem to have just one earphone in; great for when you’re doing chores around the house and don’t want to be completely anti-social.
 
-* The cable is used to store the battery which, unsurprisingly, is larger than what can be squeezed into the AirPod earpieces and provides longer battery life (the BeatsX earphones can also be 'fast charged' with two hours of battery life coming after being plugged in for five hours).
+* The cable is used to store the battery which, unsurprisingly, is larger than what can be squeezed into the AirPod earpieces and provides longer battery life (the BeatsX earphones can also be 'fast charged' with two hours of battery life coming after being plugged in for five minutes).
 
 The BeatsX earphones aren’t perfect. Things that should be improved:
 
 * The power button is awful. It’s a mushy, shameful excuse for a real button that is essential to use (you have to hold down for a second to turn the earphones on and off). Every interaction with it is awful.
 
-* There appears to be (or, at the very least, [issues with the battery][rbp] have been) . I encountered this problem within six months of purchasing my initial set.[^4] After sending it back to Apple for service, I’ve not had any significant problems with my second set.
+* There appears to be (or, at the very least, [have been][rpb]) issues with the battery. I encountered this problem within six months of purchasing my initial set.[^4] After sending it back to Apple for service, I’ve not had any significant problems with my second set.
 
 [rpb]: https://www.reddit.com/r/apple/comments/63gqzk/trying_to_turn_on_my_beatsx_and_just_get_a/
 
