@@ -211,7 +211,7 @@ Now let's transfer our files. By default, the Python FTP server will be running 
 open <Your IP> 2121
 ```
 
-When asked for your username, enter 'anonymous'. When asked for a password, leave this blank and hit enter.
+When asked for your username, enter 'anonymous'. When asked for a password, leave this blank and hit enter. Once you've logged in, you can run the following commands to copy the tar file containing the original keys _to_ your device and copy the tar file containing the new keys _from_ your device.
 
 ```ftp
 put originals.tar
