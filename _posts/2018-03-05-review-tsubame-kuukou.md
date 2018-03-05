@@ -1,14 +1,14 @@
 ---
-title: Book Review: Tsubame Kūkō
+title: Book Review: Tsubame Kuukou
 layout: post
 date: 2018-03-05 15:32:02 +0900 
 category: 
 tags: []
 ---
 
-So you've got an upcoming flight with your roughly 2-year-old child and you're looking for a picture book that will help them understand what's about to happen. As surprising as this may be in our age of ubiquitous air travel, your options are pretty limited.[^1] Into this semi-void steps the Japanese picture book _Tsubame Kūkō_ by Keiji Motoyasu.[^2]
+So you've got an upcoming flight with your roughly 2-year-old child and you're looking for a picture book that will help them understand what's about to happen. As surprising as this may be in our age of ubiquitous air travel, your options are pretty limited.[^1] Into this semi-void steps the Japanese picture book _Tsubame Kuukou_ by Keiji Motoyasu.[^2]
 
-_Tsubame Kūkō_ tells the story of the frog family who are going on a trip to a southern island. The conceit of the book is that small animals live in a human-like civilisation where air transportation is provided by birds. The book follows the frogs from the check-in counter at the departure airport to the luggage carousel at the destination airport. Along the way they pass through customs, wait in the departure lounge, board, take off, have a meal, sleep, land and wait for their luggage. Motoyasu worked at an airport while making the book and the story covers every major element of an airplane journey.
+_Tsubame Kuukou_ tells the story of the frog family who are going on a trip to a southern island. The conceit of the book is that small animals live in a human-like civilisation where air transportation is provided by birds. The book follows the frogs from the check-in counter at the departure airport to the luggage carousel at the destination airport. Along the way they pass through customs, wait in the departure lounge, board, take off, have a meal, sleep, land and wait for their luggage. Motoyasu worked at an airport while making the book and the story covers every major element of an airplane journey.
 
 Motoyasu's illustrations are vibrant and colourful, and the use of anthropomorphised animals draws  in young children in a way a more clinical picture book might not. Meanwhile, there's plenty of wit in the pictures to keep parents amused and interested.
 
@@ -18,5 +18,5 @@ The book is only available in Japanese—which is a shame for English-speaking r
 
 [^1]: There's a nice list of some of the other books available [here](http://www.friendshipcircle.org/blog/2011/12/05/airplane-travel-5-books-to-help-prepare-your-special-needs-child/). That list is framed as being for special needs children, but they look like books that any young child could read (albeit a bit dry in some cases).
 
-[^2]: _Tsubame_ is the Japanese word for the swallow bird and _Tsubame Kūkō_ translates as 'Swallow Airlines'.
+[^2]: _Tsubame_ is the Japanese word for the swallow bird and _Tsubame Kuukou_ translates as 'Swallow Airlines'.
 
