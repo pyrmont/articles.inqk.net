@@ -1,5 +1,5 @@
 ---
-title: The Japanese iPhone Shutter Sound
+title: "The Japanese iPhone Shutter Sound"
 layout: post
 date: 2018-02-09 09:24:50 +0900
 category:

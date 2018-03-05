@@ -1,5 +1,5 @@
 ---
-title: In Praise of BeatsX
+title: "In Praise of BeatsX"
 layout: post
 date: 2018-02-22 16:40:54 +0900
 category:

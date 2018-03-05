@@ -1,5 +1,5 @@
 ---
-title: Feedback on Sunlit 2.0 Beta
+title: "Feedback on Sunlit 2.0 Beta"
 layout: post
 date: 2018-02-05 17:19:15 +0900
 category:

@@ -1,5 +1,5 @@
 ---
-title: The Death of (Mass-Market, Ad-Supported) Blogging
+title: "The Death of (Mass-Market, Ad-Supported) Blogging"
 layout: post
 date: 2018-02-06 10:06:22 +0900
 category:
