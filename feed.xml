@@ -20,7 +20,7 @@
 	<author>
 		<name>{{ post.author | default: site.author }}</name>
 	</author>
-	<summary type="text">{{ post.excerpt | strip_html | strip_newlines | slice: 0,150 | append: '...' }}</summary>
+	<summary type="text">{{ post.excerpt }}</summary>
 	<content type="html" xml:base="{{ site.url }}" xml:lang="en">
     <![CDATA[
     {{ post.content }}
