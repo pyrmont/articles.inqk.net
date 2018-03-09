@@ -2,6 +2,7 @@
 title: "The Japanese iPhone Shutter Sound"
 layout: post
 date: 2018-02-09 09:24:50 +0900
+excerpt: An explanation for why Japanese iPhones produce an unmutable shutter sound when taking photos.
 category:
 tags: []
 ---

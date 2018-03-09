@@ -2,6 +2,7 @@
 title: "The Death of (Mass-Market, Ad-Supported) Blogging"
 layout: post
 date: 2018-02-06 10:06:22 +0900
+excerpt: Some thoughts on the apparent end of blogs which aimed for a mass-market audience and monetised through advertising.
 category:
 tags: []
 ---

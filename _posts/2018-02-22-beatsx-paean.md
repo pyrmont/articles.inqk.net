@@ -2,6 +2,7 @@
 title: "In Praise of BeatsX"
 layout: post
 date: 2018-02-22 16:40:54 +0900
+excerpt: A paen to BeatsX, the other wireless earphones that incorporate Apple's W1 chip.
 category:
 tags: []
 ---

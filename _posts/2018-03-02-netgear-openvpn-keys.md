@@ -2,6 +2,7 @@
 title: "Replacing OpenVPN Keys on a Netgear R7000"
 layout: post
 date: 2018-03-02 23:42:38 +0900
+excerpt: A step-by-step guide on how to replace a Netgear R7000's OpenVPN keys on Linux.
 category:
 tags: []
 ---

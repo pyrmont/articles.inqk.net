@@ -1,6 +1,10 @@
 ---
 title: "Hello World"
 layout: post
+date: 2018-02-04 05:13:15 +0900
+excerpt: The introductory post to this blog.
+category:
+tags: []
 ---
 
 Hello world. It's been [a while][aw].

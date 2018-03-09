@@ -1,9 +1,9 @@
 ---
 title: "The Case for an Apple Smartband"
 layout: post
-date: 2018-03-08 18:59:48 +0900 
-excerpt: An argument for why it would be a good idea for Apple to release a version of the Apple Watch that was a smartband.
-category: 
+date: 2018-03-08 18:59:48 +0900
+excerpt: An argument for why it would be a good idea for Apple to release a smartband version of the Apple Watch.
+category:
 tags: []
 ---
 
@@ -61,7 +61,7 @@ An Apple smartband would be a product first and foremost about digital identity.
 
 [^4]: Logging you into your computer (as the Apple Watch can do today) is authenticating you as a user of that computer. Making a payment is authenticating you as the owner of a credit card or payment account. From the perspective of the wearer of the device, it's all the same thing but at an implementation level, these are quite different things.
 
-[^5]: Ideally, such a device _would_ be with you at all times but, at some point, it will need to be charged. At least until we have contactless charging or charging times that are measured in seconds. 
+[^5]: Ideally, such a device _would_ be with you at all times but, at some point, it will need to be charged. At least until we have contactless charging or charging times that are measured in seconds.
 
 [^6]: This is what excludes smartphones. Even if it became possible to make a smartphone that was so light it could be 'worn', phones perform too many other tasks where a large screen is desirable to be worn feasibly.
 

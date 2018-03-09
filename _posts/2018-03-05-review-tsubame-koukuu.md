@@ -1,8 +1,9 @@
 ---
 title: "Book Review: Tsubame Kōkū"
 layout: post
-date: 2018-03-05 15:32:02 +0900 
-category: 
+date: 2018-03-05 15:32:02 +0900
+excerpt: A pictureless book review of a Japanese picture book about air travel.
+category:
 tags: []
 ---
 

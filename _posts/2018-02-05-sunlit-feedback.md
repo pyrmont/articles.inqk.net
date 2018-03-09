@@ -2,6 +2,7 @@
 title: "Feedback on Sunlit 2.0 Beta"
 layout: post
 date: 2018-02-05 17:19:15 +0900
+excerpt: Detailed feedback on the beta of Sunlit, a new iOS app for photo blogging.
 category:
 tags: []
 ---
