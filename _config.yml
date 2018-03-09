@@ -4,5 +4,7 @@ url: http://articles.inqk.net/
 timezone: Asia/Tokyo
 author: Michael Camilleri
 
+include: ['_pages']
+
 paginate: 10
 paginate_path: "/list/:num/"
