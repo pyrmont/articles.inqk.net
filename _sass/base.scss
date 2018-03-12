@@ -27,9 +27,9 @@ a:hover small { color: #777; }
 
 blockquote { border-left: 1px solid #e5e5e5; margin: 0; padding: 0 0 0 20px; font-style: italic; }
 
-code, pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #333; font-size: 12px; }
+code, pre, div.code { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #333; font-size: 12px; }
 
-pre { padding: 8px 15px; background: #f8f8f8; border-radius: 5px; border: 1px solid #e5e5e5; overflow-x: auto; }
+pre, div.code { padding: 8px 15px; background: #f8f8f8; border-radius: 5px; border: 1px solid #e5e5e5; overflow-x: auto; white-space: nowrap; }
 
 table { width: 100%; border-collapse: collapse; }
 
@@ -63,7 +63,7 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 @media print, screen and (max-width: 720px) { body { word-wrap: break-word; }
   header { padding: 0; }
   header ul, header p.view { position: static; }
-  pre, code { word-wrap: normal; } }
+  pre, code, div.code { word-wrap: normal; } }
 @media print, screen and (max-width: 480px) { body { padding: 15px; }
   header ul { width: 99%; }
   header li, header ul li + li + li { width: 33%; } }

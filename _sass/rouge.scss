@@ -207,19 +207,22 @@
 .highlight {
   background-color: #f8f8f8;
 }
+.highlight div[class^='line'] {
+  min-height: 1em;
+}
 
 .language-sh {
-  li::before {
+  div[class^='line']::before {
     content: '$ ';
   }
 }
 .language-sh-root {
-  li::before {
+  div[class^='line']::before {
     content: '# ';
   }
 }
 .language-ftp {
-  li::before {
+  div[class^='line']::before {
     content: '> ';
   }
 }

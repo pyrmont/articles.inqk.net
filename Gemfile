@@ -5,7 +5,7 @@ gem 'jekyll'
 gem 'commonmarker', :git => 'https://github.com/pyrmont/commonmarker.git'
 
 group :jekyll_plugins do
-  gem 'jekyll-commonmark'
+  # gem 'jekyll-commonmark'
   gem 'jekyll-github-metadata'
   gem 'jekyll-last-modified-at'
   gem 'jekyll-paginate'
