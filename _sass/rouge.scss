@@ -119,7 +119,7 @@
 .highlight .se {
   color: #d14;
 }
-.highlight .sh {
+.highlight .sh, .highlight .sh-root {
   color: #d14;
 }
 .highlight .si {
@@ -213,7 +213,7 @@
     content: '$ ';
   }
 }
-.language-sh.sh-root {
+.language-sh-root {
   li::before {
     content: '# ';
   }

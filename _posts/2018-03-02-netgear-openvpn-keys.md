@@ -192,13 +192,12 @@ Enter 'help' for a list of built-in commands.
 
 You're in, as they say in the classics. Now it's time to back up the original keys for safekeeping.
 
-```sh
+```sh-root
 cd /tmp/openvpn/
 mkdir originals
 cp *.* originals
 tar cvf originals.tar originals/*.*
 ```
-{: .sh-root}
 
 Next start the FTP program.
 
@@ -222,11 +221,10 @@ quit
 
 Almost there. Let's get our new keys out of the tar file.
 
-```sh
+```sh-root
 tar xvf keys.tar
 mv dh2048.pem dh1024.pem
 ```
-{: .sh-root}
 
 Renaming our DH parameter in that last line means it should all 'just work'. Our R7000 will see these files as if they're the originals and be none the wiser.
 
