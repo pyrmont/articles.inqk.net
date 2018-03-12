@@ -8,3 +8,8 @@ include: ['_pages']
 
 paginate: 10
 paginate_path: "/list/:num/"
+
+markdown: CommonMark
+
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
