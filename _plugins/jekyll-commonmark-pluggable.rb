@@ -36,10 +36,10 @@ module Jekyll
 
       def convert(content)
         doc = CommonMarker.render_doc(content, @options, @extensions)
-        plugins = CommonMarker::Plugins.get_all
-        plugins.each do |plugin|
+        CommonMarker.plugins.each do |plugin|
           plugin.call doc
         end
+        puts Jekyll::Hooks.inspect
         doc.to_html
       end
     end
@@ -47,16 +47,9 @@ module Jekyll
 end
 
 module CommonMarker
-  module Plugins
-    @@plugins = Array.new
+  @@__plugins = Array.new
 
-    def self.add(plugin)
-      puts 'Adding plugin...'
-      @@plugins.push plugin
-    end
-
-    def self.get_all
-      @@plugins
-    end
+  def self.plugins
+    @@__plugins
   end
 end
