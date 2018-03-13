@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
-gem 'commonmarker', :git => 'https://github.com/pyrmont/commonmarker.git'
+gem 'commonmarker'
 
 group :jekyll_plugins do
   # gem 'jekyll-commonmark'
