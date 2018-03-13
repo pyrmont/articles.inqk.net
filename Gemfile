@@ -5,7 +5,6 @@ gem 'jekyll'
 gem 'commonmarker'
 
 group :jekyll_plugins do
-  # gem 'jekyll-commonmark'
   gem 'jekyll-github-metadata'
   gem 'jekyll-last-modified-at'
   gem 'jekyll-paginate'
