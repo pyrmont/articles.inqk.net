@@ -39,7 +39,6 @@ module Jekyll
         CommonMarker.plugins.each do |plugin|
           plugin.call doc
         end
-        puts Jekyll::Hooks.inspect
         doc.to_html
       end
     end
