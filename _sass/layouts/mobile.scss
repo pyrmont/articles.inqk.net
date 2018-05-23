@@ -1,0 +1,99 @@
+@media print, screen and (max-width: 960px) {
+  div.wrapper {
+    width: auto;
+    margin: 0;
+  }
+
+  header, header.default, section, section.default, footer, footer.default {
+    float: none;
+    position: static;
+    width: auto;
+  }
+
+  header, header.default {
+    padding-bottom: 15px;
+  }
+
+  header.default {
+    p {
+      display: inline;
+
+      &.instructions {
+        border: none;
+      }
+    }
+  }
+
+  header a small, header.default a small {
+    display: inline;
+  }
+
+  header ul, header.default ul {
+    position: absolute; right: 50px; top: 52px;
+  }
+
+  section, section.default {
+    padding: 20px 0;
+    margin: 20px 0 20px;
+  }
+
+  section.default {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding-bottom: 0;
+
+    ul#post-list li {
+      border-bottom: none;
+      padding-left: 7.5em;
+
+      a.date {
+        margin-left: -7.5em;
+        max-width: 7.5em;
+      }
+
+      p {
+        display: none;
+      }
+    }
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap: break-word;
+  }
+
+  header, header.default {
+    padding: 0;
+  }
+
+  header ul, header.default ul, header p.view, header.default p.view {
+    position: static;
+  }
+
+  pre, code, div.code {
+    word-wrap: normal;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+
+  header ul, header.default ul {
+    width: 99%;
+  }
+
+  header li, header ul li + li + li, header.default li, header.default ul li + li + li {
+    width: 33%;
+  }
+}
+
+@media print {
+  body {
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444;
+  }
+}

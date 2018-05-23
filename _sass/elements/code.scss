@@ -1,0 +1,22 @@
+@import "../other/rouge";
+
+code, pre, div.code {
+  background: #f8f8f8;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  color: #333;
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+}
+
+code {
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+pre, div.code {
+  font-size: 12px;
+  margin: 0 0 $bottom-margin;
+  overflow-x: auto;
+  padding: 8px 15px;
+  white-space: nowrap;
+}

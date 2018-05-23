@@ -17,8 +17,8 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <a href="{{ site.url }}"> <h1>{{ site.title }}</h1> </a>
+      <header class="{{ page.layout }}">
+        <a href="{{ site.url }}"> <h1>&#10042; {{ site.title }}</h1> </a>
         <p>{{ site.description | markdownify }}</p>
         <p class="instructions">Read <a href="{% link _pages/instructions.md %}">how</a> to use this blog.</p>
       </header>

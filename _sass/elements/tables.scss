@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+  margin: 0 0 $bottom-margin;
+  width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid $faded-colour;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+th {
+  color: #444;
+}

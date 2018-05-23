@@ -1,0 +1,21 @@
+a {
+  color: $link-colour;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $link-colour;
+    font-weight: bold;
+  }
+}
+
+hr {
+  border: 0;
+  background: $faded-colour;
+  height: 1px;
+  margin: 0 0 $bottom-margin;
+}
+
+small {
+  font-size: 12px;
+  line-height: 12px;
+}
