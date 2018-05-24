@@ -23,7 +23,7 @@ It's split into two parts. First are the podcasts of general interest. Second ar
 
 * [**On Margins**](https://craigmod.com/onmargins/): I met Craig Mod at a party last year and it was honestly one of the most exciting things to happen to me in ages.[^1] As well as being an amazing human being, Craig has a voice he stole from someone at NPR. In _On Margins_, he explores the changing nature of the making of books with a variety of guests.
 
-* [**Revisionist History**](http://revisionisthistory.com/)**: If Malcolm Gladwell has a 'thing', it's being counterintuitive and with this show he's seemingly found nirvana. Even if you're sceptical of the conclusions he wants you to draw, it's difficult to deny he knows how to spin a good yarn.
+* [**Revisionist History**](http://revisionisthistory.com/): If Malcolm Gladwell has a 'thing', it's being counterintuitive and with this show he's seemingly found nirvana. Even if you're sceptical of the conclusions he wants you to draw, it's difficult to deny he knows how to spin a good yarn.
 
 * [**The Rewatchables**](https://www.theringer.com/the-rewatchables): A podcast about rewatchable movies. I skip the episodes for films I haven't seen but the ones I have listened to have all been good. It eschews the more 'standard' recap format where the hosts discuss the film chronologically. Instead, there's some general impressions and then 'segments' where the hosts discuss various categories (eg. most rewatchable scene). The show benefits from being a production of The Ringer: rather than having the same hosts (or even a single consistent host), a varied panel of Ringer staffers come together for each particular episode.
 
