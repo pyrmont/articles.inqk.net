@@ -56,6 +56,10 @@ section {
   article {
     padding-top: $bottom-margin;
   }
+
+  nav#post-nav {
+    margin: 0 0 $bottom-margin 0;
+  }
 }
 
 footer {

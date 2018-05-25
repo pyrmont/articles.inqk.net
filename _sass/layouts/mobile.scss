@@ -44,11 +44,24 @@
 
     ul#post-list li {
       border-bottom: none;
-      padding-left: 7.5em;
+      padding: 0;
+      /* padding-left: 7.5em; */
 
       a.date {
-        margin-left: -7.5em;
-        max-width: 7.5em;
+        color: $link-light-colour;
+        display: block;
+        float: none;
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+        /* margin-left: -7.5em;
+        max-width: 7.5em; */
+      }
+
+      h3 {
+        display: block;
+        float: none;
+        margin-left: 0;
       }
 
       p {
@@ -78,7 +91,7 @@
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding: 15px;
+    padding: 50px 15px;
   }
 
   header ul, header.default ul {
