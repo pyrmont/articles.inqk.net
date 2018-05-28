@@ -135,7 +135,7 @@ var BareFoot = function () {
   }, {
     key: "buildContent",
     value: function buildContent(id, content) {
-      return this.config.fnContentMarkup.replace(/\{\{FOOTNOTEID\}\}/g, id).replace(/\{\{FOOTNOTECONTENT\}\}/g, content);
+      return this.config.fnContentMarkup.replace(/\{\{FOOTNOTEID\}\}/g, id).replace(/\{\{FOOTNOTECONTENT\}\}/g, content).replace(/&ltsym;/g, "&lt;").replace(/&gtsym;/g, "&gt;");
     }
 
     /**
