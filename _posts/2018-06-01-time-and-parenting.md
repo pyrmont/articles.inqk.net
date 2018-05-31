@@ -38,5 +38,5 @@ I hope that's helpful to other parents out there. I might do another of these in
 
 [^1]: Yes.
 
-[^2]: I'm not really a bath guy but I'm recovering from an operation I had almost two years ago to remove a pilonidal sinus. I'll save you the awkward Googling: it's a cavity at the base of your back that can get filled up with dirt/hair which can be remedied by cutting it out and letting it heal up. Unfortunately, in my case, this has been taking a very long time.
+[^2]: I'm not really a bath guy but I'm recovering from an operation I had almost two years ago to remove a pilonidal sinus. I'll save you the awkward Googling: it's a cavity that some people have at the base of their back. It can get gunked up with dirt/hair/etc and if that happens, sometimes the best thing to do is to cut it out and let it heal up such that there's no cavity any more. Unfortunately, in my case, this has been taking a very long time.
 
