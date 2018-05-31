@@ -17,20 +17,20 @@ Or perhaps there are more people in my situation than I realise. Since people do
 
 Here's how we're doing it:
 
-> **6.00 pm**: Leave work
-> **6.45 pm**: Buy groceries
-> **7.15pm**: Arrive home
-> **7.30 pm**: Eat dinner
-> **8.00 pm**: Play with son
-> **8.30 pm**: Help wife bathing the kids
-> **9.15 pm**: Brush daughter's teeth
-> **9.30 pm**: Read daughter bedtime story
-> **9.40 pm**: Put daughter to bed
-> **10.15 pm**: Have bath[^2]
-> **11.00 pm**: Wash dishes
-> **12.15 am**: Wipe down kitchen
-> **12.30 am**: Have dessert with wife
-> **1.00 am**: Go to bed
+> **6.00 pm**: Leave work  
+> **6.45 pm**: Buy groceries  
+> **7.15pm**: Arrive home  
+> **7.30 pm**: Eat dinner  
+> **8.00 pm**: Play with son  
+> **8.30 pm**: Help wife bathing the kids  
+> **9.15 pm**: Brush daughter's teeth  
+> **9.30 pm**: Read daughter bedtime story  
+> **9.40 pm**: Put daughter to bed  
+> **10.15 pm**: Have bath[^2]  
+> **11.00 pm**: Wash dishes  
+> **12.15 am**: Wipe down kitchen  
+> **12.30 am**: Have dessert with wife  
+> **1.00 am**: Go to bed  
 
 (It's not shown above but my wife is putting our son to bed and cooking food for our kids while I'm with our daughter and having my bath.)
 
