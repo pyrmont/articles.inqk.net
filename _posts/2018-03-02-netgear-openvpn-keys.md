@@ -7,6 +7,9 @@ category:
 tags: []
 ---
 
+### **Update**: Since this post was written, Netgear has released updated firmware for [certain models][ngf] (including the R7000) that addresses the problem of MD5-signed certificates. I haven't used this firmware but others report it working.
+[ngf]: https://community.netgear.com/t5/Nighthawk-WiFi-Routers/MD5-Signed-Certificate-Warning-with-OpenVPN-on-iOS/m-p/1583028#M94691
+
 OpenVPN's iOS app recently started displaying the following warning for OpenVPN certificates signed with the MD5 algorithm:
 
 > WARN TLS: received certificate signed with MD5.
