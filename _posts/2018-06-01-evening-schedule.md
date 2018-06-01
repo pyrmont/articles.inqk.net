@@ -19,7 +19,7 @@ Here's how we're doing it:
 
 > **6.00 pm**: Leave work  
 > **6.45 pm**: Buy groceries  
-> **7.15pm**: Arrive home  
+> **7.15 pm**: Arrive home  
 > **7.30 pm**: Eat dinner  
 > **8.00 pm**: Play with son  
 > **8.30 pm**: Help wife bathing the kids  
