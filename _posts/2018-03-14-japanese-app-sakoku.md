@@ -7,6 +7,9 @@ category:
 tags: []
 ---
 
+### **Update**: In iOS 11.3, [Apple enabled automatic updating][cma] of apps downloaded from other app stores. This works for apps already installed on the device.
+[cma]: https://www.cultofmac.com/539289/ios-11-3-makes-it-easier-to-update-apps-from-foreign-app-stores/
+
 Admittedly, I'm an unusual case for the App Store. By nationality, I'm Australian but I live in Japan and use an American App Store account. As a result, I'm acutely aware of the geographic restrictions certain app owners put on their apps.
 
 With Australian apps, it's mostly what you'd expect: media streaming ones where a licensing component is involved. It's a little frustrating when it's an app for a bank or other service but at least these aren't apps you frequently need, or want, to update.
