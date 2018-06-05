@@ -37,7 +37,7 @@ Git is the overarching name for a collection of open source[^2] software utiliti
 
 Thompson identifies GitHub's appeal as solving a user experience problem for developers. This is true but the reasons Thompson gives are a little jumbled. Using GitHub doesn't obviate the need to run Git on your computer. What GitHub does is make it far easier to share code, both for humans and for computers.
 
-It's easy to see how GitHub helps humans. Users who create an account on GitHub (like [mine][ghp]) can save repositories to GitHub using the ability of Git itself to send code to another computer. GitHub then creates a little website for that repository ([here's an example][ght]). If the repository is public, any user can visit the GitHub URL and browse the files. It's easy to take it for granted now but a huge part of the early appeal of GitHub was how beautiful these sites. It's now table stakes for online code hosting but when GitHub first came on the scene it looked like a gorgeous sports car in a sea of Model Ts.
+It's easy to see how GitHub helps humans. Users who create an account on GitHub (like [mine][ghp]) can save repositories to GitHub using the ability of Git itself to send code to another computer. GitHub then creates a little website for that repository ([here's an example][ght]). If the repository is public, any user can visit the GitHub URL and browse the files. It's easy to take it for granted now but a huge part of the early appeal of GitHub was how beautiful these sites were. It's now table stakes for online code hosting but when GitHub first came on the scene it looked like a gorgeous sports car in a sea of Model Ts.
 
 [ghp]: https://github.com/pyrmont/
 [ght]: https://github.com/pyrmont/taipo
