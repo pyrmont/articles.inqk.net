@@ -7,7 +7,7 @@ category:
 tags: []
 ---
 
-In my paen to the BeatsX earphones I put a list of improvements I'd like to see at the end. I've come up with a few more so I'll list them all here for easy reference.
+I put a list of improvements I'd like to see at the end of my [paen to the BeatsX earphones](http://articles.inqk.net/2018/02/22/beatsx-paean.html). I've come up with a few more so I'll list them all here for easy reference.
 
 * **Power Button**: The power button needs to be rethought. At present, you need to hold it down until a light comes on/goes off. That's almost impossible to do unless you take the earphones off. It should be a sliding switch you can toggle without needing to look at it (like the mute switch on your iPhone).
 
