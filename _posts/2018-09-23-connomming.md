@@ -7,7 +7,8 @@ category:
 tags: []
 ---
 
-### **Note**: This post [originally appeared][op] on one of my former blogs. I still have this problem and think about this phenomenon often.
+**_This article[originally appeared][op] on one of my former blogs. I still have the problem described in this post and think about this phenomenon often._**
+
 [op]: http://notes.inqk.net/post/80863282174
 
 Is there a word for when you confuse people based on the fact they share either a first name or a last name? I propose a rather inelegant neologism of my own devising: _connomming_. I am a frequent connommer, only discovering well after the fact that I have been confusing, or indeed conflating, radically different people.
