@@ -29,12 +29,3 @@ header {
     &:hover { color: inherit; }
   }
 }
-
-section > article > div.metadata + h3 {
-  background-color: #fff3cd;
-  border: 1px solid #ffeeba;
-  color: #856404;
-  font: 18px/1.7 "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  padding: 10px 15px;
-}

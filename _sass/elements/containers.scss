@@ -55,6 +55,25 @@ section {
 
   article {
     padding-top: $bottom-margin;
+
+    div.metadata + p > strong {
+      display: block;
+    }
+
+    div.metadata + p > strong > em {
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+      color: #856404;
+      display: block;
+      font-style: normal;
+      font-weight: 400;
+      padding: 10px 15px;
+
+      &:before {
+        content: 'Update: ';
+        font-weight: 700;
+      }
+    }
   }
 
   nav#post-nav {

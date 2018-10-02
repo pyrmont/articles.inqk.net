@@ -7,7 +7,8 @@ category:
 tags: []
 ---
 
-### **Update**: Since this post was written, Netgear has released updated firmware for [certain models][ngf] (including the R7000) that addresses the problem of MD5-signed certificates. I haven't used this firmware but others report it working.
+**_Since this post was written, Netgear has released updated firmware for [certain models][ngf] (including the R7000) that addresses the problem of MD5-signed certificates. I haven't used this firmware but others report it working._**
+
 [ngf]: https://community.netgear.com/t5/Nighthawk-WiFi-Routers/MD5-Signed-Certificate-Warning-with-OpenVPN-on-iOS/m-p/1583028#M94691
 
 OpenVPN's iOS app recently started displaying the following warning for OpenVPN certificates signed with the MD5 algorithm:
@@ -62,9 +63,9 @@ Open the file `vars` in your editor of choice and update the following variables
   export KEY_ORG="ExampleOrg"
   export KEY_EMAIL="ExampleEmail"
   export KEY_OU="ExampleOU"
-  
+
   export KEY_NAME="server"
-  
+
   export KEY_CN="ExampleCN"
   ```
 
@@ -187,7 +188,7 @@ If this worked, you should see something like this:
   ```
   BusyBox v1.7.2 (2018-01-22 22:59:25 CST) built-in shell (ash)
   Enter 'help' for a list of built-in commands.
-  
+
   #
   ```
 
