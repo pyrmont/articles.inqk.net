@@ -7,6 +7,8 @@ category:
 tags: []
 ---
 
+**_In August 2018, my BeatsX earphones refused to turn on. As noted in the original article, I'd had issues with the battery previously and I decided to take the opportunity to try out the AirPods. While there are features of the BeatsX I miss, I've found the AirPods do not suffer the same issues as the BeatsX and would recommend them to anyone looking for wireless earphones._**
+
 Sometimes it can feel lonely being the owner of a pair of BeatsX earphones.[^1] AirPods are _Apple_’s wireless earphones. BeatsX are _Beats_…’s.[^2]
 
 And so while it’s common to hear tech enthusiasts—particularly those who use Apple products—sing the praises of AirPods, I can’t recall hearing anyone talking up BeatsX. That’s a shame because the BeatsX earphones not only do almost everything the AirPods do, they have a few features that arguably make them a superior product.
