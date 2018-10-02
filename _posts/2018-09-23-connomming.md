@@ -7,7 +7,7 @@ category:
 tags: []
 ---
 
-**_This article[originally appeared][op] on one of my former blogs. I still have the problem described in this post and think about this phenomenon often._**
+**_This article [originally appeared][op] on one of my former blogs. I still have the problem described in this post and think about this phenomenon often._**
 
 [op]: http://notes.inqk.net/post/80863282174
 
