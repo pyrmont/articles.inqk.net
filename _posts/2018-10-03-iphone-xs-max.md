@@ -39,7 +39,7 @@ Here are some scattered thoughts (in alphabetical order) on moving from the 128G
  
 - **Status Bar**: When Apple switched to the notch design with the iPhone X, they moved the status bar icons into the space on the left and right of the notch. Since that space is smaller than a notchless space would be, some of the icons have been dropped; notably for me, the VPN indicator. I SSH back into my home computers by using a VPN and having to open Control Centre to see quickly whether the VPN has dropped isn't great, particularly given how difficult it is to get to Control Centre.
 
-Overall, I'm happy with the purchase but I do strongly wonder if I should have waited to buy it in Australia. That would have meant waiting til December but would have meant I'd have a phone that could take photos silently again.
+Overall, I'm happy with the purchase but I do strongly wonder if I should have waited to buy it in Australia. That would have meant waiting til December but would also have meant a phone that could take photos silently again. Something to think about on the next upgrade (which given the cost of the XS Max is probably some way off).
 
 [^1]: I don't have many suggestions after the week of use but the one that's at the top of the list would be to display the passcode entry screen immediately after the first failure. As it is, Face ID will instead make you wait while it tries again. As anyone who's ever had a mistaken order at a restaurant will attest, the second time they screw it up is exponentially worse than the first time.
 
