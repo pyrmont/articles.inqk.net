@@ -21,7 +21,7 @@ Here are some scattered thoughts (in alphabetical order) on moving from the 128G
    
    2. **Switching Apps**: As others have noted, swiping on the home indicator feels great when bouncing quickly between apps. It feels so natural that you quickly create a mental model of your apps as if they were cards laid out on a table in front of you. The problem is that that's not correct. The previously used app remains to the 'right' of the current app for a short period of time before it will silently switch places so that the current app is the 'rightmost' app. Since there's no visual indication this has occurred, you'll sometimes find yourself sliding futilely in an attempt to get to an app that is no longer where you thought it was.
    
-   3. **Reachability**: I enables Reachability and used it on occasion when I could—for whatever reason—only use one hand. A Reachability gesture does exist (swipe _down_ on the home indicator) but it's hit and miss in terms of working.
+   3. **Reachability**: I enabled Reachability with the 7+ and used it on occasion when I could--for whatever reason--only use one hand. A Reachability gesture does exist and can be enabled (swipe _down_ on the home indicator) but it's hit and miss in terms of working.
 
 - **Home Screen**: There's a weird amount of space above the top row of home screen icons and below the bottom row. I assume Apple did this for usability reasons but it looks unbalanced.
 
@@ -31,13 +31,13 @@ Here are some scattered thoughts (in alphabetical order) on moving from the 128G
 
 - **Portrait Mode Speed**: Unlike apparently all of tech punditry, I like Portrait Mode. My iPhone is my only camera and being able to take photos of my children with something that approaches the quality of a DSLR is of huge appeal to me. Portrait Mode on the iPhone XS Max is better in the ways that you've heard about but the actual time taken to take the photo is still too long. I've missed good shots of my kids because of the delay between when I press the shutter and when the processed image is actually captured.
 
-- **Shutter Sound**: [Japanese iPhones unfortunately have an unmutable shutter][jus]. The iPhone XS Max isn't any different in this respect but the improved quality of its speakers (at least versus a 7+) make it _really_ loud. Not great for photos of little kids where the sound of a shutter will often distract them from the cute thing they were doing and which you wanted to capture.
+- **Shutter Sound**: Speaking of the shutter, [Japanese iPhones unfortunately have an unmutable shutter][jus]. The iPhone XS Max isn't any different in this respect but the improved quality of its speakers (at least versus a 7+) make it _really_ loud. Not great for photos of little kids where the sound of a shutter will often distract them from the cute thing they were doing and which you wanted to capture.
 
 [jus]: http://articles.inqk.net/2018/02/09/japan-iphone-shutter.html
 
-- **Speed**: The phone feels no different in terms of speed than the iPhone 7+ did. This is a bit disappointing (especially in respect of the Portrait Mode photos mentioned above). I don't play games on my phone, though, so maybe it's noticeable there? Maybe the gating factor in most uses at this point is network speed.
+- **Speed**: The phone feels no different in terms of speed than the iPhone 7+ did. This is a bit disappointing (especially in respect of the Portrait Mode photos mentioned above). I don't play games on my phone, though, so maybe it's noticeable there. Or perhaps the gating factor in most uses at this point is network speed.
  
-- **Status Bar**: When Apple switched to the notch design with the iPhone X, they moved the status bar icons into the space on the left and right of the notch. Since that space is smaller than a notchless space would be, some of the icons have been dropped. Notably for me, the VPN indicator. I SSH back into my home computers by using a VPN. Having to open Control Centre to see quickly whether the VPN has dropped isn't great, particularly given how difficult it is to get to Control Centre.
+- **Status Bar**: When Apple switched to the notch design with the iPhone X, they moved the status bar icons into the space on the left and right of the notch. Since that space is smaller than a notchless space would be, some of the icons have been dropped; notably for me, the VPN indicator. I SSH back into my home computers by using a VPN and having to open Control Centre to see quickly whether the VPN has dropped isn't great, particularly given how difficult it is to get to Control Centre.
 
 Overall, I'm happy with the purchase but I do strongly wonder if I should have waited to buy it in Australia. That would have meant waiting til December but would have meant I'd have a phone that could take photos silently again.
 
