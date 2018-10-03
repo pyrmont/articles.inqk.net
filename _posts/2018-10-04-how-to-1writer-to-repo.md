@@ -1,7 +1,7 @@
 ---
 title: "How-To: Push to a Git Repo from 1Writer"
 layout: post
-date: 2018-10-03 08:19:05 +0900
+date: 2018-10-04 08:19:05 +0900
 excerpt: "Instructions on how to configure 1Writer to push to a Git repository."
 category: 
 tags: 
