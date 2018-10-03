@@ -11,6 +11,8 @@ Here are some scattered thoughts (in alphabetical order) on moving from the 128G
 
 - **Capacity**: The three capacities of the XS Max differ from the three capacities of the 7+. There's no longer a 128GB version and so I had to choose between 64GB and 256GB. The fact I'd only used about 30GB on my 7+ led me to go with the former. This caused a problem when trying to restore from my iTunes Backup as, for reasons I can't understand, the size of that backup was a touch over 64GB and so refused to load onto the XS Max. I ended up creating an iCloud Backup and restoring from that (which worked).
 
+- **Display**: The display isn't bezel-less but it still feels like I'm using a phone from the future.
+
 - **Face ID**: As [I said on Micro.blog][mbp], Face ID is both incredible and disappointing. I'm not sure if it's something about my face or the way I hold my phone but I'd estimate that it fails the first time every ten attempts or so. I'm not sure Touch ID was actually better but, unlike Face ID, it was always clear what to do to make Touch ID work: wipe your thumb, possibly wipe the sensor, try again. With Face ID, you're basically out of options. When it doesn't work, you're left gaping at your inert phone like a moron.[^1]
 
 [mbp]: http://updates.inqk.net/2018/10/03/face-id-is.html
@@ -21,7 +23,7 @@ Here are some scattered thoughts (in alphabetical order) on moving from the 128G
    
    2. **Switching Apps**: As others have noted, swiping on the home indicator feels great when bouncing quickly between apps. It feels so natural that you quickly create a mental model of your apps as if they were cards laid out on a table in front of you. The problem is that that's not correct. The previously used app remains to the 'right' of the current app for a short period of time before it will silently switch places so that the current app is the 'rightmost' app. Since there's no visual indication this has occurred, you'll sometimes find yourself sliding futilely in an attempt to get to an app that is no longer where you thought it was.
    
-   3. **Reachability**: I enabled Reachability with the 7+ and used it on occasion when I could--for whatever reason--only use one hand. A Reachability gesture does exist and can be enabled (swipe _down_ on the home indicator) but it's hit and miss in terms of working.
+   3. **Reachability**: I enabled Reachability with the 7+ and used it on occasion when I could—for whatever reason—only use one hand. A Reachability gesture does exist and can be enabled (swipe _down_ on the home indicator) but it's hit and miss in terms of working.
 
 - **Home Screen**: There's a weird amount of space above the top row of home screen icons and below the bottom row. I assume Apple did this for usability reasons but it looks unbalanced.
 
@@ -37,7 +39,7 @@ Here are some scattered thoughts (in alphabetical order) on moving from the 128G
 
 - **Speed**: The phone feels no different in terms of speed than the iPhone 7+ did. This is a bit disappointing (especially in respect of the Portrait Mode photos mentioned above). I don't play games on my phone, though, so maybe it's noticeable there. Or perhaps the gating factor in most uses at this point is network speed.
  
-- **Status Bar**: When Apple switched to the notch design with the iPhone X, they moved the status bar icons into the space on the left and right of the notch. Since that space is smaller than a notchless space would be, some of the icons have been dropped; notably for me, the VPN indicator. I SSH back into my home computers by using a VPN and having to open Control Centre to see quickly whether the VPN has dropped isn't great, particularly given how difficult it is to get to Control Centre.
+- **VPN Status**: When Apple switched to the notch design with the iPhone X, they moved the status bar icons into the space on the left and right of the notch. Since that space is smaller than a notchless space would be, some of the icons have been dropped; notably for me, the VPN indicator. I SSH back into my home computers by using a VPN and having to open Control Centre to see quickly whether the VPN has dropped isn't great, particularly given how difficult it is to get to Control Centre.
 
 Overall, I'm happy with the purchase but I do strongly wonder if I should have waited to buy it in Australia. That would have meant waiting til December but would also have meant a phone that could take photos silently again. Something to think about on the next upgrade (which given the cost of the XS Max is probably some way off).
 
