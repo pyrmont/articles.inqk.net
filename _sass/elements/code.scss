@@ -20,3 +20,7 @@ pre, div.code {
   padding: 8px 15px;
   white-space: nowrap;
 }
+
+div.code > div {
+  white-space: pre;
+}
