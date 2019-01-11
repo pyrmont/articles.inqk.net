@@ -53,7 +53,7 @@ end
 
 This code does the same thing as the call to `defn` did above but it is not a data structure.
 
-Having our code be expressed as data structures is conceptually elegant but it also allows for powerful features like macros that either aren't possible, or are nowhere near as flexible, as they are in a Lisp. I won't go into those today, mostly because I still don't understand them but they sure sound cool.
+Having our code be expressed as data structures is conceptually elegant but it also allows for powerful features like macros that either aren't possible, or are nowhere near as flexible, as they are in a Lisp. That's a topic I hope to return to in the future but let's leave it there for now. Happy hacking!
 
 [^1]: Since that means I've been doing this for all of a month there's a good chance I've made some mistakes in the details. Corrections welcome on [Twitter][twp] or [Micro.blog][mbp]!
 
