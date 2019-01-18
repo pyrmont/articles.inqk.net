@@ -7,7 +7,8 @@ category:
 tags: []
 ---
 
-### **Update**: In iOS 11.3, [Apple enabled automatic updating][cma] of apps downloaded from other app stores. This works for apps already installed on the device.
+**_In iOS 11.3, [Apple enabled automatic updating][cma] of apps downloaded from other app stores. This works for apps already installed on the device._**
+
 [cma]: https://www.cultofmac.com/539289/ios-11-3-makes-it-easier-to-update-apps-from-foreign-app-stores/
 
 Admittedly, I'm an unusual case for the App Store. By nationality, I'm Australian but I live in Japan and use an American App Store account. As a result, I'm acutely aware of the geographic restrictions certain app owners put on their apps.
@@ -25,4 +26,3 @@ In any event, this weird app [_sakoku_][wpa] is something I wish Japanese compan
 [wpa]: https://en.wikipedia.org/wiki/Sakoku
 
 [^1]: Strictly speaking, apps from different App Stores can be run on the same iOS device. The problem is that if a version of that app isn't available in the store to which you're logged in, then they won't ever update.
-
