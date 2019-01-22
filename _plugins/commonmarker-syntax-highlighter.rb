@@ -28,9 +28,9 @@ module CommonMarker
                 Rouge::Lexers::PlainText.new
         lang_class = (lang == '') ? 'txt' : lang
         html = <<~HTML
-                 <div class="code highlight language-#{lang_class}">
+                 <pre class="code highlight language-#{lang_class}">
                    #{formatter.format(lexer.lex(code))}
-                 </div>
+                 </pre>
                HTML
       end
     end
