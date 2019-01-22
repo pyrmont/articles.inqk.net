@@ -50,7 +50,7 @@ The thing is `let` isn't a special form.[^3] Indeed, typing `(doc let)` into a R
   `(let* ~(destructure bindings) ~@body))      
 ```
 
-There's our friend `let*`. What's it doing there? Unfortunately, `(doc let*)` and `(source let*)` return nothing. Fortunately, as [this StackOverflow answer notes][so-ll], a hint about what's really going on can be found in the Clojure source code.
+There's our friend `let*`. What's it doing there? Unfortunately, `(doc let*)` and `(source let*)` return nothing. Fortunately, as [this Stack Overflow answer notes][so-ll], a hint about what's really going on can be found in the Clojure source code.
 
 [so-ll]: https://stackoverflow.com/a/31661863/308909
 
