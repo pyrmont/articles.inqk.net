@@ -2,7 +2,7 @@
 title: "What is `let*`?"
 layout: post
 date: 2019-01-22 14:18:24 +0900
-excerpt: "An investigation of the difference between `let` and `let*` in Clojure."
+excerpt: "An investigation into the difference between `let` and `let*` in Clojure."
 category: 
 tags: 
 ---
@@ -27,11 +27,11 @@ Later in the chapter, we're directed to use the function `macroexpand` to expand
 ;   (println :failure my-error-name__3737__auto)))
 ```
 
-Wait, `let*`? What's `let*`? I didn't write `let*`. What's going on here?
+Wait, `let*`? What's that? That's not what we wrote. What's going on here?
 
-## `let` as a Macro
+## Special Forms
 
-Famously, Lisp can be implemented using a very small number of special forms.[^2] Clojure uses a few more, one of which is commonly said to be `let`.
+One of the most elegant aspects of Lisp is that it can be implemented using a very small number of special forms.[^2] One of the ones that Clojure uses is commonly said to be `let`.
 
 The thing is `let` isn't a special form.[^3] Indeed, typing `(doc let)` into a REPL will tell you that `let` is in fact a macro. If you run `(source let)`, you'll be presented with the following:
 
@@ -56,8 +56,7 @@ There's our friend `let*`. What's it doing there? Unfortunately, `(doc let*)` an
 
 ## Because Destructuring
 
-Clojure provides a number of conveniences in comparison with other Lisps. One of these conveniences is argument destructuring.
-Argument destructuring allows us to write more concise and expressive code.
+Clojure provides a number of conveniences in comparison with other Lisps. One of these conveniences is argument destructuring. Argument destructuring allows us to write more concise and expressive code.
 
 Imagine we have an vector `z` that consists of two elements. We'd like to bind the first element to the symbol `x` and the second element to the symbol `y`. Without destructuring, we'd need to write something like `let [x (first z) y (second z)]`. _With_ argument destructuring, we can instead write `let [[x y] z]`.
 
@@ -69,7 +68,7 @@ The problem is that, as [the comment in the Clojure source alludes to][gh-cc], w
 
 The use of `let*` as the 'real' special form is evident when we consider [the Java code for the Clojure compiler][gh-jc]. That code defines the various special operators we have in Clojure. Our good friend `def` is there, as is `if` and `quote`. But special forms that use destructuring aren't. Instead, they're replaced with their starry-eyed cousins. It's `let*` instead of `let`, `loop*` instead of `loop`, `fn*` instead of `fn` and so on.
 
-[gh-jc]: https://github.com/clojure/clojure/blob/2cc37bb56a9125a1829c73c505e32995e663059a/src/jvm/clojure/lang/Compiler.java
+[gh-jc]: https://github.com/clojure/clojure/blob/2cc37bb56a9125a1829c73c505e32995e663059a/src/jvm/clojure/lang/Compiler.java#L44
 
 So back to our original problem: why did `macroexpand` output `let*`? Now that we understand how `let` is implemented, the docs for `macroexpand` provide the answer.
 
