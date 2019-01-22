@@ -11,6 +11,27 @@ code, pre, div.code {
 code {
   font-size: 14px;
   padding: 0 5px;
+
+  h1 & {
+    color: inherit;
+    font-size: 22px;
+  }
+
+  h2 & {
+    color: inherit;
+    font-size: 20px;
+  }
+
+  h3 & {
+    color: inherit;
+    font-size: 16px;
+  }
+
+  a & {
+    color: inherit;
+    border: inherit;
+    padding: 0;
+  }
 }
 
 pre, div.code {
