@@ -19,6 +19,6 @@
     <div class="wrapper">
       <header class="{{ page.layout }}">
         <a href="{{ site.url }}"> <h1>&#10042; {{ site.title }}</h1> </a>
-        {{ site.description | markdownify }}
+        <p>{{ site.description | linedownify }}</p>
         <p class="instructions">Read <a href="{% link _pages/instructions.md %}">how</a> to use this blog.</p>
       </header>
