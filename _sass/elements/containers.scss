@@ -53,6 +53,24 @@ section {
     }
   }
 
+  &.post {
+    padding-left: 250px;
+  }
+
+  div.tldr {
+    float: left;
+    margin-left: -250px;
+    padding-top: $bottom-margin;
+    opacity: 0.25;
+    width: 200px;
+
+    &:hover { opacity: 1.0; }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
   article {
     padding-top: $bottom-margin;
 
@@ -77,7 +95,15 @@ section {
   }
 
   nav#post-nav {
-    margin: 0 0 $bottom-margin 0;
+    > span {
+      display: inline-block;
+      margin: 0 0 50px 0;
+      width: 49.5%;
+
+      & + span {
+        text-align: right;
+      }
+    }
   }
 }
 

@@ -29,3 +29,12 @@ header {
     &:hover { color: inherit; }
   }
 }
+
+div.heading {
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 12px 0;
+  padding-top: 9px;
+
+  div.tldr:hover & { color: $head-colour; }
+}

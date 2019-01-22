@@ -1,10 +1,12 @@
 {% include page-top.html %}
 
 <section class="page">
+
   <article>
     <h1>{{ page.title | replace: '-', '&#8209;' | linedownify }}</h1>
     {{ content | add_colophon }}
   </article>
+
 </section>
 
 {% include page-bottom.html %}

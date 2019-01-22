@@ -10,11 +10,9 @@
     width: auto;
   }
 
-  header, header.default {
-    padding-bottom: 15px;
-  }
-
   header.default {
+    padding-bottom: 15px;
+
     p {
       display: inline;
 
@@ -32,15 +30,11 @@
     position: absolute; right: 50px; top: 52px;
   }
 
-  section, section.default {
-    padding: 20px 0;
-    margin: 20px 0 20px;
-  }
-
   section.default {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
-    padding-bottom: 0;
+    margin: 20px 0 20px;
+    padding: 20px 0;
 
     ul#post-list li {
       border-bottom: none;
@@ -61,6 +55,16 @@
         margin-left: 0;
       }
     }
+
+    nav#post-nav > span {
+      margin: $bottom-margin 0 0 0;
+    }
+  }
+
+  section.post {
+    padding-left: 0;
+
+    div.tldr { display: none; }
   }
 }
 
