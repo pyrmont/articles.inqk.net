@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 
 gem 'commonmarker'
+gem 'rouge', github: 'pyrmont/rouge'
 
 group :jekyll_plugins do
   gem 'jekyll-github-metadata'
