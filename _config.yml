@@ -14,4 +14,4 @@ paginate_path: "/list/:num/"
 markdown: CommonMark
 
 commonmark:
-  options: ["SMART", "FOOTNOTES"]
+  options: ["FOOTNOTES", "SMART", "UNSAFE"]

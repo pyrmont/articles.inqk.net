@@ -1,8 +1,4 @@
-require 'rouge'
-
-Jekyll::Hooks.register :site, :after_init do |site|
-  CommonMarker.plugins << CommonMarker::Plugin::FootnoteFixer
-end
+# frozen-string-literal: true
 
 module CommonMarker
   module Plugin
@@ -28,3 +24,6 @@ module CommonMarker
   end
 end
 
+Jekyll::Hooks.register :site, :after_init do |site|
+  CommonMarker.plugins << CommonMarker::Plugin::FootnoteFixer
+end

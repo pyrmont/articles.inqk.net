@@ -1,8 +1,6 @@
-require 'rouge'
+# frozen-string-literal: true
 
-Jekyll::Hooks.register :site, :after_init do |site|
-  CommonMarker.plugins << CommonMarker::Plugin::SyntaxHighlighter
-end
+require 'rouge'
 
 module CommonMarker
   module Plugin
@@ -37,3 +35,6 @@ module CommonMarker
   end
 end
 
+Jekyll::Hooks.register :site, :after_init do |site|
+  CommonMarker.plugins << CommonMarker::Plugin::SyntaxHighlighter
+end
