@@ -34,7 +34,3 @@ module CommonMarker
     end
   end
 end
-
-Jekyll::Hooks.register :site, :after_init do |site|
-  CommonMarker.plugins << CommonMarker::Plugin::SyntaxHighlighter
-end
