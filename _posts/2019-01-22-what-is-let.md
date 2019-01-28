@@ -20,11 +20,11 @@ Later in the chapter, we're directed to use the function `macroexpand` to expand
  '(if-valid order-details order-details-validations my-error-name#
             (println :success)
             (println :failure my-error-name#)))
-; (let*
-;  [my-error-name__3737__auto (user/validate order-details order-details-validations)]
-;  (if (clojure.core/empty? my-error-name__3737__auto)
-;   (println :success)
-;   (println :failure my-error-name__3737__auto)))
+; => (let*
+; => [my-error-name__3737__auto (user/validate order-details order-details-validations)]
+; => (if (clojure.core/empty? my-error-name__3737__auto)
+; =>  (println :success)
+; =>  (println :failure my-error-name__3737__auto)))
 ```
 
 Wait, `let*`? What's that? That's not what we wrote. What's going on here?
@@ -74,12 +74,12 @@ So back to our original problem: why did `macroexpand` output `let*`? Now that w
 
 ```clj
 (doc macroexpand)
-; -------------------------                                                   
-; clojure.core/macroexpand                                                    
-; ([form])                                                                    
-;  Repeatedly calls macroexpand-1 on form until it no longer                 
-;  represents a macro form, then returns it.  Note neither  
-;  macroexpand-1 nor macroexpand expand macros in subforms.
+; => -------------------------                                                   
+; => clojure.core/macroexpand                                                    
+; => ([form])                                                                    
+; =>  Repeatedly calls macroexpand-1 on form until it no longer                 
+; =>  represents a macro form, then returns it.  Note neither  
+; =>  macroexpand-1 nor macroexpand expand macros in subforms.
 ```
 
 `macroexpand` is repeatedly expanding the macros in `if-valid`. That includes not only the `if-valid` macro, but the `let` macro we unwittingly included within it. And that results in the output including `let*`.
