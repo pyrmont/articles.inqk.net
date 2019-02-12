@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
-gem 'rouge', github: 'pyrmont/rouge'
+gem 'rouge', github: 'pyrmont/rouge', branch: 'master'
 
 group :jekyll_plugins do
   gem 'jekyll-commonmark'

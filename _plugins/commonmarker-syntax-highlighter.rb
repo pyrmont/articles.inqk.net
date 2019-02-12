@@ -35,25 +35,3 @@ module CommonMarker
     end
   end
 end
-
-module Rouge
-  module Formatters
-    class HTMLLinewise < Formatter
-      def initialize(formatter, opts={})
-        @formatter = formatter
-        @tag_name = opts.fetch(:tag_name, 'div')
-        @class_format = opts.fetch(:class, 'line-%i')
-      end
-
-      def stream(tokens, &b)
-        token_lines(tokens) do |line|
-          yield "<#{@tag_name} class=#{next_line_class}>"
-          line.each do |tok, val|
-            yield @formatter.span(tok, val)
-          end
-          yield "</#{@tag_name}>\n"
-        end
-      end
-    end
-  end
-end
