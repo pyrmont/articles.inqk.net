@@ -1,6 +1,6 @@
 @import "../other/rouge";
 
-code, pre, div.code {
+code, pre {
   background: #f8f8f8;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
@@ -34,14 +34,23 @@ code {
   }
 }
 
-pre, div.code {
+pre {
   font-size: 14px;
   margin: 0 0 $bottom-margin;
   overflow-x: auto;
   padding: 8px 15px;
   white-space: nowrap;
-}
 
-pre > div {
-  white-space: pre;
+  > code {
+    background: inherit;
+    border: none;
+    border-radius: 0;
+    color: inherit;
+    display: block;
+    padding: 0;
+
+    > div {
+      white-space: pre;
+    }
+  }
 }

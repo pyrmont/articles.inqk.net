@@ -27,7 +27,9 @@ module CommonMarker
         lang_class = (lang == '') ? 'txt' : lang
         html = <<~HTML
                  <pre class="code highlight language-#{lang_class}">
-                   #{formatter.format(lexer.lex(code))}
+                   <code>
+                     #{formatter.format(lexer.lex(code))}
+                   </code>
                  </pre>
                HTML
       end
