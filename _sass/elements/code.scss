@@ -48,6 +48,10 @@ pre {
     color: inherit;
     display: block;
     padding: 0;
-    white-space: pre;
+
+    > span {
+      display: block;
+      white-space: pre;
+    }
   }
 }

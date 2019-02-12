@@ -21,13 +21,15 @@ module CommonMarker
       def self.render(code:, format:, lang:)
         formatter = Rouge::Formatters::HTMLLinewise.new(
                       Rouge::Formatters::HTML.new,
-                      tag_name: 'code',
+                      tag_name: 'span',
                       class_format: 'line-%i')
         lexer = Rouge::Lexer.find_fancy(format) ||
                 Rouge::Lexers::PlainText.new
         lang_class = (lang == '') ? 'txt' : lang
         html = <<~HTML
-                 <pre class="code highlight language-#{lang_class}">#{formatter.format(lexer.lex(code))}</pre>
+                 <pre class="code highlight language-#{lang_class}"><code>
+                 #{formatter.format(lexer.lex(code))}
+                 </code></pre>
                HTML
       end
     end
