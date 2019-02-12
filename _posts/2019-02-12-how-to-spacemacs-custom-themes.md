@@ -47,7 +47,7 @@ So instead of writing:
 as we typically would, we instead write:
 
 ```el
-(require 'spacemax-common "~/.emacs.d/private/themes/spacemax-theme/spacemax/spacemax-common.el")
+(require 'spacemax-common "~/.emacs.d/private/themes/spacemax-theme/spacemax-common.el")
 ```
 
 Hard coding the path into the file is a little ungainly but I haven't found an alternative. Do you know of a way? Inquiring minds want to know!
