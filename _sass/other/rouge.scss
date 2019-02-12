@@ -72,17 +72,17 @@
 }
 
 .language-sh {
-  div[class^='line']::before {
+  code[class^='line']::before {
     content: '$ ';
   }
 }
 .language-sh-root {
-  div[class^='line']::before {
+  code[class^='line']::before {
     content: '# ';
   }
 }
 .language-ftp {
-  div[class^='line']::before {
+  code[class^='line']::before {
     content: '> ';
   }
 }
