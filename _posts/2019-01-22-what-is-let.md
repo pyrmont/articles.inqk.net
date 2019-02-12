@@ -3,8 +3,8 @@ title: "What is `let*`?"
 layout: post
 date: 2019-01-22 14:18:24 +0900
 excerpt: "An investigation into the difference between `let` and `let*` in Clojure."
-category: 
-tags: 
+category:
+tags:
 ---
 
 ## The Problem
@@ -36,18 +36,18 @@ One of the most elegant aspects of Lisp is that it can be implemented using a ve
 The thing is `let` isn't a special form.[^3] Indeed, typing `(doc let)` into a REPL will tell you that `let` is in fact a macro. If you run `(source let)`, you'll be presented with the following:
 
 ```clj
-(defmacro let                                                               
-  "binding => binding-form init-expr                                        
-                                                                            
-  Evaluates the exprs in a lexical context in which the symbols in          
-  the binding-forms are bound to their respective init-exprs or parts       
-  therein."                                                                 
-  {:added "1.0", :special-form true, :forms '[(let [bindings*] exprs*)]}    
-  [bindings & body]                                                         
-  (assert-args                                                              
-     (vector? bindings) "a vector for its binding"                          
-     (even? (count bindings)) "an even number of forms in binding vector")  
-  `(let* ~(destructure bindings) ~@body))      
+(defmacro let
+  "binding => binding-form init-expr
+
+  Evaluates the exprs in a lexical context in which the symbols in
+  the binding-forms are bound to their respective init-exprs or parts
+  therein."
+  {:added "1.0", :special-form true, :forms '[(let [bindings*] exprs*)]}
+  [bindings & body]
+  (assert-args
+     (vector? bindings) "a vector for its binding"
+     (even? (count bindings)) "an even number of forms in binding vector")
+  `(let* ~(destructure bindings) ~@body))
 ```
 
 There's our friend `let*`. What's it doing there? Unfortunately, `(doc let*)` and `(source let*)` return nothing. Fortunately, as [this Stack Overflow answer notes][so-ll], a hint about what's really going on can be found in the Clojure source code.
@@ -74,11 +74,11 @@ So back to our original problem: why did `macroexpand` output `let*`? Now that w
 
 ```clj
 (doc macroexpand)
-; => -------------------------                                                   
-; => clojure.core/macroexpand                                                    
-; => ([form])                                                                    
-; =>  Repeatedly calls macroexpand-1 on form until it no longer                 
-; =>  represents a macro form, then returns it.  Note neither  
+; => -------------------------
+; => clojure.core/macroexpand
+; => ([form])
+; =>  Repeatedly calls macroexpand-1 on form until it no longer
+; =>  represents a macro form, then returns it.  Note neither
 ; =>  macroexpand-1 nor macroexpand expand macros in subforms.
 ```
 
