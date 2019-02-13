@@ -19,14 +19,14 @@ I've recently made[^1] a custom theme[^2] called [spacemax-theme][] and have it 
 
 1. Add the name of the theme(s) to the list that's provided to `dotspacemacs-themes`:
 
-   ```el
+   ```cl
    dotspacemacs-themes '(spacemax-dark
                          spacemax-light)
    ```
 
 2. Add the location of the theme(s) to the definition of the `dotspacemacs/user-init` function :
 
-   ```el
+   ```cl
    (defun dotspacemacs/user-init ()
      (add-to-list 'custom-theme-load-path "~/.emacs.d/private/themes/spacemax-theme/")
    )
@@ -40,13 +40,13 @@ In the case of spacemax, since so much code is shared between the light and dark
 
 So instead of writing:
 
-```el
+```cl
 (require 'spacemax-common)
 ```
 
 as we typically would, we instead write:
 
-```el
+```cl
 (require 'spacemax-common "~/.emacs.d/private/themes/spacemax-theme/spacemax-common.el")
 ```
 
