@@ -15,7 +15,7 @@ In comparison to [last year's list][2018], I've broken this year down into 'Curr
 
 ## Currently Subscribed
 
-* [**Accidental Tech Podcast**](http://atp.fm/): Probably the largest Apple-related podcast out there, hosted by Marco Arment, Casey Liss and John Siracusa. In the past, I've found Arment frustrating to listen to in the past but his willingness to call a spade a spade when it comes to Apple (and the Mac in particular) coupled with Siracusa being one of the most insightful Apple pundits brought me in as a listener.
+* [**Accidental Tech Podcast**](http://atp.fm/): Probably the largest Apple-related podcast out there, hosted by Marco Arment, Casey Liss and John Siracusa. I've found Arment frustrating to listen to in the past but his willingness to call a spade a spade when it comes to Apple (and the Mac in particular) coupled with Siracusa being one of the most insightful Apple pundits brought me in as a listener.
 
 * [**Against the Rules**](https://atrpodcast.com/): Hosted by Michael Lewis (the author of _Moneyball_, the _Big Short_, etc), this is a great new podcast about the declining role of referees in contemporary society.
 
