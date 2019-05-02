@@ -21,7 +21,7 @@ There are no comments on this blog but feedback is nevertheless encouraged. I'd 
 
 ## The Developer
 
-The [content for this blog][gha] is hosted on Digital Ocean but I keep a [public repository on GitHub][gha]. Original content is placed into the public domain, so you're welcome to use it as you see fit.
+The content for this blog is hosted on Digital Ocean but I keep a [public repository on GitHub][gha]. Original content is placed into the public domain, so you're welcome to use it as you see fit.
 
 [gha]: https://github.com/pyrmont/articles/
 
