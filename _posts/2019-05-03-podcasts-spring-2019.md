@@ -9,7 +9,9 @@ tags:
 
 Here's the list of podcasts I'm listening to in spring of 2019.
 
-In comparison to [last year's list][2018], I've broken this year down into 'Currently Subscribed' and 'Previously Subscribed' sections.[^1] Happy listening!
+In comparison to [last year's list][2018], I've broken this year down into 'Currently Subscribed' and 'Previously Subscribed' sections.[^1] As a further division, podcasts that are new to the list are in **bold**.
+
+Happy listening!
 
 [2018]: http://articles.inqk.net/2018/05/24/podcasts-spring-2018.html
 
@@ -25,31 +27,31 @@ In comparison to [last year's list][2018], I've broken this year down into 'Curr
 
 * [**The Bike Shed**](http://bikeshed.fm/): Thoughtbot is a software consulting group, mostly known for their work with Ruby and Ruby on Rails. In this podcast, one of their developers, Chris Toomey, interviews employees of the group about the projects and technologies they're working on. Toomey is an engaging host and the nature of consulting work means every episode always has something new to discuss. I'm a little behind and so haven't listened to her appearances yet but Steph Viccari has recently joined the show as a co-host.
 
-* [**Core Intuition**](http://coreint.org/): Each week, the hosts Daniel Jalkut and Manton Reece discuss the same news as other Apple-related shows but their backgrounds as working programmers give the show a fresh perspective. It was getting a little repetitive listening to Jalkut's struggles with Red Sweater, his Mac software company, but a new job with [Mixed in Key](https://mixedinkey.com) has changed things up and added a new dimension to the conversation.
+* [Core Intuition](http://coreint.org/): Each week, the hosts Daniel Jalkut and Manton Reece discuss the same news as other Apple-related shows but their backgrounds as working programmers give the show a fresh perspective. It was getting a little repetitive listening to Jalkut's struggles with Red Sweater, his Mac software company, but a new job with [Mixed in Key](https://mixedinkey.com) has changed things up and added a new dimension to the conversation.
 
-* [**Exponent**](https://exponent.fm/): A tech podcast, but from a business angle. I've been listening to this since it first started and, while there are times I'll skip episodes I feel like I've heard before, I still find most discussions between hosts Ben Thompson and James Allworth a rewarding listen.
+* [Exponent](https://exponent.fm/): A tech podcast, but from a business angle. I've been listening to this since it first started and, while there are times I'll skip episodes I feel like I've heard before, I still find most discussions between hosts Ben Thompson and James Allworth a rewarding listen.
 
 * [**Functional Design in Clojure**](https://clojuredesign.club/): I've recently become enamoured with the Clojure programming language and in this show, Christoph Neumann and Nate Jones discuss programming problems and how to solve them in Clojure. For someone coming from more of an object-oriented programming background, I find Neumann and Jones' conversations helpful guide in learning how to think about things from a functional perspective.
 
 * [**Open Floor**](https://www.si.com/podcasts): This is a show I stopped listening to last year but found myself drawn back to while watching the current NBA season. The reason? It's simply the most consistently good basketball podcast out there. The hosts, Andrew Sharp and Ben Golliver, have terrific chemistry and different enough points of view to keep things engaging.
 
-* [**On Margins**](https://craigmod.com/onmargins/): In _On Margins_, Craig Mod explores the changing nature of book production with a variety of guests. While I devour Mod's writing, I confess I've found this a tough listen of late. I enjoy Mod's voice as much as I did when he started the podcast; I'm just not that interested in the subject matter. It might be a show I drop before I write the next one of these.
+* [On Margins](https://craigmod.com/onmargins/): In _On Margins_, Craig Mod explores the changing nature of book production with a variety of guests. While I devour Mod's writing, I confess I've found this a tough listen of late. I enjoy Mod's voice as much as I did when he started the podcast; I'm just not that interested in the subject matter. It might be a show I drop before I write the next one of these.
 
 * [**The REPL**](https://www.therepl.net/): This is another Clojure-related podcast, this time involving host Daniel Compton talking to people within the Clojure community. Compton does a great job letting his subjects speak and so far I've enjoyed every episode.
 
-* [**Revisionist History**](http://revisionisthistory.com/): As I said last time, if Malcolm Gladwell has a 'thing', it's being counterintuitive and with this show he's seemingly found nirvana. Even if you're sceptical of the conclusions he wants you to draw, it's difficult to deny he knows how to spin a good yarn.
+* [Revisionist History](http://revisionisthistory.com/): As I said last time, if Malcolm Gladwell has a 'thing', it's being counterintuitive and with this show he's seemingly found nirvana. Even if you're sceptical of the conclusions he wants you to draw, it's difficult to deny he knows how to spin a good yarn.
 
-* [**Slow Burn**](https://slate.com/slow-burn): It seemed like Leon Neyfahk would have a hard time matching season 1 but, if anything, season 2 on the Clinton impeachment was even better. Season 3 won't feature Neyfakh[^2] and that's got me a little worried.
+* [Slow Burn](https://slate.com/slow-burn): It seemed like Leon Neyfahk would have a hard time matching season 1 but, if anything, season 2 on the Clinton impeachment was even better. Season 3 won't feature Neyfakh[^2] and that's got me a little worried.
 
-* [**TECHnical Foul**](http://technicalfoul.fm/):  Ben Thompson from _Exponent_ and Manton Reece from _Core Intuition_ both like the NBA and both had the equipment so, since it's the 2010s, they started a podcast. Unfortunately, no episodes this season and they're probably done but I remain subscribed just in case.
+* [TECHnical Foul](http://technicalfoul.fm/):  Ben Thompson from _Exponent_ and Manton Reece from _Core Intuition_ both like the NBA and both had the equipment so, since it's the 2010s, they started a podcast. Unfortunately, no episodes this season and they're probably done but I remain subscribed just in case.
 
 * [**Thinking Basketball**](http://www.backpicks.com/): Behavioural scientist Ben Taylor offers analytical insights on the state of the game. Thinking Basketball is also the name of [Taylor's YouTube channel](https://www.youtube.com/channel/UC3HPbvB6f58X_7SMIp6OPYw/videos) and I heartily recommend that as well.
 
 * [**Under the Radar**](https://www.relay.fm/radar): Marco Arment and Daniel Smith present a discussion on programming (primarily for the iOS platform). This avoids becoming yet another Apple news talkfest by sticking to a 30-minute time limit and coming out fortnightly.
 
-* [**Upgrade**](https://www.relay.fm/upgrade): I think I'd only just started listening to this when I wrote last year's post and it's now my favourite Apple-related technology podcast. As is something of a running theme, the hosts Jason Snell and Myke Hurley are an excellent duo. Snell's weekly columns drive the show but Hurley is a terrific counterweight, both as a non-American and as someone less reflexively pro-Apple than Snell.
+* [Upgrade](https://www.relay.fm/upgrade): I think I'd only just started listening to this when I wrote last year's post and it's now my favourite Apple-related technology podcast. As is something of a running theme, the hosts Jason Snell and Myke Hurley are an excellent duo. Snell's weekly columns drive the show but Hurley is a terrific counterweight, both as a non-American and as someone less reflexively pro-Apple than Snell.
 
-* [**You Look Nice Today**](http://youlooknicetoday.com/): Look, it might come back.
+* [You Look Nice Today](http://youlooknicetoday.com/): Look, it might come back.
 
 ## Previously Subscribed
 
