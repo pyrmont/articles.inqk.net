@@ -9,7 +9,7 @@ tags:
 
 Here's the list of podcasts I'm listening to in spring of 2019.
 
-In comparison to [last year's list][2018], I've broken this year down into 'Currently Subscribed' and 'Previously Subscribed' sections.[^1] As a further division, podcasts that are new to the list are in **bold**.
+In comparison to [last year's list][2018], I've broken this year down into 'Currently Subscribed' and 'Previously Subscribed' sections.[^1] Podcasts that are new to the list are in bold.
 
 Happy listening!
 
