@@ -81,9 +81,15 @@ Add the following line to the end of your crontab file:
 0 5 * * * ssh <hostname_of_your_mac>.local "/bin/sh <path_to_script>"
 ```
 
-The `0 5 * * *` means the backup will start at 5 am everyday. You can choose a different time and frequency by following the [instructions here][aca] and if you're using SSH keys, you need a slightly different command.[^1]
+The `0 5 * * *` means the backup will start at 5 am everyday. You can choose a different time and frequency by following the [instructions here][aca].
 
 [aca]: https://www.adminschoice.com/crontab-quick-reference
+
+If you're using SSH keys, you need a slightly different command:[^1]
+
+```
+0 5 * * * . ~/.keychain/<keychain_file> && ssh <hostname_of_your_mac>.local "/bin/sh <path_to_script>"
+```
 
 That's it, you're done!
 
@@ -99,6 +105,6 @@ Some of you may be wondering, why would you want to do this when macOS can backu
 
 By using an external disk, you avoid these problems. It's not ideal and it would be preferable if Time Machine worked properly with network drives but this is unfortunately not one of the situations where 'it just works'.
 
-[^1]: This is beyond the scope of this guide but if you're using a password-protected SSH key to connect to your Mac, you'll want something like this instead: `0 5 * * * . ~/.keychain/<keychain_file> && ssh <hostname_of_your_mac>.local "/bin/sh <path_to_script>"`. It assumes you're using a system running [`keychain`][kcp].
+[^1]: This assumes you're using a system running [`keychain`][kcp].
 
 [kcp]: https://www.funtoo.org/Keychain
