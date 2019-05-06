@@ -9,11 +9,11 @@ tags:
 
 This article will only be relevant if you meet the following criteria:
 
-1. you have a MacBook;
-2. you plug in an external disk only when charging;
-3. you want to save Time Machine backups to the external disk;
-4. you have your Mac set up to accept `ssh` connections;
-5. you have another computer with `ssh` and `cron`.
+- you have a MacBook;
+- you plug in an external disk only when charging;
+- you want to save Time Machine backups to the external disk;
+- you have your Mac set up to accept `ssh` connections;
+- you have another computer with `ssh` and `cron`.
 
 If you match that description, or if you just like reading technical guides, enjoy!
 
