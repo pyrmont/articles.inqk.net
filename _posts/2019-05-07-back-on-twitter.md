@@ -9,7 +9,7 @@ tags:
 
 After almost a year and a half, I got back on Twitter again at the end of April. I'd never completely left the service but I'd not written a tweet that wasn't a @mention since December 2017[^1] and I'd stopped checking my timeline with any regularity.
 
-The reason to return was my increasing involvement in the Clojure community. Micro.blog has a great community atmosphere for the people using it but the reality is that it's a tiny, tiny proportion of the number of people on Twitter. As far as I know, _nobody_ using Clojure is on Micro.blog other than me and that makes it a pretty lonely experience. Twitter, for all its flaws, is still _the_ place where programming communities largely congregate.
+The reason to return was my increasing involvement in the Clojure community. Micro.blog has a great community atmosphere for the people using it but the reality is that it's a tiny, tiny proportion of the number of people on Twitter. As far as I know, _nobody_ using Clojure is on Micro.blog other than me and that makes it a pretty lonely experience. Twitter, for all its flaws, is still _the_ place where programming communities congregate.
 
 I'm trying four new things as part of my return.
 
@@ -17,7 +17,7 @@ First, I've switched to [Tweetbot][tbs] as my client. I did this so I could have
 
 [tbs]: https://tapbots.com/tweetbot/
 
-Second, I've been posting using Micro.blog's terrific cross-posting feature. Cross-posting allows a Micro.blog user to syndicate their posts to Twitter and means that I keep a public copy of the 'content' of my tweets on my [own website][mcu].
+Second, I've been posting using Micro.blog's terrific cross-posting feature. Cross-posting allows a Micro.blog user to syndicate their posts to Twitter and means that I keep a public copy of the 'content' of my tweets on [my own website][mcu].
 
 [mcu]: https://updates.inqk.net/
 
@@ -27,7 +27,9 @@ Third, I've unfollowed almost all of the accounts I had been following that post
 
 Fourth, I'm trying to avoid the use of snark. The performative aspect of Twitter is one of the elements I grew to dislike about my own tweets. I don't know whether this is an approach I'd advocate for others, but it's something I want to try.
 
-It's been a little more than a week and while I feel like I've been checking Tweetbot more frequently than I'd like, I'd say the experience so far has been positive.
+It's been a little more than a week and while I feel like I've been checking Tweetbot more frequently than I'd like, I'd say the experience so far has been positive. As a nobody online, I [still feel like I'm mostly screaming into the void][mca] but I do feel more connected to some of the people and topics that I care about.
+
+[mca]: https://articles.inqk.net/2018/02/06/death-of-blogging.html
 
 [^1]: For the record, [Amazon Prime Video on Apple TV is still shithouse][mct].
 
