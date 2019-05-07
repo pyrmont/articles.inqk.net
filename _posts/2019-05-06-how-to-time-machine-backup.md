@@ -1,5 +1,5 @@
 ---
-title: "How-To: Backup a Sleeping MacBook's Time Machine to an External Disk"
+title: "How-To: Back Up a Sleeping MacBook's Time Machine to an External Disk"
 layout: post
 date: 2019-05-06 10:35:42 +0900
 excerpt: "Instructions on how to save a sleeping MacBook's Time Machine backups to an external disk."
@@ -95,7 +95,7 @@ That's it, you're done!
 
 ## Rationale
 
-Some of you may be wondering, why would you want to do this when macOS can backup over a network connection? There are two reasons.
+Some of you may be wondering, why would you want to do this when macOS can back up over a network connection? There are two reasons.
 
 - First, while macOS does support using a network drive for Time Machine backups, [they are flaky as shit][mwa].
   
