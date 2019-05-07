@@ -21,13 +21,13 @@ Second, I've been posting using Micro.blog's terrific cross-posting feature. Cro
 
 [mcu]: https://updates.inqk.net/
 
-I say 'content' because what's published on my site are my Micro.blog posts and these differ slightly from the tweets that are cross-posted. Most notably, the posts on my site feature richer formatting (emphasis, italics, hyperlinks, etc)[^4] and any corrections I subsequently make.
+I say 'content' because what's published on my site are my Micro.blog posts and these differ slightly from the tweets that are cross-posted. Most notably, the posts on my site feature richer formatting (emphasis, italics, hyperlinks, etc)[^4] and any corrections I subsequently make.[^5]
 
 Third, I've unfollowed almost all of the accounts I had been following that posted primarily about politics and culture war issues. I'm cognisant of the fact that turning my back on these discussions is arguably an example of the privilege I enjoy as a white heterosexual man. I'm still not completely comfortable about the decision but am curious what Twitter looks like with this stuff largely stripped out.
 
 Fourth, I'm trying to avoid the use of snark. The performative aspect of Twitter is one of the elements I grew to dislike about my own tweets. I don't know whether this is an approach I'd advocate for others, but it's something I want to try.
 
-It's been a little more than a week and while I feel like I've been checking Tweetbot more frequently than I'd like, I'd say the experience so far has been positive. As a nobody online, I [still feel like I'm mostly screaming into the void][mca] but I do feel more connected to some of the people and topics that I care about.
+It's been a little more than a week and while I feel like I've been checking Tweetbot more frequently than I'd like, I'd say the experience so far has been positive. As a nobody online, [I still feel like I'm mostly screaming into the void][mca] but I do feel more connected to some of the people and topics that I care about.
 
 [mca]: https://articles.inqk.net/2018/02/06/death-of-blogging.html
 
@@ -42,3 +42,5 @@ It's been a little more than a week and while I feel like I've been checking Twe
 [^4]: The content sent to Twitter by Micro.blog intelligently strips this formatting out. If a link is included in a post, this is added to the tweet as an 'attached' link. More detail on what's included in the cross-posted content is on [the Micro.blog support site][mbs].
 
 [mbs]: https://help.micro.blog/2016/cross-posting-twitter/
+
+[^5]: Yes, Micro.blog has the radical notion that its users may want to _edit_ posts. It sucks that this means that the edited post and the cross-posted tweet get out of sync but c'est la vie.
