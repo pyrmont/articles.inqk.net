@@ -110,6 +110,10 @@ section {
 footer {
   -webkit-font-smoothing: subpixel-antialiased;
 
+  &.post {
+    padding-left: 250px;
+  }
+
   p {
     line-height: 20px;
     margin: 0;
