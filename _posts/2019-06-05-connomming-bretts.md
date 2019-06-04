@@ -12,7 +12,7 @@ Here are two Bret(t)s I'm consistently [connomming][oa]:
 [oa]: https://articles.inqk.net/2018/09/23/connomming.html
 
 - [**Bret Victor**][bv] is a user interface designer who previously worked at Apple and has advocated for better software development tools that provide interactivity with autoupdating previews;[^1] and
-- [**Brett Terpstra**][bt] is a former tech journalist previously with Engadget and TUAW who switch careers to work in indie app development.
+- [**Brett Terpstra**][bt] is a former tech journalist previously with Engadget and TUAW who switched careers to work in indie app development.
 
 [bv]: http://worrydream.com/
 
