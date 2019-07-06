@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>A Correction about GitHub | articles.inqk.net</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="A Correction about GitHub" />
+<meta name="author" content="Michael Camilleri" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A not very consequential correction to Stratechery’s quick summary of GitHub." />
+<meta property="og:description" content="A not very consequential correction to Stratechery’s quick summary of GitHub." />
+<link rel="canonical" href="http://localhost:4000/2018/06/05/github-correction.html" />
+<meta property="og:url" content="http://localhost:4000/2018/06/05/github-correction.html" />
+<meta property="og:site_name" content="articles.inqk.net" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-06-05T13:24:37+09:00" />
+<script type="application/ld+json">
+{"dateModified":"2018-06-05T13:31:49+09:00","datePublished":"2018-06-05T13:24:37+09:00","headline":"A Correction about GitHub","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/06/05/github-correction.html"},"author":{"@type":"Person","name":"Michael Camilleri"},"description":"A not very consequential correction to Stratechery’s quick summary of GitHub.","url":"http://localhost:4000/2018/06/05/github-correction.html","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=2daa2b27c8b7174fdff1f614d852c8ece5845587">
+    <link rel="stylesheet" href="/assets/css/barefoot.min.css?v=2daa2b27c8b7174fdff1f614d852c8ece5845587">
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml" />
+
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico?v=2daa2b27c8b7174fdff1f614d852c8ece5845587" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon-196.png?v=2daa2b27c8b7174fdff1f614d852c8ece5845587" sizes="196x196">
+    <link rel="apple-touch-icon image_src" href="/assets/icons/apple-touch-icon.png?v=2daa2b27c8b7174fdff1f614d852c8ece5845587">
+
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="post">
+        <a href="http://localhost:4000"> <h1>&#10042; articles.inqk.net</h1> </a>
+        <p>Usually more extended thoughts by <a href="https://inqk.net/">Michael Camilleri</a>.
+</p>
+        <p class="instructions">Read <a href="/instructions.html">how</a> to use this blog.</p>
+      </header>
+
+<section class="post">
+  <div class="tldr">
+    <div class="heading">TLDR</div>
+    <p>A not very consequential correction to Stratechery’s quick summary of GitHub.</p>
+
+  </div>
+
+  <article>
+    <h1>A Correction about GitHub
+</h1>
+
+    <div class="metadata">
+      <time datetime="2018-06-05 13:24:37 +0900">5 June 2018</time>
+      <span class="history"><a href="https://github.com/pyrmont/articles/commits/master/_posts/2018-06-05-github-correction.md">Revision History</a></span>
+    </div>
+
+    <p>I’m a subscriber to Ben Thompson’s Daily Update newsletter over at Stratechery. Thompson had <a href="https://stratechery.com/2018/microsoft-to-buy-github-a-win-for-github-facebooks-data-sharing-deals-with-device-makers/">a thoughtful post</a> (paywalled) about the acquisition of GitHub by Microsoft on Monday. I did have one small bone to pick with it:</p>
+<blockquote>
+<p>To quickly back up, and provide some context,
+“Git” is a version control system nominally for files
+of all types, but predominantly used by developers
+to store their code. Git was created by Linus
+Torvalds, the man behind Linux, and like Linux, it is
+completely open source; any one of you could
+download and install a Git repository on your
+computer, or any server you control.</p>
+<p>The problem with running Git on your own
+computer, though, is the same problem that comes
+with storing files of any kind on your computer:
+backup, access from other machines, and sharing
+access with others (and that’s not even mentioning
+Git’s quite fiddly nature in general). The solution to
+this problem — that is, a problem of user
+experience with a dash of network effects — was a
+centralized server that ran Git on your behalf: that
+is GitHub.</p>
+</blockquote>
+<p>It doesn’t materially impact Thompson’s analysis but the above is a little muddled. I was going to e-mail him to offer a correction but then I thought it might be more useful to have this here for future reference.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span></p>
+<p>Git is the overarching name for a collection of open source<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></span> software utilities that enable a version control system called Git. Git has essentially become the default such system for software development.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn3" id="fnref3">3</a></sup></span> Put simply, Git works by comparing the files in a particular directory (and its subdirectories) against earlier versions of those file and saves the differences in a special directory called the repository.</p>
+<p>Thompson identifies GitHub’s appeal as solving a user experience problem for developers. This is true but the reasons Thompson gives are a little jumbled. Using GitHub doesn’t obviate the need to run Git on your computer. What GitHub does is make it far easier to share code, both for humans and for computers.</p>
+<p>It’s easy to see how GitHub helps humans. Users who create an account on GitHub (like <a href="https://github.com/pyrmont/">mine</a>) can save repositories to GitHub using the ability of Git itself to send code to another computer. GitHub then creates a little website for that repository (<a href="https://github.com/pyrmont/taipo">here’s an example</a>). If the repository is public, any user can visit the GitHub URL and browse the files. It’s easy to take it for granted now but a huge part of the early appeal of GitHub was how beautiful these sites were. It’s now table stakes for online code hosting but when GitHub first came on the scene it looked like a gorgeous sports car in a sea of Model Ts.</p>
+<p>GitHub also helps computers, though, and it’s here where it’s arguably more impactful. One of the features that set Git apart from the successful version control systems that were around when it was first released was the fact it was decentralised. What this meant was that instead of having a central repository of all the code that users would save to, Git gave each user their own repository. Users could then share code to another repository by making a request. That made it far easier for large teams of programmers to work together. With a central repository, users need to have permission to access the repository and they need to be careful when saving their changes as they may conflict with the changes other users have independently made. This becomes a nightmare as the number of users increases.</p>
+<p>The thing is, though, that centralisation is kind of handy. As Thompson says, centralisation allows for easier backups, it allows for easier synchronisation between different devices, it allows for easier sharing with others. And so despite (or perhaps <em>because of</em>) being built atop a technology that was all about decentralisation, GitHub become the most centralised code storage service the world has ever known.&nbsp;&#10042;</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>In addition, I assume Thompson’s already been bombarded with emails about this and doesn’t really need another. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2">
+<p>Git is open source but this fact is orthogonal to being able to ‘install’ a repository on any computer. It would be equally possible to do this if Git were closed source. Git being open source means it has the benefits of other popular open source software development tools: (1) broad compatibility with different operating systems and hardware architectures; and (2) robust and well-tested (but <a href="https://blogs.msdn.microsoft.com/devops/2018/05/29/announcing-the-may-2018-git-security-vulnerability/">not infallible</a>) design. <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3">
+<p>There are other version control systems. None have the public visibility of Git. <a href="#fnref3" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+
+  </article>
+</section>
+
+      <footer class="post">
+        <p><small>This post was written by <a href="https://inqk.net/">Michael Camilleri</a>, a person on the Internet. If you have any comments, please reach out on <a href="https://micro.blog/pyrmont/">Micro.blog</a> or  <a href="https://twitter.com/pyrmont/">Twitter</a>. Original work placed in the public domain. All rights are disclaimed. <a href="/licence.html">Why?</a></small></p>
+      </footer>
+    </div>
+
+    <script src="/assets/js/barefoot.min.js?v=2daa2b27c8b7174fdff1f614d852c8ece5845587"></script>
+    <script>
+      lf = new BareFoot();
+      lf.init();
+    </script>
+
+  </body>
+</html>
+

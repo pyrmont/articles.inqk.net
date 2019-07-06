@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ..
+/Users/pyrmont/.rbenv/shims/bundle exec jekyll build --source /Users/pyrmont/Sites/articles --destination /Users/pyrmont/Sites/articles/_site

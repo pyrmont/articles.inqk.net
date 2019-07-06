@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>articles.inqk.net</title>
+<subtitle>Usually more extended thoughts by Michael Camilleri.</subtitle>
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<id>http://localhost:4000/feed.xml</id>
+<updated>2019-05-09T06:22:15+09:00</updated>
+<rights>http://unlicense.org</rights>
+
+<entry>
+  <title>Back on Twitter</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/05/07/back-on-twitter.html" />
+	<id>tag:articles.inqk.net,2019-05-07:back-on-twitter</id>
+	<published>2019-05-07T15:01:40+09:00</published>
+	<updated>2019-05-07T18:02:08+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">On returning gingerly to Twitter.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>After almost a year and a half, I got back on Twitter again at the end of April. I’d never completely left the service but I’d not written a tweet that wasn’t a @mention since December 2017<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span> and I’d stopped checking my timeline with any regularity.</p>
+<p>The reason to return was my increasing involvement in the Clojure community. Micro.blog has a great community atmosphere for the people using it but the reality is that it’s a tiny, tiny proportion of the number of people on Twitter. As far as I know, <em>nobody</em> using Clojure is on Micro.blog other than me and that makes it a pretty lonely experience. Twitter, for all its flaws, is still <em>the</em> place where programming communities congregate.</p>
+<p>I’m trying four new things as part of my return.</p>
+<p>First, I’ve switched to <a href="https://tapbots.com/tweetbot/">Tweetbot</a> as my client. I did this so I could have a chronological timeline<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></span> and so I could avoid the irrelevant ads I see on Twitter.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn3" id="fnref3">3</a></sup></span> Using Tweetbot means no streaming updates, no like notifications and no polls but in some ways I view these all as good things. These aspects of Twitter encourage frequent checking of the service and I’m trying to limit the number of times per day I open Tweetbot.</p>
+<p>Second, I’ve been posting using Micro.blog’s terrific cross-posting feature. Cross-posting allows a Micro.blog user to syndicate their posts to Twitter and means that I keep a public copy of the ‘content’ of my tweets on <a href="https://updates.inqk.net/">my own website</a>.</p>
+<p>I say ‘content’ because what’s published on my site are my Micro.blog posts and these differ slightly from the tweets that are cross-posted. Most notably, the posts on my site feature richer formatting (emphasis, italics, hyperlinks, etc)<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn4" id="fnref4">4</a></sup></span> and any corrections I subsequently make.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn5" id="fnref5">5</a></sup></span></p>
+<p>Third, I’ve unfollowed almost all of the accounts I had been following that posted primarily about politics and culture war issues. I’m cognisant of the fact that turning my back on these discussions is arguably an example of the privilege I enjoy as a white heterosexual man. I’m still not completely comfortable about the decision but am curious what Twitter looks like with this stuff largely stripped out.</p>
+<p>Fourth, I’m trying to avoid the use of snark. The performative aspect of Twitter is one of the elements I grew to dislike about my own tweets. I don’t know whether this is an approach I’d advocate for others, but it’s something I want to try.</p>
+<p>It’s been a little more than a week and while I feel like I’ve been checking Tweetbot more frequently than I’d like, I’d say the experience so far has been positive. As a nobody online, <a href="https://articles.inqk.net/2018/02/06/death-of-blogging.html">I still feel like I’m mostly screaming into the void</a> but I do feel more connected to some of the people and topics that I care about.</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>For the record, <a href="https://twitter.com/pyrmont/status/1121273282143981568">Amazon Prime Video on Apple TV is still shithouse</a>. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2">
+<p>The official Twitter app now allows you to choose a chronological timeline but inexplicably refuses to respect this setting on a permanent basis. <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3">
+<p>Either because I’m in Japan or because I run my phone in Japanese, the ads I see are targeted at Japanese users and have almost zero relevance to me. Plus, they’re ads. <a href="#fnref3" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn4">
+<p>The content sent to Twitter by Micro.blog intelligently strips this formatting out. If a link is included in a post, this is added to the tweet as an ‘attached’ link. More detail on what’s included in the cross-posted content is on <a href="https://help.micro.blog/2016/cross-posting-twitter/">the Micro.blog support site</a>. <a href="#fnref4" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn5">
+<p>Yes, Micro.blog has the radical notion that its users may want to <em>edit</em> posts. It sucks that this means that the edited post and the cross-posted tweet get out of sync but c’est la vie. <a href="#fnref5" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>How-To: Back Up a Sleeping MacBook's Time Machine to an External Disk</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/05/06/how-to-time-machine-backup.html" />
+	<id>tag:articles.inqk.net,2019-05-06:how-to-time-machine-backup</id>
+	<published>2019-05-06T10:35:42+09:00</published>
+	<updated>2019-05-07T10:28:47+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">Instructions on how to save a sleeping MacBook's Time Machine backups to an external disk.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>This article will only be relevant if you meet the following criteria:</p>
+<ul>
+<li>you have a MacBook;</li>
+<li>you plug in an external disk only when charging;</li>
+<li>you want to save Time Machine backups to the external disk;</li>
+<li>you have your Mac set up to accept <code>ssh</code> connections;</li>
+<li>you have another computer with <code>ssh</code> and <code>cron</code>.</li>
+</ul>
+<p>If you match that description, or if you just like reading technical guides, enjoy!</p>
+<h2>Steps</h2>
+<h3>Step 1. Back Up to Your Disk</h3>
+<p>The remaining steps expect a disk that’s been set up for Time Machine. Open Time Machine, connect your disk and make your first backup. If you choose to protect your backup with a password, note that down.</p>
+<h3>Step 2. Find Your Disk ID</h3>
+<p>Our automation strategy takes advantage of the fact that you can initiate a Time Machine backup from the command line but for that we need to know the unique identifier for your disk.</p>
+<p>While your disk is still connected, open Terminal and type the following:</p>
+<pre class="code highlight language-sh"><code><span class="line-1">diskutil list</span>
+</code></pre>
+<p>Make a note of the long identifier for your external disk. It will look something like <code>12345678-1234-1234-1234-12345678ABCD</code>.</p>
+<h3>Step 3. Create the Shell Script</h3>
+<p>Save this script somewhere on your Mac:</p>
+<pre class="code highlight language-txt"><code><span class="line-1">#!/bin/bash</span>
+<span class="line-2"></span>
+<span class="line-3">echo "Unlocking disk..."</span>
+<span class="line-4">diskutil coreStorage unlockVolume &lt;disk_id&gt; -passphrase "&lt;passphrase&gt;"</span>
+<span class="line-5"></span>
+<span class="line-6">echo "Mounting disk..."</span>
+<span class="line-7">diskutil mount &lt;disk_id&gt; </span>
+<span class="line-8"></span>
+<span class="line-9">echo "Backing up disk..."</span>
+<span class="line-10">tmutil startbackup --auto --block</span>
+<span class="line-11"></span>
+<span class="line-12">echo "Ejecting disk..."</span>
+<span class="line-13">diskutil eject &lt;disk_id&gt;</span>
+</code></pre>
+<p>You can omit the passphrase option to the first <code>diskutil</code> command if you chose not to use a password.</p>
+<p>We’re now finished with the steps we’ll do on the Mac.</p>
+<h3>Step 4. Power Your External Disk</h3>
+<p>If you put your MacBook to sleep by closing the lid and plugging in a power cable, you’ll find that macOS will not be able to mount a subsequently plugged in external disk if that disk is not separately powered in some way.</p>
+<p>This doesn’t mean you necessarily need an externally powered disk. I’m using a bus-powered USB disk but have it connected via a separately powered hub (which ensures the disk has power without needing to draw it from the Mac).</p>
+<h3>Step 5. Create the <code>cron</code> Job</h3>
+<p>Now move to the second computer. I use a Raspberry Pi but you can use any computer as long as it has <code>ssh</code> and <code>cron</code>.</p>
+<p>Type the following at a command line:</p>
+<pre class="code highlight language-sh"><code><span class="line-1">crontab <span class="nt">-e</span></span>
+</code></pre>
+<p>Add the following line to the end of your crontab file:</p>
+<pre class="code highlight language-txt"><code><span class="line-1">0 5 * * * ssh &lt;hostname_of_your_mac&gt;.local "/bin/sh &lt;path_to_script&gt;"</span>
+</code></pre>
+<p>The <code>0 5 * * *</code> means the backup will start at 5 am everyday. You can choose a different time and frequency by following the <a href="https://www.adminschoice.com/crontab-quick-reference">instructions here</a>.</p>
+<p>If you’re using SSH keys, you need a slightly different command:<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span></p>
+<pre class="code highlight language-txt"><code><span class="line-1">0 5 * * * . ~/.keychain/&lt;keychain_file&gt; &amp;&amp; ssh &lt;hostname_of_your_mac&gt;.local "/bin/sh &lt;path_to_script&gt;"</span>
+</code></pre>
+<p>That’s it, you’re done!</p>
+<h2>Rationale</h2>
+<p>Some of you may be wondering, why would you want to do this when macOS can back up over a network connection? There are two reasons.</p>
+<ul>
+<li>First, while macOS does support using a network drive for Time Machine backups, <a href="https://www.macworld.com/article/3170844/when-backups-go-bad-the-problem-with-using-network-drives-with-time-machine.html">they are flaky as shit</a>.</li>
+</ul>
+<ul>
+<li>Second, should you ever want to restore from the backup, you don’t want to be doing this over a network connection.</li>
+</ul>
+<p>By using an external disk, you avoid these problems. It’s not ideal and it would be preferable if Time Machine worked properly with network drives but this is unfortunately not one of the situations where ‘it just works’.</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>This assumes you’re using a system running <a href="https://www.funtoo.org/Keychain"><code>keychain</code></a>. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Podcasts I'm Listening To: Spring 2019</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/05/03/podcasts-spring-2019.html" />
+	<id>tag:articles.inqk.net,2019-05-03:podcasts-spring-2019</id>
+	<published>2019-05-03T05:18:36+09:00</published>
+	<updated>2019-05-03T20:28:09+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">A listing of the podcasts I'm listening to in spring of 2019.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>Here’s the list of podcasts I’m listening to in spring of 2019.</p>
+<p>In comparison to <a href="http://articles.inqk.net/2018/05/24/podcasts-spring-2018.html">last year’s list</a>, I’ve broken this year down into ‘Currently Subscribed’ and ‘Previously Subscribed’ sections.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span> Podcasts that are new to the list are in bold.</p>
+<p>Happy listening!</p>
+<h2>Currently Subscribed</h2>
+<ul>
+<li>
+<p><a href="http://atp.fm/"><strong>Accidental Tech Podcast</strong></a>: Probably the largest Apple-related podcast out there, hosted by Marco Arment, Casey Liss and John Siracusa. I’ve found Arment frustrating to listen to in the past but his willingness to call a spade a spade when it comes to Apple (and the Mac in particular) coupled with Siracusa being one of the most insightful Apple pundits brought me in as a listener.</p>
+</li>
+<li>
+<p><a href="https://atrpodcast.com/"><strong>Against the Rules</strong></a>: Hosted by Michael Lewis (the author of <em>Moneyball</em>, the <em>Big Short</em>, etc), this is a great new podcast about the declining role of referees in contemporary society.</p>
+</li>
+<li>
+<p><a href="https://www.kcrw.com/news/shows/lrc-presents-all-the-presidents-lawyers"><strong>All the President’s Lawyers</strong></a>: This is one of those current affairs programmes that consistently leaves you better informed after listening to it than you were previously. Hosts Josh Barro and Ken White are a great tandem.</p>
+</li>
+<li>
+<p><a href="https://www.relay.fm/analogue"><strong>Analog(ue)</strong></a>: A podcast about issues that crop up in the lives of Casey Liss (see <em>Accidental Tech Podcast</em> mentioned above) and Myke Hurley (see <em>Upgrade</em> mentioned below). I’ve only recently added this to my rotation and am not completely sure it’ll stay. The draw for me has been listening to Liss and Hurley, who both play a role similar to a talk radio producer on their respective shows, be the ‘stars’ on this one.</p>
+</li>
+<li>
+<p><a href="http://bikeshed.fm/"><strong>The Bike Shed</strong></a>: Thoughtbot is a software consulting group, mostly known for their work with Ruby and Ruby on Rails. In this podcast, one of their developers, Chris Toomey, interviews employees of the group about the projects and technologies they’re working on. Toomey is an engaging host and the nature of consulting work means every episode always has something new to discuss. I’m a little behind and so haven’t listened to her appearances yet but Steph Viccari has recently joined the show as a co-host.</p>
+</li>
+<li>
+<p><a href="http://coreint.org/">Core Intuition</a>: Each week, the hosts Daniel Jalkut and Manton Reece discuss the same news as other Apple-related shows but their backgrounds as working programmers give the show a fresh perspective. It was getting a little repetitive listening to Jalkut’s struggles with Red Sweater, his Mac software company, but a new job with <a href="https://mixedinkey.com">Mixed in Key</a> has changed things up and added a new dimension to the conversation.</p>
+</li>
+<li>
+<p><a href="https://exponent.fm/">Exponent</a>: A tech podcast, but from a business angle. I’ve been listening to this since it first started and, while there are times I’ll skip episodes I feel like I’ve heard before, I still find most discussions between hosts Ben Thompson and James Allworth a rewarding listen.</p>
+</li>
+<li>
+<p><a href="https://clojuredesign.club/"><strong>Functional Design in Clojure</strong></a>: I’ve recently become enamoured with the Clojure programming language and in this show, Christoph Neumann and Nate Jones discuss programming problems and how to solve them in Clojure. For someone coming from more of an object-oriented programming background, I find Neumann and Jones’ conversations helpful guide in learning how to think about things from a functional perspective.</p>
+</li>
+<li>
+<p><a href="https://www.si.com/podcasts"><strong>Open Floor</strong></a>: This is a show I stopped listening to last year but found myself drawn back to while watching the current NBA season. The reason? It’s simply the most consistently good basketball podcast out there. The hosts, Andrew Sharp and Ben Golliver, have terrific chemistry and different enough points of view to keep things engaging.</p>
+</li>
+<li>
+<p><a href="https://craigmod.com/onmargins/">On Margins</a>: In <em>On Margins</em>, Craig Mod explores the changing nature of book production with a variety of guests. While I devour Mod’s writing, I confess I’ve found this a tough listen of late. I enjoy Mod’s voice as much as I did when he started the podcast; I’m just not that interested in the subject matter. It might be a show I drop before I write the next one of these.</p>
+</li>
+<li>
+<p><a href="https://www.therepl.net/"><strong>The REPL</strong></a>: This is another Clojure-related podcast, this time involving host Daniel Compton talking to people within the Clojure community. Compton does a great job letting his subjects speak and so far I’ve enjoyed every episode.</p>
+</li>
+<li>
+<p><a href="http://revisionisthistory.com/">Revisionist History</a>: As I said last time, if Malcolm Gladwell has a ‘thing’, it’s being counterintuitive and with this show he’s seemingly found nirvana. Even if you’re sceptical of the conclusions he wants you to draw, it’s difficult to deny he knows how to spin a good yarn.</p>
+</li>
+<li>
+<p><a href="https://slate.com/slow-burn">Slow Burn</a>: It seemed like Leon Neyfahk would have a hard time matching season 1 but, if anything, season 2 on the Clinton impeachment was even better. Season 3 won’t feature Neyfakh<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></span> and that’s got me a little worried.</p>
+</li>
+<li>
+<p><a href="http://technicalfoul.fm/">TECHnical Foul</a>:  Ben Thompson from <em>Exponent</em> and Manton Reece from <em>Core Intuition</em> both like the NBA and both had the equipment so, since it’s the 2010s, they started a podcast. Unfortunately, no episodes this season and they’re probably done but I remain subscribed just in case.</p>
+</li>
+<li>
+<p><a href="http://www.backpicks.com/"><strong>Thinking Basketball</strong></a>: Behavioural scientist Ben Taylor offers analytical insights on the state of the game. Thinking Basketball is also the name of <a href="https://www.youtube.com/channel/UC3HPbvB6f58X_7SMIp6OPYw/videos">Taylor’s YouTube channel</a> and I heartily recommend that as well.</p>
+</li>
+<li>
+<p><a href="https://www.relay.fm/radar"><strong>Under the Radar</strong></a>: Marco Arment and Daniel Smith present a discussion on programming (primarily for the iOS platform). This avoids becoming yet another Apple news talkfest by sticking to a 30-minute time limit and coming out fortnightly.</p>
+</li>
+<li>
+<p><a href="https://www.relay.fm/upgrade">Upgrade</a>: I think I’d only just started listening to this when I wrote last year’s post and it’s now my favourite Apple-related technology podcast. As is something of a running theme, the hosts Jason Snell and Myke Hurley are an excellent duo. Snell’s weekly columns drive the show but Hurley is a terrific counterweight, both as a non-American and as someone less reflexively pro-Apple than Snell.</p>
+</li>
+<li>
+<p><a href="http://youlooknicetoday.com/">You Look Nice Today</a>: Look, it might come back.</p>
+</li>
+</ul>
+<h2>Previously Subscribed</h2>
+<ul>
+<li>
+<p><a href="https://slate.com/podcasts/amicus"><strong>Amicus with Dahlia Lithwick</strong></a>: As I thought might happen, I found this didn’t have the depth I was looking for (the niche has somewhat been filled by <em>All the President’s Lawyers</em>).</p>
+</li>
+<li>
+<p><a href="https://www.politico.com/podcasts/off-message"><strong>Off Message</strong></a>: As part of a broader retreat from the 24-hour news cycle, I pulled back from this one.</p>
+</li>
+<li>
+<p><a href="https://www.theringer.com/the-rewatchables"><strong>The Rewatchables</strong></a>: This became a bit repetitive in terms of the hosts.</p>
+</li>
+<li>
+<p><a href="https://daringfireball.net/thetalkshow/"><strong>The Talk Show</strong></a>: It felt momentous to unsubscribe from this one. A prior incarnation of <em>The Talk Show</em> was the first podcast I ever listened to and that was more than 10 years ago. Ultimately, though, it came down to the fact that I believe Gruber desperately needs a producer.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn3" id="fnref3">3</a></sup></span> Gruber’s guests all too frequently are an awkward fit in a show that’s really about him.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn4" id="fnref4">4</a></sup></span></p>
+</li>
+<li>
+<p><a href="https://twitter.com/hearthartnett/"><strong>We Heart Hartnett</strong></a>: This one has finished but the truth is I dropped out before the end. Hartnett has been in too many terrible movies no one has ever seen that I lost interest.</p>
+</li>
+<li>
+<p><a href="https://www.vox.com/the-weeds"><strong>The Weeds</strong></a>: Stopped listening for largely the same reason that I stopped listening to <em>Off Message</em>.</p>
+</li>
+<li>
+<p><a href="http://thewestwingweekly.com/"><strong>The West Wing Weekly</strong></a>: I tend to pretend the show stopped after season 4 anyway so that seemed as good a time as any to unsubscribe.</p>
+</li>
+</ul>
+<p>Well, there you have it. Until (probably) next year!</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>I’ve also dropped the Japanese podcasts I listen to for language practice. Truth be told, I’ve been on an extended break from Japanese study for a while now and have unsubscribed from the podcasts I mentioned last year. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2">
+<p>Neyfahk started a new show, <em>Fiasco</em>, with new spoken word aggregator <a href="https://luminarypodcasts.com/">Luminary</a>. It has a terrific premise but is trapped inside the proprietary Luminary app. Fingers crossed they flame out quickly and the show comes to the open web. <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3">
+<p>Someone similar to Myke Hurley on <em>Upgrade</em>. Long time fans of the show will recall that <a href="http://5by5.tv/talkshow">he did in fact use to have this</a>. <a href="#fnref3" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn4">
+<p>That said, if I could advise Gruber to drop anyone from his rotation it would be Rene Ritchie. The guy is a hack. <a href="#fnref4" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>How-To: Use a Custom Theme in Spacemacs</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/02/12/how-to-spacemacs-custom-themes.html" />
+	<id>tag:articles.inqk.net,2019-02-12:how-to-spacemacs-custom-themes</id>
+	<published>2019-02-12T13:59:13+09:00</published>
+	<updated>2019-02-13T13:26:16+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">Instructions on how to use a custom theme in Spacemacs.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>Spacemacs is a great way for new users to get into Emacs. Having a curated collection of packages helps ease you into the vast Emacs ecosystem while allowing you to be productive right away. As you become more familiar with Emacs, you can begin customising the editor to your liking.</p>
+<h2>Adding a Custom Theme</h2>
+<p>One way you might want to make your installation your own is by adding a custom theme. Custom themes can be located wherever you prefer but a good place to put them is in the <code>private</code> directory within <code>.emacs.d</code>.</p>
+<p>I’ve recently made<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span> a custom theme<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></span> called <a href="https://github.com/pyrmont/spacemax-theme">spacemax-theme</a> and have it located within <code>.emacs.d/private/themes/spacemax-theme</code>. To tell Spacemacs where it is, I need to do the following in my <code>.spacemacs</code> file.</p>
+<ol>
+<li>
+<p>Add the name of the theme(s) to the list that’s provided to <code>dotspacemacs-themes</code>:</p>
+<pre class="code highlight language-cl"><code><span class="line-1"><span class="nv">dotspacemacs-themes</span> <span class="o">'</span><span class="p">(</span><span class="nv">spacemax-dark</span></span>
+<span class="line-2">                      <span class="nv">spacemax-light</span><span class="p">)</span></span>
+</code></pre>
+</li>
+<li>
+<p>Add the location of the theme(s) to the definition of the <code>dotspacemacs/user-init</code> function :</p>
+<pre class="code highlight language-cl"><code><span class="line-1"><span class="p">(</span><span class="nb">defun</span> <span class="nv">dotspacemacs/user-init</span> <span class="p">()</span></span>
+<span class="line-2">  <span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">'custom-theme-load-path</span> <span class="s">"~/.emacs.d/private/themes/spacemax-theme/"</span><span class="p">)</span></span>
+<span class="line-3"><span class="p">)</span></span>
+</code></pre>
+</li>
+</ol>
+<h2>Using <code>require</code> in Your Theme</h2>
+<p>One potential gotcha with using custom themes in Spacemacs is how to correctly <code>require</code> shared code. The location of your theme’s directory is not automatically added to the Emacs load-path and so you can’t simply type <code>(require '&lt;some-filename&gt;)</code> as you might expect.</p>
+<p>In the case of spacemax, since so much code is shared between the light and dark variants, both themes pull in their common code from <code>spacemax-common.el</code>. To do this, we take advantage of the fact that <code>require</code> can take an optional second argument that specifies the location of the file where the code is located.</p>
+<p>So instead of writing:</p>
+<pre class="code highlight language-cl"><code><span class="line-1"><span class="p">(</span><span class="nb">require</span> <span class="ss">'spacemax-common</span><span class="p">)</span></span>
+</code></pre>
+<p>as we typically would, we instead write:</p>
+<pre class="code highlight language-cl"><code><span class="line-1"><span class="p">(</span><span class="nb">require</span> <span class="ss">'spacemax-common</span> <span class="s">"~/.emacs.d/private/themes/spacemax-theme/spacemax-common.el"</span><span class="p">)</span></span>
+</code></pre>
+<p>Hard coding the path into the file is a little ungainly but I haven’t found an alternative. Do you know of a way? Inquiring minds want to know!</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>I use ‘made’ in the loosest sense of the word. spacemax-theme is really just a relabelling of <a href="https://github.com/nashamri/spacemacs-theme.">spacemacs-theme</a>, the default theme that ships with Spacemacs. The impetus behind forking it was to bring the updates to the theme to version 0.200.13 of Spacemacs. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2">
+<p>spacemax-theme is really two themes: spacemax-dark and spacemax-light. <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Introducing the simple-layout Leiningen Template</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/01/24/introducing-lein-simple-layout.html" />
+	<id>tag:articles.inqk.net,2019-01-24:introducing-lein-simple-layout</id>
+	<published>2019-01-24T18:58:32+09:00</published>
+	<updated>2019-01-24T21:46:09+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">An introduction to a Leiningen template that creates a very simple project.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>I’ve made a template for Leiningen called <a href="https://github.com/pyrmont/lein-simple-layout">simple-layout</a> (my first project on <a href="https://clojars.org/simple-layout/lein-template">Clojars</a>!). The template creates three files: <code>.gitignore</code>, <code>project.clj</code> and <code>&lt;project-name&gt;.clj</code>.</p>
+<p>The project file is extremely minimal and does little more than set the version of Clojure to use as a dependency. At the time of writing, that defaults to 1.10.0 but you can specify the version by passing a template argument.</p>
+<p>Here’s how you’d create a project called <code>exercises</code>, set it to use Clojure 1.6.0 and create the files in the directory <code>chapter-05/</code>:</p>
+<pre class="code highlight language-sh"><code><span class="line-1">lein new simple-layout exercises <span class="nt">--to-dir</span> chapter-05 <span class="nt">--</span> 1.6.0</span>
+</code></pre>
+<p>That’s really all there is to it. The rest of this post explains the thinking behind the template’s development.</p>
+<h2>Rationale</h2>
+<p>As I’ve been working through <a href="https://www.braveclojure.com/clojure-for-the-brave-and-true/"><em>Clojure for the Brave and True</em></a>, one aspect that’s been frustrating is creating new projects for the code samples and exercises that accompany each chapter. There are basically two options: create a directory with a <code>deps.edn</code> file or create a project with Leiningen.</p>
+<p>The former is simpler and seems like it should be the right way to do it but it comes with frustrating downside. When you launch a REPL from Emacs with Cider, it won’t pick up and start you in a particular namespace (since there’s no project from which to pull this information, this makes sense). You can switch to the namespace within the REPL but if you do that, you’ll lose direct access to <code>clojure.repl</code> functions like <code>doc</code>. You can bring these in, of course, but having to do this each time you launch the REPL is frustrating.</p>
+<p>Using Leiningen to create a project with either the default or app template doesn’t have the namespace problem (since Cider will pick up the namespace that’s set in <code>project.clj</code>) but it will create a structure for your code that seems like overkill for these kind of quick coding explorations.</p>
+<p>Of course, one thing that’s great about Leiningen is the community around it and while searching on Clojars I came across the <a href="https://clojars.org/flat-layout/lein-template">flat-layout</a> template by <a href="https://twitter.com/knjname">@knjname</a>. This <em>almost</em> did what I wanted but with two limitations:</p>
+<ol>
+<li>
+<p>The template for the <code>&lt;project-file&gt;.clj</code> that it creates includes a <code>main</code> function. That’s not the end of the world but if you don’t need it, it can be frustrating to see it there.</p>
+</li>
+<li>
+<p>The <code>project.clj</code> file hard codes a particular version of Clojure to use as a dependency. At the time of writing, that’s version 1.6.0. If you want to use a different version, you need to update the project file each time.</p>
+</li>
+</ol>
+<p>The simple-layout template addresses both of these issues. You don’t get anything in your <code>&lt;project-name&gt;.clj</code> file except a namespace declaration and you can always specify the version of Clojure you want by passing a template argument at runtime.</p>
+<p>I hope to keep the simple-layout template updated to use the latest version of Clojure version as the default but, at least with the template argument, you’re not dependent on me doing that should things change.</p>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>What is `let*`?</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/01/22/what-is-let.html" />
+	<id>tag:articles.inqk.net,2019-01-22:what-is-let</id>
+	<published>2019-01-22T14:18:24+09:00</published>
+	<updated>2019-02-13T03:12:49+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">An investigation into the difference between `let` and `let*` in Clojure.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <h2>The Problem</h2>
+<p>In <a href="https://www.braveclojure.com/writing-macros/">Chapter 8</a> of Daniel Higginbotham’s very good book, <em>Clojure for the Brave and True</em>, we define the macro <code>if-valid</code>. I won’t go into much detail about the context except to say that the macro involves the use of <code>let</code>.</p>
+<p>Later in the chapter, we’re directed to use the function <code>macroexpand</code> to expand the <code>if-valid</code> macro. Here’s the relevant code listing:<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span></p>
+<pre class="code highlight language-clj"><code><span class="line-1"><span class="p">(</span><span class="nb">macroexpand</span></span>
+<span class="line-2"><span class="w"> </span><span class="o">'</span><span class="p">(</span><span class="n">if-valid</span><span class="w"> </span><span class="n">order-details</span><span class="w"> </span><span class="n">order-details-validations</span><span class="w"> </span><span class="n">my-error-name</span><span class="o">#</span></span>
+<span class="line-3"><span class="w">            </span><span class="p">(</span><span class="nb">println</span><span class="w"> </span><span class="no">:success</span><span class="p">)</span></span>
+<span class="line-4"><span class="w">            </span><span class="p">(</span><span class="nb">println</span><span class="w"> </span><span class="no">:failure</span><span class="w"> </span><span class="n">my-error-name</span><span class="o">#</span><span class="p">)))</span></span>
+<span class="line-5"><span class="c1">; =&gt; (let*</span></span>
+<span class="line-6"><span class="c1">; =&gt; [my-error-name__3737__auto (user/validate order-details order-details-validations)]</span></span>
+<span class="line-7"><span class="c1">; =&gt; (if (clojure.core/empty? my-error-name__3737__auto)</span></span>
+<span class="line-8"><span class="c1">; =&gt;  (println :success)</span></span>
+<span class="line-9"><span class="c1">; =&gt;  (println :failure my-error-name__3737__auto)))</span></span>
+</code></pre>
+<p>Wait, <code>let*</code>? What’s that? That’s not what we wrote. What’s going on here?</p>
+<h2>Special Forms</h2>
+<p>One of the most elegant aspects of Lisp is that it can be implemented using a very small number of special forms.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></span> One of the ones that Clojure uses is commonly said to be <code>let</code>.</p>
+<p>The thing is <code>let</code> isn’t a special form.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn3" id="fnref3">3</a></sup></span> Indeed, typing <code>(doc let)</code> into a REPL will tell you that <code>let</code> is in fact a macro. If you run <code>(source let)</code>, you’ll be presented with the following:</p>
+<pre class="code highlight language-clj"><code><span class="line-1"><span class="p">(</span><span class="kd">defmacro</span><span class="w"> </span><span class="k">let</span></span>
+<span class="line-2"><span class="w">  </span><span class="s">"binding =&gt; binding-form init-expr</span></span>
+<span class="line-3"></span>
+<span class="line-4"><span class="s">  Evaluates the exprs in a lexical context in which the symbols in</span></span>
+<span class="line-5"><span class="s">  the binding-forms are bound to their respective init-exprs or parts</span></span>
+<span class="line-6"><span class="s">  therein."</span></span>
+<span class="line-7"><span class="w">  </span><span class="p">{</span><span class="no">:added</span><span class="w"> </span><span class="s">"1.0"</span><span class="n">,</span><span class="w"> </span><span class="no">:special-form</span><span class="w"> </span><span class="n">true,</span><span class="w"> </span><span class="no">:forms</span><span class="w"> </span><span class="o">'</span><span class="p">[(</span><span class="k">let</span><span class="w"> </span><span class="p">[</span><span class="n">bindings*</span><span class="p">]</span><span class="w"> </span><span class="n">exprs*</span><span class="p">)]}</span></span>
+<span class="line-8"><span class="w">  </span><span class="p">[</span><span class="n">bindings</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">body</span><span class="p">]</span></span>
+<span class="line-9"><span class="w">  </span><span class="p">(</span><span class="nf">assert-args</span></span>
+<span class="line-10"><span class="w">     </span><span class="p">(</span><span class="nb">vector?</span><span class="w"> </span><span class="n">bindings</span><span class="p">)</span><span class="w"> </span><span class="s">"a vector for its binding"</span></span>
+<span class="line-11"><span class="w">     </span><span class="p">(</span><span class="nb">even?</span><span class="w"> </span><span class="p">(</span><span class="nb">count</span><span class="w"> </span><span class="n">bindings</span><span class="p">))</span><span class="w"> </span><span class="s">"an even number of forms in binding vector"</span><span class="p">)</span></span>
+<span class="line-12"><span class="w">  </span><span class="o">`</span><span class="p">(</span><span class="nf">let*</span><span class="w"> </span><span class="o">~</span><span class="p">(</span><span class="nb">destructure</span><span class="w"> </span><span class="n">bindings</span><span class="p">)</span><span class="w"> </span><span class="o">~@</span><span class="n">body</span><span class="p">))</span></span>
+</code></pre>
+<p>There’s our friend <code>let*</code>. What’s it doing there? Unfortunately, <code>(doc let*)</code> and <code>(source let*)</code> return nothing. Fortunately, as <a href="https://stackoverflow.com/a/31661863/308909">this Stack Overflow answer notes</a>, a hint about what’s really going on can be found in the Clojure source code.</p>
+<h2>Because Destructuring</h2>
+<p>Clojure provides a number of conveniences in comparison with other Lisps. One of these conveniences is argument destructuring. Argument destructuring allows us to write more concise and expressive code.</p>
+<p>Imagine we have an vector <code>z</code> that consists of two elements. We’d like to bind the first element to the symbol <code>x</code> and the second element to the symbol <code>y</code>. Without destructuring, we’d need to write something like <code>let [x (first z) y (second z)]</code>. <em>With</em> argument destructuring, we can instead write <code>let [[x y] z]</code>.</p>
+<p>The problem is that, as <a href="https://github.com/clojure/clojure/blob/ee3553362de9bc3bfd18d4b0b3381e3483c2a34c/src/clj/clojure/core.clj#L31">the comment in the Clojure source alludes to</a>, we don’t have access to the function <code>destructure</code> when we’re bootstrapping the code.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn4" id="fnref4">4</a></sup></span> That means we can’t use destructuring in special forms directly. But what about indirectly? We could define the special form using a variation on the name we actually want to use (eg. <code>let*</code>) and then define a macro with the name we want to expose (eg. <code>let</code>). Woo!</p>
+<h2>The Answer</h2>
+<p>The use of <code>let*</code> as the ‘real’ special form is evident when we consider <a href="https://github.com/clojure/clojure/blob/2cc37bb56a9125a1829c73c505e32995e663059a/src/jvm/clojure/lang/Compiler.java#L44">the Java code for the Clojure compiler</a>. That code defines the various special operators we have in Clojure. Our good friend <code>def</code> is there, as is <code>if</code> and <code>quote</code>. But special forms that use destructuring aren’t. Instead, they’re replaced with their starry-eyed cousins. It’s <code>let*</code> instead of <code>let</code>, <code>loop*</code> instead of <code>loop</code>, <code>fn*</code> instead of <code>fn</code> and so on.</p>
+<p>So back to our original problem: why did <code>macroexpand</code> output <code>let*</code>? Now that we understand how <code>let</code> is implemented, the docs for <code>macroexpand</code> provide the answer.</p>
+<pre class="code highlight language-clj"><code><span class="line-1"><span class="p">(</span><span class="nf">doc</span><span class="w"> </span><span class="nb">macroexpand</span><span class="p">)</span></span>
+<span class="line-2"><span class="c1">; =&gt; -------------------------</span></span>
+<span class="line-3"><span class="c1">; =&gt; clojure.core/macroexpand</span></span>
+<span class="line-4"><span class="c1">; =&gt; ([form])</span></span>
+<span class="line-5"><span class="c1">; =&gt;  Repeatedly calls macroexpand-1 on form until it no longer</span></span>
+<span class="line-6"><span class="c1">; =&gt;  represents a macro form, then returns it.  Note neither</span></span>
+<span class="line-7"><span class="c1">; =&gt;  macroexpand-1 nor macroexpand expand macros in subforms.</span></span>
+</code></pre>
+<p><code>macroexpand</code> is repeatedly expanding the macros in <code>if-valid</code>. That includes not only the <code>if-valid</code> macro, but the <code>let</code> macro we unwittingly included within it. And that results in the output including <code>let*</code>.</p>
+<h2>Conclusion</h2>
+<p>Some of the ‘special forms’ that Clojure provides are really macros that are implemented in terms of the ‘real’ special forms. Most of the time, you’ll never notice the difference but occasionally (such as when expanding macros), these implementations will leak through. Fear not, you’re just improving your understanding of how Clojure works!</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>OK, so strap yourself in because this one’s long.</p>
+<p>First, there’s a mistake in the code listing in Chapter 8 that shows the output from <code>macroexpand</code> as being code to be input. Higginbotham follows the common documentation practice of showing the output of evaluated code as a comment; however, the Chapter 8 listing mistakenly omits this. This has been corrected in the code listing in this post.</p>
+<p>Second, in Clojure 1.10.0, the compiler will throw an error if you try to input the code as written in Chapter 8. This is because <code>macroexpand</code> is now subject to a spec that prevents the use of simple symbols (such as <code>my-error-name</code>). These symbols <a href="https://clojure.org/guides/weird_characters">must be appended by a <code>#</code></a> so that a unique unqualified symbol will be generated. This has also been corrected (and an example generated symbol is used in the output).</p>
+<p>Third, when I run the code with Clojure 1.10.0, my output fully qualifies all of the symbols. That is, rather than <code>(println :success)</code>, I see <code>(clojure.core/println :success)</code>. For legibility reasons, I’ve left this out of the output but if you see the same thing, don’t freak out.</p>
+<p>Phew. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2">
+<p>Geez, this is becoming a thing, isn’t it?</p>
+<p>So, first, some terminology. When discussing the basic building blocks of Lisps, there’s a tendency online to loosely throw around the terms primitives, special operators and special forms. As I understand things, technically (a) <strong>primitives</strong> refers to elements of the language like numbers, strings, symbols, booleans, etc; (b) <strong>special operators</strong> refers to special symbols (eg. <code>def</code>) that are treated differently to other symbols; and (c) <strong>special forms</strong> refers to expressions that have as their operator a special operator (eg. <code>(def x true)</code>).</p>
+<p>Now, in this post, I tend to follow the dominant pattern in the Clojure community and refer to both special operators <em>and</em> special forms as ‘special forms’. Confusing, I know.</p>
+<p>As for the minimum number of special forms that are necessary to implement a Lisp, the specific number depends to some degree on how convenient you want to make the language. <a href="https://stackoverflow.com/q/3482389/308909">Somewhere between five and ten </a>seems to be the rough minimum. <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3">
+<p>Clojure’s documentation says that it <em>is</em> a special form so who am I to say this? I’m a guy on the Internet. Fight me. <a href="#fnref3" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn4">
+<p>This is beyond my understanding at the moment but presumably it would be possible to define a Lisp where <code>destructure</code> is itself a special form. I’d guess that Clojure doesn’t do that because you can achieve the desired effect with macros and doing so allows for the number of special forms to remain small. <a href="#fnref4" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Contradictions in Japanese User Experiences</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/01/17/japanese-ux-contradictions.html" />
+	<id>tag:articles.inqk.net,2019-01-17:japanese-ux-contradictions</id>
+	<published>2019-01-17T18:30:08+09:00</published>
+	<updated>2019-01-17T18:32:35+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">I'm at a loss as to why some electronic user experiences in Japan are so great and some are so terrible.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>It would be trite to begin an article about a Westerner’s experiences in Japan by saying something like ‘Japan is a land of contradictions’. But, damn it, Japan is a land of contradictions. There are well-trodden fields where this observation has been made many times over and catching the train home today it occurred to me that electronic user experience (E-UX)<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span> can be added to the list.</p>
+<p>E-UX in Japan is a total crapshoot. At the most egregious end of the scale are Japanese banks. In the year of our Lord 2018, not one of the three banks with which I have an account has a mobile app that allows me to check my balance and transfer funds. Not one. Were it not for <a href="https://moneytree.jp/">Moneytree</a>, I’m not sure how I’d survive.</p>
+<p>On the other end, is <a href="https://en.wikipedia.org/wiki/Mobile_Suica">Mobile Suica</a>. This electronic stored value card is rock solid and works across every form of transport I can ride or hail in Tokyo. It does clever things like recognising when I exit one station to catch a train at a different station so that I’m not charged as much as if I were taking two completely separate trips.</p>
+<p>What explains this? Why is the experience with hardware so much superior to the experience with software? What are they serving in the cafeterias of Japanese transport companies that they’re not serving in the cafeterias of Japanese banks? I’d love to know.</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>The term ‘user experience’ is a term so potentially broad that it could conceivably cover everything from a vending machine to a trip to a remote hot spring. Since I’m discussing the experience of a user interacting with an electronic device, I’ll refer it to by the ugly abbreviation E-UX. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Embracing Parentheses</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/01/15/embracing-parentheses.html" />
+	<id>tag:articles.inqk.net,2019-01-15:embracing-parentheses</id>
+	<published>2019-01-15T17:04:03+09:00</published>
+	<updated>2019-01-16T11:14:46+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">A plea to stop pretending parentheses in Lisps aren't a thing.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>As part of my Clojure education, I’ve been watching a <em>lot</em> of talks on YouTube about Clojure. One thing I’ve seen numerous speakers do when introducing Clojure is to try to convince the audience that the perception that Lisps are drowning in parentheses is mistaken (or at least mistaken in respect of Clojure).</p>
+<p>These speakers look nuts whenever they do this and I’d urge anyone preparing a talk where they’ll be doing the same to stop.</p>
+<p>The most common method to encourage the audience to not believe their lying eyes is to count the number of parentheses in a piece of Clojure code and compare it with the number of parentheses in a piece of non-Lisp code.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span> Apart from sounding like a weird reverse dick-measuring contest, the central problem with doing this is that it misunderstands the aversion.</p>
+<p>The reason that parentheses are off-putting is that they make the code more difficult to read and write. However, this isn’t because of their quantity. As the comparisons seek to demonstrate, non-Lisps may contain the same number of parentheses. So why don’t programmers have issues with non-Lisps? It’s because the difficulty is due to the placement of the opening and closing parentheses relative to each other.</p>
+<p>Non-Lisps will locate their parentheses relatively close to each other (in the most extreme case of an expression like <code>some_function()</code> they are literally side by side). In contrast, Lisps put the entire expression in parentheses. This necessarily means that the parentheses will be at least as far apart as they’d be in any other language. This problem is exacerbated by the fact that the nested function calls encouraged by Lisps leads to the situation where an expression can end with several (if not more) collocated closed parentheses.</p>
+<p>The better approach would be to embrace the parenthesis. In the same way that Haskell programmers champion functional purity as a virtue, Clojurists should explain why <a href="http://articles.inqk.net/2019/01/11/code-as-data-structures.html">having your code be expressed in the form of a native data structure</a> is an overall positive. Such an explanation can—and I’d argue should—involve an acknowledgement of the fact that nesting parentheses is an issue but then quickly turn to the benefits this syntax brings (mention can also be made of the various tools that are available to greatly minimise this as an actual day-to-day problem).</p>
+<p>I’ve come to Clojure from Ruby, a language which is about as opposed to parentheses as you can be. If I can be convinced to embrace the parenthesis, I’m confident others can, too.</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>These comparisons are almost always heavily rigged in favour of Clojure. Speakers avoid common language constructs like <code>let</code> where Clojure clearly uses more parentheses, they choose a particularly verbose language like Java as a comparison and, occasionally, they’ll attempt to include the number of braces and square brackets. The latter technique looks particularly desperate. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Code is Data (Structures)</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2019/01/11/code-as-data-structures.html" />
+	<id>tag:articles.inqk.net,2019-01-11:code-as-data-structures</id>
+	<published>2019-01-11T11:09:36+09:00</published>
+	<updated>2019-01-11T15:26:00+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">An attempted explication by a Clojure beginner on the meaning of the phrase 'code is data'.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>I started learning Clojure in December<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span> and one of the refrains I kept hearing people say was ‘code is data’.</p>
+<p>While pithy, I found this bordered on meaningless. What’s code? Any code? Clojure code specifically? What’s data? Information? Information encoded in the program? If code means the instructions in the program and data means, well, data, isn’t all code data? How is Lisp different from Ruby or Python or any non-Lisp language in this respect? I couldn’t make any sense of it.</p>
+<p>Things clicked into place for me when I realised there was a word missing. It lacks the punch of the original but, to my mind, a more accurate aphorism would be ‘code is data structures’.</p>
+<p>Before explaining that more, let’s remind ourselves what a data structure is. In Clojure, the three most common data structure are the list, the vector and the map. Each data structure is expressible in a literal syntax that uses a different type of bracket:</p>
+<ul>
+<li>
+<p>The <strong>list</strong> uses Lisp’s infamous parentheses. A simple list of the numerals 1, 2 and 3 might look like <code>(1 2 3)</code>.</p>
+</li>
+<li>
+<p>The <strong>vector</strong> uses square brackets. A simple vector of the numerals 1, 2 and 3 might look like <code>[1 2 3]</code>.</p>
+</li>
+<li>
+<p>The <strong>map</strong> uses braces. Unlike lists and vectors, the reference to each value in the map is explicit. References and values are written as reference-value pairs in Clojure’s literal syntax. A simple map of the numerals 1, 2 and 3 might look like <code>{:one 1 :two 2 :three 3}</code>.</p>
+</li>
+</ul>
+<p>Now that we’re familiar with these basic data structures and how they can be expressed directly, let’s look at some more data structures.</p>
+<p>Consider this one:</p>
+<pre class="code highlight language-clojure"><code><span class="line-1"><span class="p">(</span><span class="nb">+</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span></span>
+</code></pre>
+<p>Here we have a list with four elements. First, we have the plus sign followed by the numerals 1, 2 and 3.</p>
+<p>Here’s a slightly more complex one:</p>
+<pre class="code highlight language-clojure"><code><span class="line-1"><span class="p">(</span><span class="kd">defn</span><span class="w"> </span><span class="n">eg</span><span class="w"> </span><span class="p">[]</span><span class="w"> </span><span class="p">(</span><span class="nb">+</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="p">))</span></span>
+</code></pre>
+<p>This is a list of four elements, <code>defn</code>, <code>eg</code>, the empty vector and the same list we had above. Of course, the surprise reveal is that these data structure are also valid Clojure code.</p>
+<p>The first is an expression consisting of the symbol <code>+</code> with the arguments 1, 2 and 3. When we ask Clojure to evaluate this expression it will use the first element to look up the name of the function and then pass the numerals 1, 2 and 3 as arguments to that function. The value returned from the evaluation is 6.</p>
+<p>The second is an expression that, although more complex, is evaluated similarly by Clojure. The symbol <code>defn</code>  is actually the name of a function and the other elements are passed to that function as arguments. The evaluation step saves a reference to this function in the state of our program that we can call again later.</p>
+<p>Now we can see how ‘code is data (structures)’ applies to Clojure in a way it doesn’t to Ruby.</p>
+<pre class="code highlight language-ruby"><code><span class="line-1"><span class="k">def</span> <span class="nf">eg</span><span class="p">()</span></span>
+<span class="line-2">  <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span></span>
+<span class="line-3"><span class="k">end</span></span>
+</code></pre>
+<p>This code does the same thing as the call to <code>defn</code> did above but it is not a data structure.</p>
+<p>Having our code be expressed as data structures is conceptually elegant but it also allows for powerful features like macros that either aren’t possible, or are nowhere near as flexible, as they are in a Lisp. That’s a topic I hope to return to in the future but let’s leave it there for now. Happy hacking!</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>Since that means I’ve been doing this for all of a month there’s a good chance I’ve made some mistakes in the details. Corrections welcome on <a href="https://twitter.com/pyrmont">Twitter</a> or <a href="https://micro.blog/pyrmont">Micro.blog</a>! <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>How-To: Push to a Git Repo from 1Writer</title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/2018/10/04/how-to-1writer-to-repo.html" />
+	<id>tag:articles.inqk.net,2018-10-04:how-to-1writer-to-repo</id>
+	<published>2018-10-04T08:19:05+09:00</published>
+	<updated>2018-10-04T08:23:15+09:00</updated>
+	<author>
+		<name>Michael Camilleri</name>
+	</author>
+	<summary type="text">Instructions on how to configure 1Writer to push to a Git repository.</summary>
+	<content type="html" xml:base="http://localhost:4000" xml:lang="en">
+    <![CDATA[
+    <p>One of the things that got me blogging again was finding a workflow that enabled me to publish posts to Jekyll from my phone.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></span> I intend to write a larger how-to explaining that process in detail but, for the purposes of this article, let’s look at how we can take a text file from 1Writer and push it to a remote Git repository.</p>
+<h2>Steps</h2>
+<h3>Step 1. Get the Tools</h3>
+<p>First, let’s introduce the software:</p>
+<ul>
+<li><a href="http://1writerapp.com/">1Writer</a> is a scriptable text editor for iOS. It supports the <code>x-callback-url</code> protocol and can execute user-defined ‘actions’ (scripts written in JavaScript). It’s <a href="https://itunes.apple.com/us/app/1writer-markdown-text-editor/id680469088">available on the App Store</a> for a one-time purchase of $4.99.</li>
+</ul>
+<ul>
+<li><a href="https://workingcopyapp.com/">Working Copy</a> is a full-featured Git client for iOS. It supports the <code>x-callback-url</code> protocol. It’s <a href="https://itunes.apple.com/us/app/working-copy/id896694807">available on the App Store</a> as a free download with an in-app purchase of $15.99 to unlock its pro features.</li>
+</ul>
+<p>I’ll be using GitHub as the repository hosting provider but feel free to switch that out for your preferred host.</p>
+<h3>Step 2. Configure Working Copy</h3>
+<p>Once you’ve got the apps, you need to connect Working Copy to your remote repository. From the main ‘Repositories’ screen, tap the <code>+</code> button in the top-right and choose ‘Clone Repository’. Follow the steps and clone the repository onto your iOS device.</p>
+<h3>Step 3. Collect Necessary Information</h3>
+<p>In order for 1Writer to ‘talk’ to Working Copy, we need to collect three pieces of information:</p>
+<ol>
+<li>the <strong>URL key</strong>;</li>
+<li>the <strong>repository name</strong>;</li>
+<li>the <strong>directory path</strong> where we’ll be exporting our text files.</li>
+</ol>
+<p>The URL key can be found by opening Working Copy, tapping on the ‘gear’ icon in the top left from the ‘Repositories’ screen, tapping ‘App Integrations’ and noting the key listed.</p>
+<p>The repository name is, as you might expect, the name of the repository. If you’ve cloned a GitHub repository as I did, by default it will be the name of the repo on GitHub.</p>
+<p>The directory path is the path where you want to export your text files. If you’re exporting to a Jekyll repository as I am, it’ll probably be <code>_posts</code>.</p>
+<h3>Step 4. Add the Action to 1Writer</h3>
+<p>To add an action to 1Writer, start a text file, hide the keyboard and then tap the three-dot widget in the bottom-left of the screen.</p>
+<p>This opens the ‘Action’ screen. In the top-right, tapping the <code>+</code> button will open a menu with three options; one of which is ‘Add a JavaScript Action’. Tap this.</p>
+<p>You can give your action whatever name you like. I call mine ‘Publish Article’ but you might prefer something more literal like ‘Push to Repo’. You can choose an icon or leave it as the default. Similarly, you can provide an explanation of the action if you wish. All of these elements can be edited later.</p>
+<p>Next, tap ‘Edit Script’. This will open the script editor. Now it’s time to copy and paste.</p>
+<pre class="code highlight language-javascript"><code><span class="line-1"><span class="c1">// Main Steps</span></span>
+<span class="line-2"></span>
+<span class="line-3"><span class="kd">const</span> <span class="nx">key</span> <span class="o">=</span> <span class="s1">'&lt;YOUR KEY&gt;'</span></span>
+<span class="line-4"><span class="kd">const</span> <span class="nx">repo</span> <span class="o">=</span> <span class="s1">'&lt;YOUR REPO&gt;'</span></span>
+<span class="line-5"><span class="kd">const</span> <span class="nx">dir</span> <span class="o">=</span> <span class="s1">'&lt;YOUR PATH&gt;/'</span></span>
+<span class="line-6"></span>
+<span class="line-7"><span class="nx">process</span><span class="p">(</span><span class="nx">key</span><span class="p">,</span> <span class="nx">repo</span><span class="p">,</span> <span class="nx">dir</span><span class="p">)</span></span>
+<span class="line-8"></span>
+<span class="line-9"><span class="c1">// Function Definitions</span></span>
+<span class="line-10"></span>
+<span class="line-11"><span class="k">async</span> <span class="kd">function</span> <span class="nx">process</span><span class="p">(</span><span class="nx">key_name</span><span class="p">,</span> <span class="nx">repo_name</span><span class="p">,</span> <span class="nx">dir_name</span><span class="p">)</span> <span class="p">{</span></span>
+<span class="line-12">  <span class="kd">let</span> <span class="nx">key</span> <span class="o">=</span> <span class="nx">key_name</span></span>
+<span class="line-13">  <span class="kd">let</span> <span class="nx">repo</span> <span class="o">=</span> <span class="nx">repo_name</span></span>
+<span class="line-14">  <span class="kd">let</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">dir_name</span> <span class="o">+</span> <span class="nx">editor</span><span class="p">.</span><span class="nx">getFileName</span><span class="p">()</span></span>
+<span class="line-15">  <span class="kd">let</span> <span class="nx">text</span> <span class="o">=</span> <span class="nx">editor</span><span class="p">.</span><span class="nx">getText</span><span class="p">()</span></span>
+<span class="line-16">  <span class="kd">let</span> <span class="nx">message</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">input_message</span><span class="p">()</span></span>
+<span class="line-17"></span>
+<span class="line-18">  <span class="nx">key</span> <span class="o">=</span> <span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">key</span><span class="p">)</span></span>
+<span class="line-19">  <span class="nx">repo</span> <span class="o">=</span> <span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">repo</span><span class="p">)</span></span>
+<span class="line-20">  <span class="nx">path</span> <span class="o">=</span> <span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">path</span><span class="p">)</span></span>
+<span class="line-21">  <span class="nx">text</span> <span class="o">=</span> <span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">text</span><span class="p">)</span></span>
+<span class="line-22">  <span class="nx">message</span> <span class="o">=</span> <span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">message</span><span class="p">)</span></span>
+<span class="line-23"></span>
+<span class="line-24">  <span class="kd">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">`working-copy://x-callback-url/chain?key=</span><span class="p">${</span><span class="nx">key</span><span class="p">}</span><span class="s2">&amp;repo=</span><span class="p">${</span><span class="nx">repo</span><span class="p">}</span><span class="s2">&amp;command=pull&amp;command=write&amp;path=</span><span class="p">${</span><span class="nx">path</span><span class="p">}</span><span class="s2">&amp;text=</span><span class="p">${</span><span class="nx">text</span><span class="p">}</span><span class="s2">&amp;command=commit&amp;message=</span><span class="p">${</span><span class="nx">message</span><span class="p">}</span><span class="s2">&amp;command=push&amp;x-success=onewriter://return/`</span></span>
+<span class="line-25"></span>
+<span class="line-26">  <span class="nx">app</span><span class="p">.</span><span class="nx">openURL</span><span class="p">(</span><span class="nx">url</span><span class="p">)</span></span>
+<span class="line-27"></span>
+<span class="line-28">  <span class="nx">ui</span><span class="p">.</span><span class="nx">alert</span><span class="p">(</span><span class="s1">'Article Published'</span><span class="p">)</span></span>
+<span class="line-29"><span class="p">}</span></span>
+<span class="line-30"></span>
+<span class="line-31"><span class="kd">function</span> <span class="nx">input_message</span><span class="p">()</span> <span class="p">{</span></span>
+<span class="line-32">  <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="nx">resolve</span> <span class="o">=&gt;</span> <span class="p">{</span></span>
+<span class="line-33">    <span class="nx">ui</span><span class="p">.</span><span class="nx">input</span><span class="p">(</span><span class="s1">'Commit Message'</span><span class="p">,</span> <span class="s1">'Add post'</span><span class="p">,</span> <span class="s1">'Enter the commit message'</span><span class="p">,</span> <span class="nx">resolve</span><span class="p">)</span></span>
+<span class="line-34">  <span class="p">})</span></span>
+<span class="line-35"><span class="p">}</span></span>
+</code></pre>
+<p>There are three things to note:</p>
+<ol>
+<li>you need to insert the information you collected in step 3 into the placeholders at the beginning of the script;</li>
+<li>your path <strong>must</strong> include the trailing slash at the end; and</li>
+<li>you can customise the actions that Working Copy performs by editing the <code>url</code> variable.<span class="connector">&#65279;<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></span></li>
+</ol>
+<p>At this point, you can either run the action (which you probably don’t want to do right now) or close the editor. You can always go back and edit an action by opening the action menu and tapping the ‘info’ mark (the ‘I’ in a circle) to the right of the particular action.</p>
+<h2>Wrap-Up</h2>
+<p>The steps are complete and now you can push a file to a remote repository with a single tap! Happy writing!</p>
+<section class="footnotes">
+<ol>
+<li id="fn1">
+<p>That process originally involved Editorial but since it appears to no longer be under active development, I’ve switched to 1Writer. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2">
+<p>You might, for example, prefer that the action didn’t actually push the change but merely committed it. <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+    ]]>
+  </content>
+</entry>
+
+</feed><!-- THE END -->
