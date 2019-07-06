@@ -1,4 +1,0 @@
----
-BUNDLE_PATH: "vendor"
-BUNDLE_DISABLE_SHARED_GEMS: "true"
-BUNDLE_LOCAL__JEKYLL-COMMONMARK-PLUGGABLE: "/Users/pyrmont/Developer/Jekyll-CommonMark-Pluggable"
