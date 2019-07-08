@@ -47,4 +47,6 @@ The defaults are meant to cover most use cases but if you want to tweak things t
 
 Tenter is available as [a gem][rg-t] from RubyGems. I hope you find it useful!
 
+[rg-t]: https://rubygems.org/gems/tenter
+
 [^1]: Tenter detaches the process after spawning. In other words, Tenter does not wait for the result of the command and does not guarantee successful execution. By default, Tenter logs the output of commands to `/var/www/<dir>/log/commands.log`.
