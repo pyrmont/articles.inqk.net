@@ -3,4 +3,4 @@
 cd ..
 /usr/bin/git pull
 cd src
-/usr/local/bin/bundle exec jekyll build --destination public
+/usr/local/bin/bundle exec jekyll build --destination ../public
