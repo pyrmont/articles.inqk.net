@@ -18,6 +18,10 @@ The best instructions I found were [these ones][so-qa] on Stack Overflow. What I
 [so-qa]: https://stackoverflow.com/a/17182696/308909
 [so-rs]: https://stackexchange.com/users/446547/ryan-stewart
 
+Oh, and special thanks to [Ash Maroli][gh-am] for being patient as I badgered him with e-mails asking for help (and who taught me the trick in step 2).
+
+[gh-am]: https://github.com/ashmaroli
+
 ## Steps
 
 ### Step 1. Update `upstream`
