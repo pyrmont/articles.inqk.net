@@ -22,26 +22,26 @@ The best instructions I found were [these ones][so-qa] on Stack Overflow. What I
 
 ### Step 1. Update `upstream`
 
-```shell
+```sh
 git fetch upstream
 ```
 
 ### Step 2. Checkout PR
 
-```shell
+```sh
 git fetch upstream pull/<pr_number>/head:<local_branch_name>
 git checkout <local_branch_name>
 ```
 
 ### Step 3. Rebase PR
 
-```shell
+```sh
 git rebase upstream/master
 ```
 
 ### Step 4. Force Push PR
 
-```shell
+```sh
 git push --force git@github.com:<contributor>/<project>.git <local_branch_name>:<remote_branch_name>
 ```
 
@@ -50,3 +50,5 @@ The `<remote_branch_name>` is the name of the branch on the contributor's fork o
 And that's it. As the Stack Overflow answer points out:
 
 > ...force pushing is _dangerous_, and you can lose commits with it. Only use it if you're absolutely sure you know what you're doing, like right here, where you intentionally want to drop the old, useless commits in the pre-rebase... branch.
+
+I hope that's useful for someone and/or me.
