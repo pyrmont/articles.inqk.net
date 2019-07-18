@@ -35,7 +35,7 @@ If the signature is valid, Tenter spawns a separate process to execute the file 
 
 If the signature isn't valid, or if `<cmd>` or `<dir>` don't exist, Tenter returns an error.
 
-### Is Tenter Configurable?
+## Is Tenter Configurable?
 
 Tenter takes a convention over configuration approach. Out of the box, it will assume the directories it is watching are in `/var/www/`, that each directory's secret is in `hooks.yaml`, that commands are in `commands/` and so on.
 
@@ -43,7 +43,7 @@ The defaults are meant to cover most use cases but if you want to tweak things t
 
 [README]: https://github.com/pyrmont/tenter/blob/master/README.md
 
-### Getting It
+## How Do I Get Tenter?
 
 Tenter is available as [a gem][rg-t] from RubyGems. I hope you find it useful!
 
