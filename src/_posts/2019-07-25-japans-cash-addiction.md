@@ -31,7 +31,7 @@ Of course, Japan didn't just invent QR codes. They also invented FeliCa, the tec
 
 Except, again, what opportunities are we talking about? The article mentions that Hong Kong's Octupus system uses FeliCa so it's not a failure to export it there. One could perhaps argue Japan should have been more successful exporting to other countries but how much is this Japan's fault and how much is it the decision of those transit authorities choosing (worse) alternatives? We don't know because the article never seriously explores this.
 
-Which brings me to the final part of the piece: the continued dominance of cash in consumer transactions. Here is where I think the piece is correct that Japan is behind here. But the implication of the piece that it's because Japanese people don't want to use digital money is wrong. They're behind because the options available aren't appealing.
+Which brings me to the final part of the piece: the continued dominance of cash in consumer transactions. Here is where I think the piece is correct that Japan is behind. But the implication of the piece that it's because Japanese people don't want to use digital money is wrong. They're behind because the options available aren't appealing.
 
 As noted earlier, transit cards are stunningly popular and, as Bassett has documented elsewhere on his blog, Tokyo's dominant transit card, Suica, has a terrific user experience on the latest iPhones. Why isn't the use of these cards for financial transactions more widespread? You _can_ use these to pay almost everywhere so why don't people? I'd contend it's because it's a stored value card that doesn't allow auto charging from arbitrary sources. That means you always have to worry about how much you've got loaded into it.
 
