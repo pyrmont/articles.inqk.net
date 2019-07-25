@@ -33,10 +33,14 @@ Except, again, what opportunities are we talking about? The article mentions tha
 
 Which brings me to the final part of the piece: the continued dominance of cash in consumer transactions. Here is where I think the piece is correct that Japan is behind here. But the implication of the piece that it's because Japanese people don't want to use digital money is wrong. They're behind because the options available aren't appealing.
 
-As noted earlier, transit cards are stunningly popular and, as Bassett has documented elsewhere on his blog, Tokyo's dominant transit card, Suica, has a terrific user experience on the latest iPhones. Why isn't the user of these cards for financial transactions more widespread? You _can_ use these to pay almost everywhere so why don't people? I'd contend it's because it's a stored value card that doesn't allow auto charging from arbitrary sources. That means you always have to worry about how much you've got loaded into it.
+As noted earlier, transit cards are stunningly popular and, as Bassett has documented elsewhere on his blog, Tokyo's dominant transit card, Suica, has a terrific user experience on the latest iPhones. Why isn't the use of these cards for financial transactions more widespread? You _can_ use these to pay almost everywhere so why don't people? I'd contend it's because it's a stored value card that doesn't allow auto charging from arbitrary sources. That means you always have to worry about how much you've got loaded into it.
 
 Japan's credit cards have their own problems. They're divided into two incompatible groups when it comes to contactless payment: iD and QUICPay. Using these cards is an awful experience. My supermarket's card reader's can't recognise the contactless technology my American Express card uses but my convenience store's reader can. The card readers in some taxis can read it, but in some taxis they can't.
 
 I'm a nerd and I _want_ to use these technologies so I persist in trying but the average person won't. They'll just stick to cash. That says less about some 'cash is king' mentality of the Japanese people than it does about human beings and the path of least resistance.
 
+There is a story here but it's not a story about QR codes or Japanese people loving cash. It's about why Japanese transit cards have limited auto charging capability and why Japanese credit card companies have failed to agree on a single standard for contactless payment. Not really feature article material, alas.[^2]
+
 [^1]: Yes, that's an oblique reference to you, _New York Times_.
+
+[^2]: You _could_ write a feature article about why Japan's vastly superior transit card technology isn't used by most of the world. Is it because you need to run a backend infrastructure that's poorly documented in English? Is it because the relevant companies charge too much for deployment? Is it that American credit card companies are desperate to kill anything that might challenge their dominance? Who knows! Might be a good thing to investigate.
