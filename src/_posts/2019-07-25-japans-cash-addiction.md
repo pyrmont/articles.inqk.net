@@ -35,7 +35,7 @@ Which brings me to the final part of the piece: the continued dominance of cash 
 
 As noted earlier, transit cards are stunningly popular and, as Bassett has documented elsewhere on his blog, Tokyo's dominant transit card, Suica, has a terrific user experience on the latest iPhones. Why isn't the use of these cards for financial transactions more widespread? You _can_ use these to pay almost everywhere so why don't people? I'd contend it's because it's a stored value card that doesn't allow auto charging from arbitrary sources. That means you always have to worry about how much you've got loaded into it.
 
-Japan's credit cards have their own problems. They're divided into two incompatible groups when it comes to contactless payment: iD and QUICPay. Using these cards is an awful experience. My supermarket's card reader's can't recognise the contactless technology my American Express card uses but my convenience store's reader can. The card readers in some taxis can read it, but in some taxis they can't.
+Japan's credit cards have their own problems. They're divided into two incompatible groups when it comes to contactless payment: iD and QUICPay. Using these cards is an awful experience. My supermarket's card reader can't recognise the contactless technology my American Express card uses but my convenience store's reader can. The card readers in some taxis can read it, but in some taxis they can't.
 
 I'm a nerd and I _want_ to use these technologies so I persist in trying but the average person won't. They'll just stick to cash. That says less about some 'cash is king' mentality of the Japanese people than it does about human beings and the path of least resistance.
 
