@@ -88,9 +88,9 @@ tools.deps has a couple of advantages:
 
 If you were confused about tools.deps, hopefully that's helped clear things up. If I've made a mistake somewhere, please don't hesitate to let me know!
 
-[^1]: Leiningen is often abbreviated to 'lein', the name of its command line program. To avoid any ambiguity in this post, I'll stick to calling it Leinengen.
+[^1]: Leiningen is often abbreviated to 'lein', the name of its command line program. To avoid any ambiguity in this post, I'll stick to calling it Leiningen.
 
-[^2]: As discussed below, tools.deps isn't actually a build tool but since it replaces certain uses of Leinengen and Boot (which are build tools), it's typically thrown into comparisons with them.
+[^2]: As discussed below, tools.deps isn't actually a build tool but since it replaces certain uses of Leiningen and Boot (which are build tools), it's typically thrown into comparisons with them.
 
 [^3]: An example given in the episode is JUXT's [Pack][pack] utility.
 
