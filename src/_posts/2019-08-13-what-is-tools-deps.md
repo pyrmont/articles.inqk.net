@@ -64,7 +64,7 @@ The fact that most interaction with tools.deps is through `deps.edn` is the reas
   :test {:extra-paths ["test"]}}}
 ```
 
-These keys are hopefully not too obtuse. They are used to tell `clojure` and `clj` where your project's Clojure code is (in this case, a directory called `src/`), what dependencies your project has (in this case zero, represented by the empty map `{}`) and a collection of aliases that you can use with `clojure` and `clj`. The `1.7` alias, for example, overrides the current version of Clojure installed so that your project is run with version 1.7 of Clojure. As [the official guide][guide] explains, you could execute a command that uses all these aliases like so:
+These keys are hopefully not too obtuse. They are used to tell `clojure` and `clj` where your project's Clojure code is (in this case, a directory called `src/`), what dependencies your project has (in this case, zero, represented by the empty map `{}`) and a collection of aliases that you can use with `clojure` and `clj`. The `1.7` alias, for example, overrides the current version of Clojure installed so that your project is run with version 1.7 of Clojure. As [the official guide][guide] explains, you could execute a command that uses all these aliases like so:
 
 [guide]: https://clojure.org/reference/deps_and_cli "The page 'Deps and CLI' on the official Clojure website"
 
