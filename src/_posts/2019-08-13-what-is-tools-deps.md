@@ -7,29 +7,29 @@ category:
 tags: 
 ---
 
-The _Functional Design in Clojure_ podcast had [a recent episode][fdc] where the hosts, Christoph and Nate, discussed different build tools for Clojure projects. There are currently three main options for Clojurists: [Leinengen][lein],[^1] [Boot][boot] and tools.deps.[^2]
+The _Functional Design in Clojure_ podcast had [a recent episode][fdc] where the hosts, Christoph and Nate, discussed different build tools for Clojure projects. There are currently three main options for Clojurists: [Leiningen][lein],[^1] [Boot][boot] and tools.deps.[^2]
 
 [fdc]: https://clojuredesign.club/episode/040-should-i-use-lein-boot-or-tools-deps/ "The page for Episode 40 of the 'Functional Design in Clojure' podcast"
 
-[lein]: https://leiningen.org/ "The homepage of the Leinengen project"
+[lein]: https://leiningen.org/ "The homepage of the Leiningen project"
 
 [boot]: https://boot-clj.com/ "The homepage of the Boot project"
 
-When I started using Clojure in December of last year, I remember being really confused about what tools.deps _was_ and what it could and couldn't do. People talked about it in comparison to Leinengen and Boot but it didn't seem to work like those projects did. Worse still, it wasn't clear if it was separate to this thing called 'deps.edn' that sometimes seemed to refer to the same thing but sometimes seemed to mean something else.
+When I started using Clojure in December of last year, I remember being really confused about what tools.deps _was_ and what it could and couldn't do. People talked about it in comparison to Leiningen and Boot but it didn't seem to work like those projects did. Worse still, it wasn't clear if it was separate to this thing called 'deps.edn' that sometimes seemed to refer to the same thing but sometimes seemed to mean something else.
 
 Christoph and Nate didn't have time to go into an extended explanation of tools.deps on the show and so I thought it might be helpful to write down the understanding I eventually reached in case it can benefit others. Let's get to it!
 
 ## tools.deps is a Library
 
-tools.deps is a library that comes _with_ Clojure. It was introduced with Clojure 1.9. If you have a version of Clojure since 1.9, tools.deps is just there. This makes it different to both Leinengen and Boot which require separate installations.
+tools.deps is a library that comes _with_ Clojure. It was introduced with Clojure 1.9. If you have a version of Clojure since 1.9, tools.deps is just there. This makes it different to both Leiningen and Boot which require separate installations.
 
 This leads to one of the things I found difficult to grok at first. How do you _use_ tools.deps? The trick is that you don't. At least not directly. In most cases, you use Clojure's command line utilities, `clojure` and `clj`. _These_ utilities will look for a special configuration file and use the information in this file, together with the functions in the tools.deps library, to resolve your dependencies, download any files necessary and generate the classpath that Clojure passes to Java to make everything work.
 
 ## tools.deps is Not a Build Tool
 
-Leinengen and Boot are build tools. In addition to managing dependencies for a project, they can do things like build a JAR file for your project. tools.deps is intentionally more limited.
+Leiningen and Boot are build tools. In addition to managing dependencies for a project, they can do things like build a JAR file for your project. tools.deps is intentionally more limited.
 
-In the aforementioned _Functional Design in Clojure_ episode, Christoph and Nate explain that, while tools.deps by itself isn't a build tool, it can be used by other projects to create build tools. It has taken time for the community to produce these kinds of projects[^3] but, as they have, the necessity of using Leinengen and Boot has been reduced. One would expect that to continue.
+In the aforementioned _Functional Design in Clojure_ episode, Christoph and Nate explain that, while tools.deps by itself isn't a build tool, it can be used by other projects to create build tools. It has taken time for the community to produce these kinds of projects[^3] but, as they have, the necessity of using Leiningen and Boot has been reduced. One would expect that to continue.
 
 ## tools.deps Doesn't Exist (Yet)
 
@@ -74,24 +74,21 @@ clj -A:1.7:bench:test
 
 ## tools.deps Advantages
 
-The final question you might be wondering is: if tools.deps is more limited than Leinengen and Boot, why use it?
+The final question you might be wondering is: if tools.deps is more limited than Leiningen and Boot, why use it?
 
 tools.deps has a couple of advantages:
 
-1. **Faster Start Up Times**
-   Clojure has a reputation (not undeserved) for being slow to start up. While some of this is the inevitable consequence of running on the Java Virtual Machine, some of it is because it's typically run via tools like Leinengen and Boot that impose additional start up costs of their own. By making a library that just handles dependencies and combining that with the `clojure` and `clj` utilities, users can enjoy (slightly) faster start up times.
+1. **Faster Start Up Times**: Clojure has a reputation (not undeserved) for being slow to start up. While some of this is the inevitable consequence of running on the Java Virtual Machine, some of it is because it's typically run via tools like Leiningen and Boot that impose additional start up costs of their own. By making a library that just handles dependencies and combining that with the `clojure` and `clj` utilities, users can enjoy (slightly) faster start up times.
 
-2. **Wider Variety of Dependencies**
-   Leinengen and Boot are built with a conception of dependencies being packaged up as JAR files and made available from a repository like Maven or Clojars. That's very often the case but it's not always true. tools.deps has a far broader conception, allowing dependencies to be specified by coordinates that refer to the local file system or specific commits in Git repos.
+2. **Wider Variety of Dependencies**: Leiningen and Boot are built with a conception of dependencies being packaged up as JAR files and made available from a repository like Maven or Clojars. That's very often the case but it's not always true. tools.deps has a far broader conception, allowing dependencies to be specified by coordinates that refer to the local file system or specific commits in Git repos.
 
-3. **Abstract-Feeling-of-Satisfaction-From-Doing-Something-the-Quote-Unquote-Right-Way**[^6]
-   Clojure very much embraces the Unix tools philosophy of simple tools that are designed for a specific purpose. If you're the type of person who likes ideological consistency, using tools.deps should make you feel warm and fuzzy inside. Also it's probably easier to test or something.
+3. **Abstract-Feeling-of-Satisfaction-From-Doing-Something-the-Quote-Unquote-Right-Way**:[^6] Clojure very much embraces the Unix tools philosophy of simple tools that are designed for a specific purpose. If you're the type of person who likes ideological consistency, using tools.deps should make you feel warm and fuzzy inside. Also it's probably easier to test or something.
 
 ## Conclusion
 
 If you were confused about tools.deps, hopefully that's helped clear things up. If I've made a mistake somewhere, please don't hesitate to let me know!
 
-[^1]: Leinengen is often abbreviated to 'lein', the name of its command line program. To avoid any ambiguity in this post, I'll stick to calling it Leinengen.
+[^1]: Leiningen is often abbreviated to 'lein', the name of its command line program. To avoid any ambiguity in this post, I'll stick to calling it Leinengen.
 
 [^2]: As discussed below, tools.deps isn't actually a build tool but since it replaces certain uses of Leinengen and Boot (which are build tools), it's typically thrown into comparisons with them.
 
