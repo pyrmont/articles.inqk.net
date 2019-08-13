@@ -53,7 +53,7 @@ Now in contrast to the name of the library, `deps.edn` is not a two-segment name
 
 [edn]: http://edn-format.org/ "The homepage for edn"
 
-The fact that most interaction with tools.deps is through `deps.edn` is the reason the names are sometimes used as synonyms for each other. But `deps.edn` is really the name of the configuration file. It's expected to be in the root of your project and is a map[^5] that has three keys: (1) `:paths`, (2) `:deps` and (3) `aliases`. An example `deps.edn` file looks like this:
+The fact that most interaction with tools.deps is through `deps.edn` is the reason the names are sometimes used as synonyms for each other. But `deps.edn` is really the name of the configuration file. It's expected to be in the root of your project and is a map[^5] that has three keys: (1) `:paths`, (2) `:deps` and (3) `:aliases`. An example `deps.edn` file looks like this:
 
 ```clojure
 {:paths ["src"]
@@ -98,6 +98,6 @@ If you were confused about tools.deps, hopefully that's helped clear things up. 
 
 [^4]: While always written in lowercase (no doubt to prevent is being mispronounced 'eee-dee-enn'), edn is actually an acronym. It stands for extensible data notation and is a human-readable data format. It's pronounced like 'eden'.
 
-[^5]: Clojure's 'maps' are key-value data structures. In other languages they might be called 'hashes', 'objects', 'dictionaries' or 'associative array'.
+[^5]: Clojure's 'maps' are key-value data structures. In other languages they might be called 'hashes', 'objects', 'dictionaries' or 'associative arrays'.
 
 [^6]: I assume there is a German word for this.
