@@ -6,3 +6,4 @@ Gemfile.lock
 /src/.sass-cache/
 /src/_site/
 /src/vendor/
+/src/.jekyll-cache/
