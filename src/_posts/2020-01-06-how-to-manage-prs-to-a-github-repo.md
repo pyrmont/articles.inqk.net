@@ -7,7 +7,7 @@ category:
 tags: 
 ---
 
-In 2019, I became a maintainer of the popular syntax highlighting library, [Rouge][]. Until then, I'd had very limited experience using pull requests with open source projects on GitHub.[^1] It took me a while to develop a good workflow for reviewing PRs but what I think I've got now works well and since I see a lot of people on other open source projects doing things differently (and in my opinion worse),[^2] I wanted to write some tips I hoped might help others.
+In 2019, I became a maintainer of the popular syntax highlighting library, [Rouge][]. Until then, I'd had very limited experience using pull requests with open source projects on GitHub.[^1] It took me a while to develop a good workflow for reviewing PRs and since I see a lot of people on other open source projects doing things differently (and in my opinion worse),[^2] I wanted to write some tips I hoped might help others.
 
 [Rouge]: https://github.com/rouge-ruby/rouge/ "Rouge: Official Repository"
 
