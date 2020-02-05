@@ -13,7 +13,7 @@ I've been a daily Apple Watch wearer since the initial Apple Watch. I bought the
 
 [smartband-long]: https://articles.inqk.net/2018/03/08/apple-smartband.html "Read 'The Case for an Apple Smartband'"
 
-[summary-short]: https://articles.inqk.net/2019/08/21/shorter-apple-smartband.html "Read 'The (Shorter) Case for an Apple Smartband'"
+[smartband-short]: https://articles.inqk.net/2019/08/21/shorter-apple-smartband.html "Read 'The (Shorter) Case for an Apple Smartband'"
 
 In short: this is it. This is the Apple Watch I've been waiting for. An always-on display is to the Apple Watch what a Retina Display is to the iPhone.[^1] It's the way it was always meant to be, a feature that once part of the product causes every previous model to feel critically incomplete. If you wear an Apple Watch and you haven't upgraded to a Series 5, I can't emphasise enough how great an improvement you'll find it. All the micro-frustrations you may have not even been conscious of fall away when you can glance at the screen and not need to 'wake it up'.
 
