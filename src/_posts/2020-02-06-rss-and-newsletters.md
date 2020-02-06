@@ -1,5 +1,5 @@
 ---
-title: "RSS in the Age or Newsletters"
+title: "RSS in the Age of Newsletters"
 layout: post
 date: 2020-02-06 16:28:06 +0900
 excerpt: "A plea to remember to syndicate the revolution."
