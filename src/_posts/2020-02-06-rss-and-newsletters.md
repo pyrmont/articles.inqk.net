@@ -1,11 +1,15 @@
 ---
-title: "RSS in the Age of Newsletters"
+title: "RSS in the Age or Newsletters"
 layout: post
 date: 2020-02-06 16:28:06 +0900
 excerpt: "A plea to remember to syndicate the revolution."
 category: 
 tags: 
 ---
+
+**_[Isaac Halvorson][ih] informed me that feed reading service Feedbin offers individual e-mail addresses to its members for use with e-mail newsletters. Use the address provided and receive newsletter e-mails with your feeds. I still want RSS to be better supported but nice!_**
+
+[ih]: https://hisaac.net/ "Visit Isaac Halvorson's personal website"
 
 You may not have noticed but e-mail newsletters are kind of a big deal at the moment.
 
