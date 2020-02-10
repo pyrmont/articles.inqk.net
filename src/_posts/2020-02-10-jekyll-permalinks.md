@@ -15,7 +15,7 @@ I recently set up a microblog using Jekyll. One problem I had was in deciding on
 
 My first attempt was to combine the year, month, day, hour, minute and second of each post into a single number. A post that was made on 10 February 2020 at precisely 10:00 am would have the permalink `/post/20200210100000.html`. That seemed like a good choice until I noticed I'd set the time zone of my Jekyll installation incorrectly, updated it and then broke the URL of every single post.
 
-What I wanted was to use the number of seconds since the beginning of the Unix epoch, sometimes referred to as [Unix time][wk-ut].[^1] The problem is that Jekyll, the software I use to create my microblog, doesn't provide a Unix time placeholder (here's the list][ph-list]).
+What I wanted was to use the number of seconds since the beginning of the Unix epoch, sometimes referred to as [Unix time][wk-ut].[^1] The problem is that Jekyll, the software I use to create my microblog, doesn't provide a Unix time placeholder ([here's the list][ph-list]).
 
 [wk-ut]: https://en.wikipedia.org/wiki/Unix_time "Read the article 'Unix time' on Wikipedia"
 
