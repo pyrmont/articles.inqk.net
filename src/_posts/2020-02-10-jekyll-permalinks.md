@@ -60,6 +60,8 @@ The final thing to do is update your permalink structure. Here's mine:
 permalink: "/post/:epoch.html"
 ```
 
+I chose `:epoch` as the name of my placeholder but you could choose whatever you wanted. Simply make sure that the name matches the name of the method you defined in step 2.
+
 ## Wrap-Up
 
 That's it; you're done!
