@@ -2,7 +2,7 @@
 title: "What Ben Thompson Assumed"
 layout: post
 date: 2020-02-14 17:53:58 +0900
-excerpt: "Examining two assumptions underlining the argument that regulators shouldn't block consumer tech acquisitions."
+excerpt: "Examining two assumptions underlying the argument that regulators shouldn't block consumer tech acquisitions."
 category: 
 tags: 
 ---
