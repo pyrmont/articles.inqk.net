@@ -15,7 +15,7 @@ I am a subscriber to, and regular reader of, Ben Thompson's website, [Stratecher
 
 ## Assumptions
 
-### Unintended consequences flow from certain actions
+### Unintended consequences only flow from certain actions
 
 Thompson has said at other times that he originally identified as more conservative than he does now. One of the principles from this tradition that he continues to hold is about the risk of actions having unintended consequences. This is commonly deployed as an argument by defenders of the status quo who caution against change that, while well meaning, ends up doing more harm than good.
 Hence the title of this week's article.[^1]
