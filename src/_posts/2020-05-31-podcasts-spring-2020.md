@@ -31,9 +31,9 @@ Happy listening!
 
 - [**The Book of Basketball 2.0**](https://www.theringer.com/book-of-basketball): If there's a theme this year, it's that I greatly prefer irregular podcasts. This is the only basketball podcast I've stayed subscribed to this year and it's because I feel that Bill Simmons releases episodes based on when they're ready rather than because it's a particular day of the week.
 
-- [**California King**](https://www.californiaking.org): _You Look Nice Today_ is one of my favourite podcasts of all time: one that consistently made me laugh until I cried. The depth of my affection for the show was the only reason I stayed subscribed to a feed that, by all indication, was at an end. And then the impossible happened and it returned. Well, sort of returned, sort of rose from the ashes with a new name. The hosts are the same. The format is the same. The weird robot-voice interstitials are the same. I am so happy.
+- [**California King**](https://www.californiaking.org): _You Look Nice Today_ is one of my favourite podcasts of all time: one that consistently made me laugh until I cried. The depth of my affection for the show was the only reason I stayed subscribed to a feed that, by all indications, was at an end. And then the impossible happened and it returned. Well, sort of returned, sort of rose from the ashes with a new name. The hosts are the same. The format is the same. The weird robot-voice interstitials are the same. I am so happy.
 
-- [**Cautionary Tales**](http://timharford.com/articles/cautionarytales/): I listen to three podcasts from Pushkin Industries: _Revisionist History, _Against the Rules_ and _Cautionary Tales_.[^3] They all share a similar sensibility: this one with a British lilt courtesy of its host, Tim Harford.
+- [**Cautionary Tales**](http://timharford.com/articles/cautionarytales/): I listen to three podcasts from Pushkin Industries: _Revisionist History_, _Against the Rules_ and _Cautionary Tales_.[^3] They all share a similar sensibility: this one with a British lilt courtesy of its host, Tim Harford.
 
 - [**ClojureScript Podcast**](https://clojurescriptpodcast.com/): Jacek Schae (whose name I still can't pronounce despite listening to him say it every episode for the past few months) interviews figures involved in the ClojureScript world. It's not as good as _The REPL_ but I still listen to every episode.
 
@@ -49,7 +49,7 @@ Happy listening!
 
 - [On Margins](https://craigmod.com/onmargins/): I'm still subscribed to this one but the last episode was July 2019 and the show looks well and truly dormant. Craig Mod is a brilliant writer, though, and honestly, if I have to choose, I want him to keep doing that more than I want to listen to his amazing voice interview people about book production.
 
-- [**Panic Podcast**](https://podcast.panic.com/): This is such a strange one. Indie software developers, Panic, have a podcast that is about... Panic? Host Christ Mrgan makes every episode into a special snowflake. No show that is about a company should be this good.
+- [**Panic Podcast**](https://podcast.panic.com/): This is such a strange one. Indie software developers, Panic, have a podcast that is about... Panic? Host Christa Mrgan makes every episode into a special snowflake. No show that is about a company should be this good.
 
 - [**Philosopher's Zone**](https://www.abc.net.au/radionational/programs/philosopherszone/): I've debated numerous times whether I should unsubscribe from this philosophy-oriented podcast from ABC's Radio National. What stops me is that at the end of every episode I feel smarter than I did at the beginning. It makes a refreshing change from multi-hour discussions of Apple minutiae.
 
@@ -57,7 +57,7 @@ Happy listening!
 
 - [Revisionist History](https://revisionisthistory.com/): Like its Pushkin Industries' stablemate, _Against the Rules_, I've spent most of this past year waiting patiently for the next season of Malcolm Gladwell's eclectic podcast about various incidents that tickle his fancy. It's not here yet but hopefully soon.
 
-- [**The Rewatchables**](https://www.theringer.com/the-rewatchables): I unsubscribed to this podcast about 'classic' movies from Bill Simmon's Ringer Podcast Network last year and then _re_subscribed to it this year. My solution to finding it repetitive was to skip the episodes for the movies I'm not interested in.
+- [**The Rewatchables**](https://www.theringer.com/the-rewatchables): I unsubscribed to this podcast about 'classic' movies from Bill Simmon's Ringer Podcast Network last year and then <em>re</em>subscribed to it this year. My solution to finding it repetitive was to skip the episodes for the movies I'm not interested in.
 
 - [**Software Sessions**](https://www.softwaresessions.com): Another programming interview show might sound repetitive at this point but if you have any interest in the subject, I'd strongly recommend this one. Like all great interviewers, host Jeremy Jung excels at prompting his subjects with insightful questions before getting out of their way.
 
@@ -77,13 +77,13 @@ Happy listening!
 
 - [**Greatest of All Talk**](https://greatestofalltalk.com/): Unsubscribing to this one almost felt like a betrayal. It's the spiritual successor to _Open Floor_ with the same hosts, Andrew Sharp and Ben Golliver, but with a fee: $5 per month. Sharp and Golliver are still brilliant; the episodes are just too long and too frequent and with no NBA being played at the moment, my level of interest is not where it otherwise might be.
 
-- [**Open Floor**](https://www.si.com/podcasts): I was only ever listening to this for the interplay between the aforementioned hosts, Andrew Sharp and Ben Golliver. Sharp left Sports Illustrated (and the show) and I immediately unsubscribed.
+- [**Open Floor**](https://www.si.com/podcasts): I was only ever listening to this for the interplay between the aforementioned hosts, Andrew Sharp and Ben Golliver. Sharp left _Sports Illustrated_ (and the show) and I immediately unsubscribed.
 
 - [**Slow Burn**](https://slate.com/slow-burn): I was worried that I wouldn't want to listen to this if it wasn't hosted by Leon Nayfahk and I was right.
 
 - [**Thinking Basketball**](http://www.backpicks.com/): It might appear that I lost interest in this because of the suspension of the NBA season but the truth is I stopped long before.
 
-- [**Under the Radar**](https://www.relay.fm/radar): For similar reasons to Core Intuition, I decided to drop this in favour of software-related podcasts that are relevant to the programming I do.
+- [**Under the Radar**](https://www.relay.fm/radar): For similar reasons to _Core Intuition_, I decided to drop this in favour of software-related podcasts that are relevant to the programming I do.
 
 - [**Undisclosed**](http://undisclosed-podcast.com/): I used to be a loyal listener to _Undisclosed_ but lost interest after the show moved away from following a single case of (probable) wrongful conviction for 10 or so episodes. Well, last year they were back in classic form with the 'State v Greg Lance' and I was right there with them.
 
