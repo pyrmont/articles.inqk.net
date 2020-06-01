@@ -51,7 +51,7 @@ Happy listening!
 
 - [**Panic Podcast**](https://podcast.panic.com/): This is such a strange one. Indie software developers, Panic, have a podcast that is about... Panic? Host Christa Mrgan makes every episode into a special snowflake. No show that is about a company should be this good.
 
-- [**Philosopher's Zone**](https://www.abc.net.au/radionational/programs/philosopherszone/): I've debated numerous times whether I should unsubscribe from this philosophy-oriented podcast from ABC's Radio National. What stops me is that at the end of every episode I feel smarter than I did at the beginning. It makes a refreshing change from multi-hour discussions of Apple minutiae.
+- [**The Philosopher's Zone**](https://www.abc.net.au/radionational/programs/philosopherszone/): I've debated numerous times whether I should unsubscribe from this philosophy-oriented podcast from ABC's Radio National. What stops me is that at the end of every episode I feel smarter than I did at the beginning. It makes a refreshing change from multi-hour discussions of Apple minutiae.
 
 - [The REPL](https://www.therepl.net/): I always look forward to Daniel Compton's interviews with people in the Clojure community.
 
