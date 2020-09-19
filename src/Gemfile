@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
-gem 'rouge', github: 'pyrmont/rouge', branch: 'master'
+gem 'rouge', github: 'pyrmont/rouge', branch: 'bugfix.janet-unmatched-parens'
 
 group :jekyll_plugins do
   gem 'commonmarker-pluggable', github: 'pyrmont/commonmarker-pluggable', branch: 'master'
