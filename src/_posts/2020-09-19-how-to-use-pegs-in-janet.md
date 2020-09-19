@@ -11,14 +11,15 @@ Janet is a small, Lisp-like language. Unlike most programming languages, it
 offers no support for regular expressions. Instead, Janet supports parser
 expression grammars, or PEGs.
 
-A PEG in Janet is described by an associative data structure that lists a series
-of rules.[^1] For each rule, the key is the name of the rule and the value is a
-description of the string that the rule will match. It's important to note that
-rules can refer to other rules (including recursive references) and rules can
-run arbitrary functions.
+A PEG in Janet is usually described by an associative data structure that lists
+a series of rules.[^1] For each rule, the key is the name of the rule and the
+value is a description of the string that the rule will match. What makes PEGs
+especially powerful is the ability for rules to refer to other rules (including
+recursive references) and for rules to run arbitrary functions.
 
-Let's use a PEG to parse a simplified subset of HTML. We'll use captures,
-back-references and match-time captures.
+Let's see how we can use a PEG to parse a simplified subset of HTML. We'll use
+sequences, choices, captures (both compiled and match-time), replacements,
+drops and back-references. It's going to be fun.[^2]
 
 ## Steps
 
@@ -30,7 +31,7 @@ Janet begins parsing using the `:main` rule. So let's start with that:
 '{:main (* :tagged -1)}
 ```
 
-This rule defines a pattern consisting of a sequence (represented by `*`)[^2] of
+This rule defines a pattern consisting of a sequence (represented by `*`)[^3] of
 the rule `:tagged` and the value `-1`. This rule will match if the rule
 `:tagged` matches and then the string ends (the value `-1` matches if we are at
 the end of the string).
@@ -46,7 +47,7 @@ is not defined so let's define that next:
 ```
 
 This is pretty straightforward. Our `:tagged` rule consists of an opening tag,
-some content and a closing tag.
+a value of some kind and a closing tag.
 
 ### Step 3. Define `:open-tag` rule
 
@@ -56,13 +57,14 @@ some content and a closing tag.
   :open-tag (* "<" (capture :w+ :tag-name) ">")}
 ```
 
-We name the capture (I went with `:tag-name`) so that we can use a reference to
-it in our closing tag rule.
+We name the capture so that we can use a reference to it in our closing tag
+rule. I went with `:tag-name` but you can choose whatever you like.
 
 ### Step 4. Define `:close-tag` rule
 
 Up to this point, we've been adding rules in the order that they're processed.
-Let's deviate from that here and instead define our rule to match closing tags:
+Let's deviate from that here and instead define our next rule to match closing
+tags:
 
 ```janet
 ~{:main (* :tagged -1)
@@ -72,13 +74,22 @@ Let's deviate from that here and instead define our rule to match closing tags:
 ```
 
 This rule can be a little difficult to follow. We're doing a match-time capture
-here using the `cmt` function.[^3] This will match if the result of the provided
-function (in this case, `=`)[^4]is truthy. If it is falsey, the match will fail.
+here using the `cmt` function.[^4] This will match if the result of the provided
+function (in this case, `=`) is truthy. If it is falsey, the match will fail.
 
 The `=` function is passed the values of any captures as separate arguments. We
 have two captures in our pattern: the back-reference to the `:tag-name` capture
 and the value matched by `:w+`. If the tag names match,[^5] the `:close-tag`
 rule will match.
+
+The eagle-eyed amongst you might have noticed that the quoting character at the
+very beginning has changed from `'` to `~`. All but the simplest PEGs will
+include references to various functions `sequence`, `capture`, etc that are run
+by the PEG engine. To prevent these functions being called in our grammar
+definition, we need to quote our data structure. However, when it comes to
+passing the functions we want `cmt` to call, we need to pass a reference to
+these functions. The solution is quasi-quoting. We quasi-quote the data
+structure and then unquote the function symbol.
 
 ### Step 5. Define `:value` rule
 
@@ -94,8 +105,8 @@ OK, now we'll define the `:value` rule:
 
 The value in between two tags could be nothing, a tagged value, an untagged
 value or a combination of tagged and untagged values. We can match zero or more
-occurrence of the pattern using the `any` function. The `+` function[^6] tries
-the first pattern (`:tagged`) and if that fails, tries the second pattern
+occurrences of the pattern using the `any` function. The `+` combinator[^6]
+tries the first pattern (`:tagged`) and if that fails, tries the second pattern
 (`:untagged`).
 
 ### Step 6. Define `:untagged` rule
@@ -223,7 +234,7 @@ The second match returns `nil` because of the unmatched `</p>`. Neat!
 ## Wrap-Up
 
 Building support for PEGs directly into the language is one of Janet's best
-decision. They might take a bit of time to get the hang of, but when you do,
+decisions. They might take a bit of time to get the hang of, but when you do,
 you'll be able to parse data in a way that's considerably more powerful than
 with regular expressions.
 
@@ -231,19 +242,15 @@ with regular expressions.
   (unnamed) rule but that's not especially interesting so we'll focus instead
   on the associative definition.
 
-[^2]: To make the other functions stand out, I'm using the alias `*` rather
+[^2]: I have barely left my house in the past six months.
+
+[^3]: To make the other functions stand out, I'm using the alias `*` rather
   than `sequence` in this post.
 
-[^3]: Match-time captures are created using the `cmt` function. It's
+[^4]: Match-time captures are created using the `cmt` function. It's
   unfortunate that this function looks like it's related to commenting. Really,
   the `cmt` function is a way of dynamically adjusting a pattern using
   captures.
-
-[^4]: We need to pass the function itself but since the grammar contains
-  numerous PEG-related functions (e.g. `*`, `capture`, etc) that need to be
-  quoted, the simplest solution is to quasi-quote the grammar's containing
-  struct (using `~`) and then unquoting the function we want to pass (using
-  `,`).
 
 [^5]: This comparison is case _sensitive_. If you want a case-insensitive
   match, you need a different function to `=`.
