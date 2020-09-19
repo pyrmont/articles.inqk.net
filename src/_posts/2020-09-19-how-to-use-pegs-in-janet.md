@@ -159,8 +159,8 @@ There's quite a bit going on here so let's look at each rule in turn.
 
 1. We've replaced our call to `drop` with a call to `replace`. This will pop
    the captures matched by `(* :open-tag :value :close-tag)` but instead of
-   dropping them, will instead pass them to the function `struct`. We'll see
-   why in a second.
+   dropping them, will pass them to the function `struct`. We'll see why in a
+   second.
 
 2. Next, in `:open-tag`, we're pushing the value `:tag` onto the capture stack
    using `constant`. Because the call to `constant` is part of the sequence in
@@ -169,7 +169,7 @@ There's quite a bit going on here so let's look at each rule in turn.
 3. We use a similar trick in `:value`. This time, instead of pushing `:tag`, we
    push `:value`.
 
-4. Still in `:value`, We use `group` to collect all of the matches in the `(any
+4. Still in `:value`, we use `group` to collect all of the matches in the `(any
    (+ :tagged :untagged))` pattern and put them inside an array that we push
    onto the capture stack.
 
