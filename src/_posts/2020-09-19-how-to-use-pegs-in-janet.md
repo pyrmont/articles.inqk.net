@@ -150,7 +150,7 @@ it's usually much more helpful to return some structured data. Let's do that:
 ~{:main (* :tagged -1)
   :tagged (replace (* :open-tag :value :close-tag) ,struct)
   :open-tag (* (constant :tag) "<" (capture :w+ :tag-name) ">")
-  :value (* (constant :value) (group (any (+ :tagged :untagged)))
+  :value (* (constant :value) (group (any (+ :tagged :untagged))))
   :close-tag (drop (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">"))
   :untagged (capture (some (if-not "<" 1)))}
 ```
@@ -195,7 +195,7 @@ boost:
   ~{:main (* :tagged -1)
     :tagged (replace (* :open-tag :value :close-tag) ,struct)
     :open-tag (* (constant :tag) "<" (capture :w+ :tag-name) ">")
-    :value (* (constant :value) (group (any (+ :tagged :untagged)))
+    :value (* (constant :value) (group (any (+ :tagged :untagged))))
     :close-tag (drop (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">"))
     :untagged (capture (some (if-not "<" 1)))})
 ```
@@ -210,7 +210,7 @@ Let's see an example. Assuming this is our code:
     ~{:main (* :tagged -1)
       :tagged (replace (* :open-tag :value :close-tag) ,struct)
       :open-tag (* (constant :tag) "<" (capture :w+ :tag-name) ">")
-      :value (* (constant :value) (group (any (+ :tagged :untagged)))
+      :value (* (constant :value) (group (any (+ :tagged :untagged))))
       :close-tag (drop (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">"))
       :untagged (capture (some (if-not "<" 1)))}))
 ```
