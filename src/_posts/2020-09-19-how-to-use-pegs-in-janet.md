@@ -73,13 +73,14 @@ tags:
   :close-tag (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">")}
 ```
 
-This rule can be a little difficult to follow. We're doing a match-time capture
-here using the `cmt` function.[^4] This will match if the result of the provided
-function (in this case, `=`) is truthy. If it is falsey, the match will fail.
+This rule can be a little difficult to follow. We're doing a match-time
+capture[^4] here using the `cmt` function.[^5] This will match if the result of
+the provided function (in this case, `=`) is truthy. If it is falsey, the match
+will fail.
 
 The `=` function is passed the values of any captures as separate arguments. We
 have two captures in our pattern: the back-reference to the `:tag-name` capture
-and the value matched by `:w+`. If the tag names match,[^5] the `:close-tag`
+and the value matched by `:w+`. If the tag names match,[^6] the `:close-tag`
 rule will match.
 
 The eagle-eyed amongst you might have noticed that the quoting character at the
@@ -105,7 +106,7 @@ OK, now we'll define the `:value` rule:
 
 The value in between two tags could be nothing, a tagged value, an untagged
 value or a combination of tagged and untagged values. We can match zero or more
-occurrences of the pattern using the `any` function. The `+` combinator[^6]
+occurrences of the pattern using the `any` function. The `+` combinator[^7]
 tries the first pattern (`:tagged`) and if that fails, tries the second pattern
 (`:untagged`).
 
@@ -249,12 +250,17 @@ with regular expressions.
 [^3]: To make the other functions stand out, I'm using the alias `*` rather
   than `sequence` in this post.
 
-[^4]: Match-time captures are created using the `cmt` function. It's
+[^4]: I'm using a match-time capture so I can explain how those work but a
+  better solution for this specific problem would be to use the `backmatch`
+  function. If we did that, our rule could be
+  `(* "</" (backmatch :tag-name) ">")`.
+
+[^5]: Match-time captures are created using the `cmt` function. It's
   unfortunate that this function looks like it's related to commenting. Really,
   the `cmt` function is a way of dynamically adjusting a pattern using
   captures.
 
-[^5]: This comparison is case _sensitive_. If you want a case-insensitive
+[^6]: This comparison is case _sensitive_. If you want a case-insensitive
   match, you need a different function to `=`.
 
-[^6]: As with `*`, we are using the alias `+` rather than `choice`.
+[^7]: As with `*`, we are using the alias `+` rather than `choice`.
