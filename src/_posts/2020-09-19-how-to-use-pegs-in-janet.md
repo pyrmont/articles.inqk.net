@@ -7,6 +7,12 @@ category:
 tags: 
 ---
 
+**_Janet 1.14.1 changed the way that tagged references work and this change in
+behaviour causes the final grammar not to work when parsing HTML with nested
+tags. An [issue][] has been opened to address this._**
+
+[issue]: https://github.com/janet-lang/janet/issues/641
+
 Janet is a small, Lisp-like language. Unlike most programming languages, it
 offers no support for regular expressions. Instead, Janet supports parser
 expression grammars, or PEGs.
