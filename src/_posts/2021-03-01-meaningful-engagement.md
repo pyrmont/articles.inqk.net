@@ -7,7 +7,8 @@ category:
 tags: []
 ---
 
-**_This article [originally appeared][op] on one of my former blogs._**
+**_This article was [originally posted][op] to one of my former blogs on 23
+January 2014._**
 
 [op]: https://notes.inqk.net/post/74267339850
 
