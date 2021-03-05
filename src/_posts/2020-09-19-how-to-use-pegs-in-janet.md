@@ -7,12 +7,6 @@ category:
 tags: 
 ---
 
-**_Janet 1.14.1 changed the way that tagged references work and this change in
-behaviour causes the final grammar not to work when parsing HTML with nested
-tags. An [issue][] has been opened to address this._**
-
-[issue]: https://github.com/janet-lang/janet/issues/641
-
 Janet is a small, Lisp-like language. Unlike most programming languages, it
 offers no support for regular expressions. Instead, Janet supports parser
 expression grammars, or PEGs.
@@ -135,11 +129,11 @@ This rule matches against one or more characters that are not `<`.
 
 We have a problem at the moment. Our grammar won't match nested tags because the
 `:tag-name` capture is never being removed from the capture stack. We can solve
-this problem using `drop`:
+this problem using `unref`:[^8]
 
 ```janet
 ~{:main (* :tagged -1)
-  :tagged (drop (* :open-tag :value :close-tag))
+  :tagged (unref (* :open-tag :value :close-tag))
   :open-tag (* "<" (capture :w+ :tag-name) ">")
   :value (any (+ :tagged :untagged))
   :close-tag (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">")
@@ -155,7 +149,7 @@ it's usually much more helpful to return some structured data. Let's do that:
 
 ```janet
 ~{:main (* :tagged -1)
-  :tagged (replace (* :open-tag :value :close-tag) ,struct)
+  :tagged (unref (replace (* :open-tag :value :close-tag) ,struct))
   :open-tag (* (constant :tag) "<" (capture :w+ :tag-name) ">")
   :value (* (constant :value) (group (any (+ :tagged :untagged))))
   :close-tag (drop (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">"))
@@ -164,10 +158,8 @@ it's usually much more helpful to return some structured data. Let's do that:
 
 There's quite a bit going on here so let's look at each rule in turn.
 
-1. We've replaced our call to `drop` with a call to `replace`. This will pop
-   the captures matched by `(* :open-tag :value :close-tag)` but instead of
-   dropping them, will pass them to the function `struct`. We'll see why in a
-   second.
+1. We've added a call to `replace`. This will pass the values captured to the
+   function `struct`. We'll see why in a second.
 
 2. Next, in `:open-tag`, we're pushing the value `:tag` onto the capture stack
    using `constant`. Because the call to `constant` is part of the sequence in
@@ -200,7 +192,7 @@ boost:
 ```janet
 (peg/compile
   ~{:main (* :tagged -1)
-    :tagged (replace (* :open-tag :value :close-tag) ,struct)
+    :tagged (unref (replace (* :open-tag :value :close-tag) ,struct))
     :open-tag (* (constant :tag) "<" (capture :w+ :tag-name) ">")
     :value (* (constant :value) (group (any (+ :tagged :untagged))))
     :close-tag (drop (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">"))
@@ -215,7 +207,7 @@ Let's see an example. Assuming this is our code:
 (def grammar
   (peg/compile
     ~{:main (* :tagged -1)
-      :tagged (replace (* :open-tag :value :close-tag) ,struct)
+      :tagged (unref (replace (* :open-tag :value :close-tag) ,struct))
       :open-tag (* (constant :tag) "<" (capture :w+ :tag-name) ">")
       :value (* (constant :value) (group (any (+ :tagged :untagged))))
       :close-tag (drop (* "</" (cmt (* (backref :tag-name) (capture :w+)) ,=) ">"))
@@ -270,3 +262,5 @@ with regular expressions.
   match, you need a different function to `=`.
 
 [^7]: As with `*`, we are using the alias `+` rather than `choice`.
+
+[^8]: The `unref` combinator was added in v1.15.3.
