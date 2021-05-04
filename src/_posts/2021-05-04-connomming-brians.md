@@ -20,3 +20,7 @@ It's been a while but yesterday I realised I've been [connomming][oa] two Brians
 
 [eno]: https://en.wikipedia.org/wiki/Brian_Eno "The Wikipedia article for Brian Eno"
 
+I finally realised after watching Trash Theory's recent YouTube video essay on
+the [development of synth-pop][yt].
+
+[yt]: https://www.youtube.com/watch?v=hm__xDOWxDc "Watch 'Before Are \"Friends\" Electric?: How Synth-Pop Became Synth-Pop' on YouTube"
