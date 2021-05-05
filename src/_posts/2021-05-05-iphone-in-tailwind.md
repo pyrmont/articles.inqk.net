@@ -9,12 +9,12 @@ tags:
 
 After months of delay, I finally launched [Flext][] yesterday. One of the
 things I'm moderately proud of is the product marketing page I designed to go
-with the app and, in particular, the image of Flext running an iPhone 12.
+with the app and, in particular, the image of Flext running on an iPhone 12.
 
-'Image' is a little deceiving though because while the screenshot is an image,
-the iPhone itself is pure CSS. How did I do it? The majority of the code is
-from Fayaz Ahmed, a very talented developer who was kind enough to [share his
-code][original] last December.
+Calling it an 'image' is a little deceiving, though, because while the
+screenshot is an image, the iPhone itself is pure CSS. How did I do it? The
+majority of the code is from Fayaz Ahmed, a very talented developer who was
+kind enough to [share his code][original] last December.
 
 Ahmed used [Tailwind CSS][tw], a utility-first CSS framework. One of the things
 that's especially great about Tailwind's approach is that it makes copying and
@@ -22,8 +22,8 @@ pasting markup elements exceptionally simple.
 
 With Ahmed's code in hand, I only needed to make a few minor tweaks. Ahmed's
 code amazingly reproduces the entire iPhone—homescreen and all. I just needed
-an iPhone to frame the screenshot of Flext I'd already made. A few edits later,
-here was my code:
+an iPhone to frame the screenshot of Flext I'd already taken. A few edits
+later, here was my code:
 
 ```html
 <div class="flex items-center justify-center">
@@ -59,10 +59,13 @@ module.exports = {
 }
 ```
 
-And that's it! Thanks to Ahmed. You're a legend.
+And that's it! Thanks to Ahmed. You're a legend. If you're curious, the full text
+for the Flext product marketing page is [available on GitHub][repo].
 
 [Flext]: https://apps.inqk.net/flext/ "The product page for Flext"
 
+[original]: https://dev.to/fayaz/got-bored-and-made-iphone-12-with-tailwindcss-l4p "Read 'Got bored and made iPhone 12 with Tailwindcss'"
+
 [tw]: https://tailwindcss.com "The Tailwind CSS website"
 
-[original]: https://dev.to/fayaz/got-bored-and-made-iphone-12-with-tailwindcss-l4p "Read 'Got bored and made iPhone 12 with Tailwindcss'"
+[repo]: https://github.com/pyrmont/apps.inqk.net "The repository for apps.inqk.net on GitHub"
