@@ -7,10 +7,10 @@ category:
 tags: 
 ---
 
-I added 'cross-mentions' to my microblog this weekend. In Markdown, I can now write:
+I added 'cross-mentions' to [my microblog][updates] this weekend. In Markdown, I can now write:
 
 ```
-I'm @pyrmont:twitter.com on Twitter and @pyrmont:instagram.com on Instagram. 
+I'm @pyrmont:twitter.com on Twitter and @pyrmont:instagram.com on Instagram.
 ```
 
 and it will be rendered in HTML as:
@@ -29,4 +29,6 @@ I'm @pyrmont on Twitter and instagram.com/pyrmont on Instagram.
 
 Doing this has the added benefit of removing the dependency I had on [Micro.blog][]. Micro.blog looks pretty stable and I don't think it's going anywhere but I ultimately like being in complete control of the content I publish online and having my own cross-posting plug-in is consistent with that philosophy.
 
-[Micro.blog]: https://micro.blog
+[updates]: https://updates.inqk.net "My microblog"
+
+[Micro.blog]: https://micro.blog "The Micro.blog website"
