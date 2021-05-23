@@ -29,6 +29,14 @@ I'm @pyrmont on Twitter and instagram.com/pyrmont on Instagram.
 
 Doing this has the added benefit of removing the dependency I had on [Micro.blog][]. Micro.blog looks pretty stable and I don't think it's going anywhere but I ultimately like being in complete control of the content I publish online and having my own cross-posting plug-in is consistent with that philosophy.
 
+If you're interested in the code, the [entire website][repo] is available on GitHub. The Markdown plug-in is [here][mentioner] and the cross-posting plug-in is [here][tweeter].
+
 [updates]: https://updates.inqk.net "My microblog"
 
 [Micro.blog]: https://micro.blog "The Micro.blog website"
+
+[repo]: https://github.com/pyrmont/updates.inqk.net "The source for updates.inqk.net on GitHub"
+
+[mentioner]: https://github.com/pyrmont/updates.inqk.net/blob/master/src/_plugins/commonmarker-mentions.rb "The mentioning plug-in on GitHub"
+
+[tweeter]: https://github.com/pyrmont/updates.inqk.net/blob/master/src/_plugins/jekyll_tweeter.rb "The cross-posting plug-in on GitHub"
