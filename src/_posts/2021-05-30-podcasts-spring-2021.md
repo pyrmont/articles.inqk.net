@@ -57,7 +57,7 @@ Happy listening!
 
 - [**Slow Burn**](https://slate.com/slow-burn): When this podcast detoured into the story of rappers Tupac Shakur and Christopher 'Biggie' Smalls, it lost me but I re-subscribed when season four looked at the rise and fall of white supremacist, David Duke. Season five has started and is exploring the build up to the Iraq War and so far, so good.
 
-- [Software Sessions](https://www.softwaresessions.com): This is my favourite programming interview show, although I'll admit episodes can be a bit hit or miss. It's not easy for a host of a general programming podcast to be able to go in depth in his questions given the breadth of possible topics but its to host Jeremy Jung's credit how often he's able to do so.
+- [Software Sessions](https://www.softwaresessions.com): This is my favourite programming interview show, although I'll admit episodes can be a bit hit or miss. It's not easy for a host of a general programming podcast to be able to go in depth in his questions given the breadth of possible topics but it's to host Jeremy Jung's credit how often he's able to do so.
 
 - [**The Stratechery Podcast**](https://stratechery.com): I enjoy reading Ben Thompson's Stratechery blog but struggle to keep up with his prolific output. This year I started listening to the paid podcast that's provided to members and have found it a good way to keep up.
 
@@ -93,4 +93,4 @@ Another year done. See you all again next year!
 
 [2018]: https://articles.inqk.net/2018/05/24/podcasts-spring-2018.html "Read 'Podcasts I'm Listening To: Spring 2018'"
 
-[^sections]: As I did last year, I include podcasts in the unsubscribed section even if they weren't listed in previous year. These are shows I started listening to after last year's post but that I stopped listening to before writing this one.
+[^sections]: As I did last year, I include podcasts in the unsubscribed section even if they weren't listed in the previous year. These are shows I started listening to after last year's post but that I stopped listening to before writing this one.
