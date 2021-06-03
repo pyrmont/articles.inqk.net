@@ -67,7 +67,7 @@ Happy listening!
 
 - [The Talk Show](https://daringfireball.net/thetalkshow/): When you stop and think about it, this is an unusual podcast. It's ostensibly a talk show with a new guest each week but the guest is almost always more of a sounding board for host John Gruber to air his thoughts about the Apple news of the day.
 
-- [TECHnical Foul](https://technicalfoul.fm/): The last episode was in 2017. I need to let this one go.
+- [TECHnical Foul](http://technicalfoul.fm/): The last episode was in 2017. I need to let this one go.
 
 - [**Thrilling Tales of Modern Capitalism**](https://slate.com/podcasts/thrilling-tales-of-modern-capitalism): Seth Stevenson, a writer at Slate, started this weekly podcast last year and I became a regular listener. Each week, he spends 30 minutes looking at the history of a company in the news.
 
