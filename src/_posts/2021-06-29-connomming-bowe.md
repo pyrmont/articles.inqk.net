@@ -7,8 +7,6 @@ category:
 tags: 
 ---
 
-# Connomming: Bo(we) Edition
-
 I've caught myself [connomming][] again. The names might not look that similar
 but try saying them out loud:
 
