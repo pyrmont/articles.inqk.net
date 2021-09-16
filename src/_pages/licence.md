@@ -12,4 +12,4 @@ My work is not that precious. I don't harbour any delusions that the articles in
 
 If you'd like to use any of the content on this blog, check out [the repository][ghr] on GitHub.
 
-[ghr]: https://github.com/pyrmont/articles/
+[ghr]: https://github.com/pyrmont/articles.inqk.net/
