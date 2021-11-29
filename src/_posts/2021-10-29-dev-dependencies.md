@@ -7,7 +7,7 @@ category:
 tags: 
 ---
 
-**_I now use [Jeep][], an alternative project manager for Janet, to achieve the same outcome as the approach suggested in this article._**.
+**_I now use [Jeep][], an alternative project manager for Janet, to achieve the same outcome as the approach suggested in this article._**
 
 [Jeep]: https://github.com/pyrmont/jeep "The GitHub repository for Jeep"
 
