@@ -7,6 +7,10 @@ category:
 tags: 
 ---
 
+**_I now use [Jeep][], an alternative project manager for Janet, to achieve the same outcome as the approach suggested in this article._**.
+
+[Jeep]: https://github.com/pyrmont/jeep "The GitHub repository for Jeep"
+
 Janet's package manager, JPM, can be used to install the dependencies of a Janet project that are specified in `project.janet` under the `:dependencies` key. If the dependency itself has dependencies, JPM will install these as part of the installation process. That's conceptually simple but it means that if you need dependencies for the development of your project (e.g. a testing library like my [Testament][]), these will be installed for all consumers of your project. That seems like a waste.
 
 [Testament]: https://github.com/pyrmont/testament "The GitHub repository for the Testament library"
