@@ -7,7 +7,7 @@ category:
 tags:
 ---
 
-The fifth annual[^previous] list of podcasts I'm listening to in spring of 2021.
+The fifth annual[^previous] list of podcasts I'm listening to in spring of 2022.
 
 This list is broken down into 'Currently Subscribed' and 'Previously Subscribed' sections.[^sections] Podcasts that are new to the list are in bold.
 
@@ -39,15 +39,15 @@ Happy listening!
 
 - [**Hit Parade**](https://slate.com/podcasts/hit-parade): Another one of the Slate podcasts that I started listening to this year. I'm not especially interested in pop music but these episodes are so well put together that I enjoy Chris Molanphy's monthly exploration of the songs that have topped the U.S. billboard charts.
 
-- [**Hollinger & Duncan**](https://hollinger-duncan.simplecast.com): This one slipped in at the last second and maybe be dropped as soon as the NBA Finals are over. Hosts John Hollinger and Nate Duncan take a weekly look at things in the NBA from an analytical perspective. I've listened to Duncan's Dunc'd On podcast on-and-off again for years and I think he pairs especially well with Hollinger.
+- [**Hollinger & Duncan**](https://hollinger-duncan.simplecast.com): This one slipped in at the last second and might be dropped as soon as the NBA Finals are over. Hosts John Hollinger and Nate Duncan take a weekly look at things in the NBA from an analytical perspective. I've listened to Duncan's _Dunc'd On_ podcast on-and-off again for years and I think he pairs especially well with Hollinger.
 
 - [More Or Less](https://www.bbc.co.uk/programmes/p02nrss1): Last year, I'd said that this was a 10-minute podcast but that's only true for the episodes that come out in between its 'seasons' (that is, when it's being broadcast on the radio in the UK). In-season episodes are 30 minutes as host Tim Harford goes behind the numbers in the news.
 
-- [MusicalSplaining](https://twitter.com/musicalsplainin): When Lindsay Ellis decided to take a (permanent?) break from her online life, I didn't expect this to keep going but I've loved her replacement, Angela Meehan. Ellis was clearly burn-out and Meehan brings an excitement to each episode that's infectious. Kaveh Taherian continues playing the role of musical naïf.
+- [MusicalSplaining](https://twitter.com/musicalsplainin): When Lindsay Ellis decided to take a (permanent?) break from her online life, I didn't expect this to keep going but I've loved her replacement, Angela Meehan. Ellis was clearly burnt out and Meehan brings an excitement to each episode that's infectious. Kaveh Taherian continues doing an excellent job playing the role of musical naïf.
 
 - [On Margins](https://craigmod.com/onmargins/): I wrote in the previous post that it wasn't clear if this show was still going and it's not a great deal clearer after a further 12 months. There's been precisely one episode since last May. Time to pronounce it dead? I'll give it another year.
 
-- [**One Year**](https://slate.com/podcasts/one-year/): I really enjoyed listening to Josh Levin's season on Slow Burn and started listening to this when I heard it cross-promoted on another podcast. The conceit is that each season of episodes focuses on events that happened in a single year. So far the show has covered 1977 and 1995.
+- [**One Year**](https://slate.com/podcasts/one-year/): I really enjoyed listening to Josh Levin's season on _Slow Burn_ and started listening to this when I heard it cross-promoted on another podcast. The conceit is that each season of episodes focuses on events that happened in a single year. So far the show has covered 1977 and 1995.
 
 - [Panic Podcast](https://podcast.panic.com/): This is beginning to feel like a bit of a trend but this is another podcast that might have ended. There was one episode in 2021 and that was in July. A shame because I'm always excited to hear what the software developers at Panic are cooking up.
 
@@ -57,19 +57,19 @@ Happy listening!
 
 - [The REPL](https://www.therepl.net/): I thought this interview show about people in the Clojure ecosystem was back when there were a flurry of episodes in September and October but it's gone dark again. Maybe it's just sleeping?
 
-- [Revisionist History](https://revisionisthistory.com/): Host Malcolm Gladwell's podcast about overlooked and misunderstood historical incidents lacks the zing it had when it first launched but is that such a problem? Sometimes you just want something reliably interesting.
+- [Revisionist History](https://revisionisthistory.com/): Host Malcolm Gladwell's podcast about overlooked and misunderstood historical incidents lacks the zing it had when it first launched but is that such a problem? Sometimes you just want something reliably, if only moderately, interesting.
 
 - [The Rewatchables](https://www.theringer.com/the-rewatchables): I'm technically subscribed to this but I now only listen to episodes for films that pique my interest. The format of a rotating crew of guests from Bill Simmons's Ringer Podcast Network does help keep things relatively fresh.
 
-- [**Slow Boring**](https://www.slowboring.com): Matt Yglesias is another of my favourite bloggers whose work I now 'read' via a paid podcast (available to his Substack subscribers). While this is like Ben Thompson's Stratechery, Yglesias unfortunately doesn't follow the Stratechery approach and record each post himself. Instead, paid-podcast platform Curio records some of his posts and then permits Yglesias to make these available to his subscribers.
+- [**Slow Boring**](https://www.slowboring.com): Matt Yglesias is another blogger whose work I now 'read' via a paid podcast (available to his Substack subscribers). While this is like Ben Thompson's Stratechery, Yglesias unfortunately doesn't follow Thompson's approach and record each post himself. Instead, paid-podcast platform Curio records some of his posts and then permits Yglesias to make these available to his subscribers. I'd pay extra for a podcast that included all of them.
 
 - [Slow Burn](https://slate.com/podcasts/slow-burn): I admit I wasn't particularly interested in the LA Riots of 1992 that formed the basis of season six but, if anything, that makes it all the more impressive that it drew me in. Season seven is about to begin and will look at _Roe v Wade_.
 
-- [Software Sessions](https://www.softwaresessions.com): I said last year that this was my favourite programming interview show but that might have been the kiss of death. The episodes over the past year haven't really hit for me and while I still like host Jeremy Jung, this might have fallen off the Currently Subscribed list by next year.
+- [Software Sessions](https://www.softwaresessions.com): I said last year that this was my favourite programming interview show but that might have been the kiss of death. The episodes over the past year haven't really hit for me and while I still like host Jeremy Jung, this might fall off the Currently Subscribed list by next year.
 
 - [The Stratechery Podcast](https://stratechery.com): I began listening to this last year as a way to follow Ben Thompson's writing and it was one of my favourite podcasts of the year. So much so, in fact, that I wish more of the bloggers I want to follow recorded their posts as podcasts. I should note that it is a members-only perk so you do need to pay to listen.
 
-- [Swift by Sundell](https://www.swiftbysundell.com): I mention below that after the birth of our third child, I've just found I don't have time for programming and that's led me to wonder multiple times if I should unsubscribe from this podcast. I've kept it around because iOS is the platform I'm most interested in making things for and John Sundell does a good job using these interviews to follow developments in the Swift language.
+- [Swift by Sundell](https://www.swiftbysundell.com): I mention below that after the birth of our third child, I've just found I don't have time for programming and that's led me to wonder multiple times if I should unsubscribe from this podcast. I've kept it around because iOS is the platform I'm most interested in developing for and John Sundell does a good job using these interviews to document developments in Swift and the Apple development ecosystem more broadly.
 
 - [Swiftly Speaking](https://www.hackingwithswift.com/interviews): This is another podcast that may be with us in name only. Host Paul Hudson conducted one interview since last year's post and that interview was in June. Not a great sign.
 
@@ -79,7 +79,7 @@ Happy listening!
 
 ## Previously Subscribed
 
-- [**All the Presidents' Lawyers**](https://www.kcrw.com/news/shows/lrc-presents-all-the-presidents-lawyers): A casualty of host Josh Barro leaving public radio for the greener pastures of Substack. He and Ken are apparently working together on a project but as of this writing nothing has been released.
+- [**All the Presidents' Lawyers**](https://www.kcrw.com/news/shows/lrc-presents-all-the-presidents-lawyers): A casualty of host Josh Barro leaving public radio for the greener pastures of Substack. He and co-host Ken White are apparently working together on a project but as of this writing nothing has come of that publicly.
 
 - [**The Anthropocene Reviewed**](https://www.wnycstudios.org/podcasts/anthropocene-reviewed):I mentioned last year that I was still subscribed to this even though host John Green had ended it in September of 2020. Well, it's May 2022 and it doesn't look like it's coming back. I'll leave it in Overcast just in case but I don't have high hopes.
 
@@ -91,7 +91,7 @@ Happy listening!
 
 - [**TECHnical Foul**](http://technicalfoul.fm/): I'm technically still subscribed but given the most recent episode was in 2017, I'm going to say this one has made its way to the great Podcast Directory in the Sky.
 
-- [**Undisclosed**](http://www.undisclosed-podcast.com/): This one almost made me tear up. The Undisclosed team decided to call it a day and ended the show after seven years. Rabia Chaudry and Susan Simpson are continuing to make podcasts but will do so with different people. I took a listen to Susan's new show, [Proof](https://www.proofcrimepod.com) but it wasn't for me. I'll always treasure the memories from 2015 of devouring that first season of the show.
+- [**Undisclosed**](http://www.undisclosed-podcast.com/): This one almost made me tear up. The Undisclosed team decided to call it a day and ended the show after seven years. Rabia Chaudry and Susan Simpson are continuing to make podcasts but will do so with different people (third co-host Colin Miller has hung up the mic for now). I took a listen to Susan's new show, [Proof](https://www.proofcrimepod.com), but it wasn't for me. I'll always treasure the memories from 2015 of devouring that first season of the show.
 
 Another year done. See you all again next year!
 
