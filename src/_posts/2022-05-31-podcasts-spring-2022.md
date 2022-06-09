@@ -19,13 +19,13 @@ Happy listening!
 
 - [Against the Rules](https://atrpodcast.com/): The third season has focused on experts and it hasn't disappointed. Not sure if Michael Lewis will be able to keep it going for a fourth season but my fingers are crossed!
 
-- [**Astral Codex Ten Podcast**](https://sscpodcast.libsyn.com/website): This is my favourite new podcast. Scott Alexander was a must-read blogger for me but with three kids and no commute in 2021, I had to give up his blog. After wishing more bloggers would read their posts like Ben Thompson does with Stratechery, I was delighted to discover someone (the pseudonymous Solenoid Entity) records all of Alexander's podcast. The cherry on top is the host's Australian accent.
+- [**Astral Codex Ten Podcast**](https://sscpodcast.libsyn.com/website): This is my favourite new podcast. Scott Alexander was a must-read blogger for me but with three kids and no commute in 2021, I had to give up his blog. After wishing more bloggers would read their posts like Ben Thompson does with _Stratechery_, I was delighted to discover someone (the pseudonymous Solenoid Entity) records all of Alexander's podcast. The cherry on top is the host's Australian accent.
 
 - [The Book of Basketball 2.0](https://www.theringer.com/book-of-basketball): This podcast has evolved from an audio companion to Bill Simmons' book of the same name to a place for the Ringer to stick long-form audio projects related to basketball. The most recent was Jackie MacMullan's 'Icons Club' and I enjoyed it more than I expected.
 
 - [Cautionary Tales](http://timharford.com/articles/cautionarytales/): Like a lot of the podcasts from Pushkin Industries, this show has settled into a familiar formula by this point. This will sound like a back-handed compliment but it's to host Tim Harford's credit that he nevertheless manages to make each episode compelling.
 
-- [ClojureStream Podcast](https://clojure.stream): Host Jacek Schae renamed his ClojureScript podcast to the ClojureStream podcast and started interviewing people in the broader Clojure community. It's a bit of a hit and miss show and I'm always in two minds about unsubscribing.
+- [ClojureStream Podcast](https://clojure.stream): Host Jacek Schae renamed his ClojureScript podcast and started interviewing people in the broader Clojure community. It's a bit of a hit and miss show and I'm always in two minds about unsubscribing.
 
 - [**CoRecursive**](https://corecursive.com): My Currently Subscribed list has a lot of programming interview shows but Adam Gordon Bell's is the only one that heavily edits the interviews to trim out all the fat. That style isn't for everyone, but I appreciate how tight Bell makes each episode.
 
@@ -35,7 +35,7 @@ Happy listening!
 
 - [Exponent](https://exponent.fm/): There were only six episodes across all of 2021 (and only two in the second half of the year) but I'm still subscribed. I'm not sure if Ben Thompson and James Allworth intend to do any more but I keep following just in case.
 
-- [**Hi-Phi Nation**](https://hiphination.org): Given that I pay money to Slate to listen to their podcasts ad-free, it's a little strange I didn't give this philosophy podcast a go until hearing host Barry Lam interviewed on the Philosophy Zone (one of my other subscriptions). It's excellent. Barry Lam has one of those voices I could listen to for hours.
+- [**Hi-Phi Nation**](https://hiphination.org): Given that I pay money to Slate to listen to their podcasts ad-free, it's a little strange I didn't give this philosophy podcast a go until hearing host Barry Lam interviewed on the _Philosophy Zone_ (one of my other subscriptions). It's excellent. Barry Lam has one of those voices I could listen to for hours.
 
 - [**Hit Parade**](https://slate.com/podcasts/hit-parade): Another one of the Slate podcasts that I started listening to this year. I'm not especially interested in pop music but these episodes are so well put together that I enjoy Chris Molanphy's monthly exploration of the songs that have topped the U.S. billboard charts.
 
@@ -61,7 +61,7 @@ Happy listening!
 
 - [The Rewatchables](https://www.theringer.com/the-rewatchables): I'm technically subscribed to this but I now only listen to episodes for films that pique my interest. The format of a rotating crew of guests from Bill Simmons's Ringer Podcast Network does help keep things relatively fresh.
 
-- [**Slow Boring**](https://www.slowboring.com): Matt Yglesias is another blogger whose work I now 'read' via a paid podcast (available to his Substack subscribers). While this is like Ben Thompson's Stratechery, Yglesias unfortunately doesn't follow Thompson's approach and record each post himself. Instead, paid-podcast platform Curio records some of his posts and then permits Yglesias to make these available to his subscribers. I'd pay extra for a podcast that included all of them.
+- [**Slow Boring**](https://www.slowboring.com): Matt Yglesias is another blogger whose work I now 'read' via a paid podcast (available to his Substack subscribers). While this is like Ben Thompson's _Stratechery_, Yglesias unfortunately doesn't follow Thompson's approach and record each post himself. Instead, paid-podcast platform Curio records some of his posts and then permits Yglesias to make these available to his subscribers. I'd pay extra for a podcast that included all of them.
 
 - [Slow Burn](https://slate.com/podcasts/slow-burn): I admit I wasn't particularly interested in the LA Riots of 1992 that formed the basis of season six but, if anything, that makes it all the more impressive that it drew me in. Season seven is about to begin and will look at _Roe v Wade_.
 
@@ -91,9 +91,9 @@ Happy listening!
 
 - [**TECHnical Foul**](http://technicalfoul.fm/): I'm technically still subscribed but given the most recent episode was in 2017, I'm going to say this one has made its way to the great Podcast Directory in the Sky.
 
-- [**Undisclosed**](http://www.undisclosed-podcast.com/): This one almost made me tear up. The Undisclosed team decided to call it a day and ended the show after seven years. Rabia Chaudry and Susan Simpson are continuing to make podcasts but will do so with different people (third co-host Colin Miller has hung up the mic for now). I took a listen to Susan's new show, [Proof](https://www.proofcrimepod.com), but it wasn't for me. I'll always treasure the memories from 2015 of devouring that first season of the show.
+- [**Undisclosed**](http://www.undisclosed-podcast.com/): This one almost made me tear up. The Undisclosed team decided to call it a day and ended the show after seven years. Rabia Chaudry and Susan Simpson are continuing to make podcasts but will do so with different people (third co-host Colin Miller has hung up the mic for now). I took a listen to Susan's new show, [_Proof_](https://www.proofcrimepod.com), but it wasn't for me. I'll always treasure the memories from 2015 of devouring that first season of the show.
 
-Another year done. See you all again next year!
+What will next year bring? A longer list? More dropped subscriptions? Until then!
 
 [^previous]: Previous years: [2021][], [2020][], [2019][] and [2018][].
 
