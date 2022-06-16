@@ -10,10 +10,10 @@ tags:
 I've caught myself [connomming][] again. The names might not look that similar
 but try saying them out loud:
 
-- [Bowe Bergdahl][berg] is a soldier in the United States Army who was held
+- [**Bowe Bergdahl**][berg] is a soldier in the United States Army who was held
   captive by the Taliban from 2009 to 2014 but is suspected of being a deserter;
   and
-- [Bo Burnham][burn] is an American comedic musician in the vein of Tim Minchin.
+- [**Bo Burnham**][burn] is an American comedic musician in the vein of Tim Minchin.
 
 The mixup came to my attention after realising that the guy with the [new
 Netflix special][inside] surely couldn't be the guy who was held in Afghanistan
