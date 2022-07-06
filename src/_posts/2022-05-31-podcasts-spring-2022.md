@@ -69,7 +69,7 @@ Happy listening!
 
 - [The Stratechery Podcast](https://stratechery.com): I began listening to this last year as a way to follow Ben Thompson's writing and it was one of my favourite podcasts of the year. So much so, in fact, that I wish more of the bloggers I want to follow recorded their posts as podcasts. I should note that it is a members-only perk so you do need to pay to listen.
 
-- [Swift by Sundell](https://www.swiftbysundell.com): I mention below that after the birth of our third child, I've just found I don't have time for programming and that's led me to wonder multiple times if I should unsubscribe from this podcast. I've kept it around because iOS is the platform I'm most interested in developing for and John Sundell does a good job using these interviews to document developments in Swift and the Apple development ecosystem more broadly.
+- [Swift by Sundell](https://www.swiftbysundell.com): I mention below that after the birth of our third child, I don't really have time for programming and that's led me to wonder multiple times if I should unsubscribe from this podcast. I've kept it around because iOS is the platform I'm most interested in developing for and John Sundell does a good job using these interviews to document developments in Swift and the Apple development ecosystem more broadly.
 
 - [Swiftly Speaking](https://www.hackingwithswift.com/interviews): This is another podcast that may be with us in name only. Host Paul Hudson conducted one interview since last year's post and that interview was in June. Not a great sign.
 
@@ -81,7 +81,7 @@ Happy listening!
 
 - [**All the Presidents' Lawyers**](https://www.kcrw.com/news/shows/lrc-presents-all-the-presidents-lawyers): A casualty of host Josh Barro leaving public radio for the greener pastures of Substack. He and co-host Ken White are apparently working together on a project but as of this writing nothing has come of that publicly.
 
-- [**The Anthropocene Reviewed**](https://www.wnycstudios.org/podcasts/anthropocene-reviewed):I mentioned last year that I was still subscribed to this even though host John Green had ended it in September of 2020. Well, it's May 2022 and it doesn't look like it's coming back. I'll leave it in Overcast just in case but I don't have high hopes.
+- [**The Anthropocene Reviewed**](https://www.wnycstudios.org/podcasts/anthropocene-reviewed): I mentioned last year that I was still subscribed to this even though host John Green had ended it in September of 2020. Well, it's May 2022 and it doesn't look like it's coming back. I'll leave it in Overcast just in case but I don't have high hopes.
 
 - [**The Bike Shed**](https://bikeshed.fm/): At the start of 2022, I went through and culled a number of podcasts and this was one that didn't make the cut. With the birth of our third kid, I just haven't had much time for development work of any kind.
 
