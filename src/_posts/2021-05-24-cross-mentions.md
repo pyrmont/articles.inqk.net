@@ -39,4 +39,4 @@ If you're interested in the code, the [entire website][repo] is available on Git
 
 [mentioner]: https://github.com/pyrmont/updates.inqk.net/blob/master/src/_plugins/commonmarker-mentions.rb "The mentioning plug-in on GitHub"
 
-[tweeter]: https://github.com/pyrmont/updates.inqk.net/blob/master/src/_plugins/jekyll_tweeter.rb "The cross-posting plug-in on GitHub"
+[tweeter]: https://github.com/pyrmont/updates.inqk.net/blob/master/src/_plugins/jekyll_posteriser.rb "The cross-posting plug-in on GitHub"
