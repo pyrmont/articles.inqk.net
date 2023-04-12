@@ -1,9 +1,9 @@
+.jekyll-cache
 .jekyll-metadata
 *.swp
-Gemfile.lock
-/tmp/
+/public/
 /src/.bundle
 /src/.sass-cache/
 /src/_site/
 /src/vendor/
-/src/.jekyll-cache/
+/tmp/
