@@ -99,7 +99,7 @@ Happy listening!
 
 - [**Thrilling Tales of Modern Capitalism**](https://slate.com/podcasts/thrilling-tales-of-modern-capitalism): This was the Slate infotainment podcast I loved before all the others. I'm not sure what happened but there've been no new episodes since July 2021 so I'm declaring it over.
 
-Are you surprised I'm still doing this. Let's see if I'm back again next year!
+Are you surprised I'm still doing this? Let's see if I'm back again next year!
 
 [^previous]: Previous years: [2022][], [2021][], [2020][], [2019][] and [2018][].
 
