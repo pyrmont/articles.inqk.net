@@ -67,7 +67,7 @@ Happy listening!
 
 - [The Talk Show](https://daringfireball.net/thetalkshow/): I'm still subscribed to John Gruber's long-running podcast about Apple but I do feel like there are fewer classic episodes than there used to be.
 
-- [**Under the Radar**](https://www.relay.fm/radar): I dropped this in 2020 but picked it back up again (perhaps subconsciously dismayed at the number of programming-related podcasts I cut out of my rotation this year). Marco Arment and David Smith spent about 30 minutes every two weeks talking about the issues they're facing as developers on Apple platforms.
+- [**Under the Radar**](https://www.relay.fm/radar): I dropped this in 2020 but picked it back up again (perhaps subconsciously dismayed at the number of programming-related podcasts I cut out of my rotation this year). Marco Arment and David Smith spend about 30 minutes every two weeks talking about the issues they're facing as developers on Apple platforms.
 
 ## Previously Subscribed
 
@@ -79,13 +79,13 @@ Happy listening!
 
 - [**Hollinger & Duncan**](https://hollinger-duncan.simplecast.com): I keep going back and forth between subscribing and unsubscribing to the free feed of this NBA podcast from hosts John Hollinger and Nate Duncan. As of this writing I'm unsubscribed in Overcast but I keep an eye on its feed and do grab the occasional episode.
 
-- [**More Or Less**](https://www.bbc.co.uk/programmes/p02nrss1): Last year, I'd said that this was a 10-minute podcast but that's only true for the episodes that come out in between its 'seasons' (that is, when it's being broadcast on the radio in the UK). In-season episodes are 30 minutes as host Tim Harford goes behind the numbers in the news.
+- [**More Or Less**](https://www.bbc.co.uk/programmes/p02nrss1): This felt like a more pertinent listen during the height of the pandemic. Since then, I've found myself far less interested.
 
 - [**On Margins**](https://craigmod.com/onmargins/): I'm pronouncing this one dead. I'll keep subscribed for another chance to listen to Craig Mod's whispering voice but I'm not hopeful.
 
-- [**Panic Podcast**](https://podcast.panic.com/): Another podcast I'm pronouncing has carked it. Sometimes it's good to know when you're finished.
+- [**Panic Podcast**](https://podcast.panic.com/): Another podcast I'm confident has carked it. Sometimes it's good to know when you're finished.
 
-- [**Pop Culture Detective: Audio Files**](https://popculturedetective.agency): One of the first creators I ever supported on Patreon was Jonathan McIntosh for his work making video essays as the Pop Culture Detective. This year he branched out into podcasting and if you enjoy (arguably over-)analysing your media, is well worth a listen.
+- [**Pop Culture Detective: Audio Files**](https://popculturedetective.agency): I enjoy the thoughtfulness that Jonathan McIntosh brings to his analysis but with three kids under 10, I'm too time poor to keep up with the media he's discussing.
 
 - [**Sharp China**](https://sharpchina.fm/) 💰: I've listened to this show since it debuted as part of Stratechery Plus but cut it the week I'm writing this. While the rise of China is one of the most important geopolitical developments in my lifetime (and I want to understand it better), a truly great exploration of the impact of this needs to feature specific subject matter experts rather than a generalist like Bill Bishop.
 
