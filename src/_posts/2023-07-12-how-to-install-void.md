@@ -1,3 +1,11 @@
+---
+title: "How-To: Installing Void Linux on a Raspberry Pi"
+layout: post
+date: 2023-07-12 14:58:02 +0900
+excerpt: "Instructions on how to install Void Linux on a Raspberry Pi 3 Model B."
+category:
+tags:
+---
 This is a short tutorial for how to install Void Linux on a Raspberry Pi 3 Model B.
 
 ## Pre-Requisites
@@ -33,7 +41,7 @@ Install the SD card into your Pi and start it up. If all goes well, you should f
 
 ### Step 4. Resize root partition
 
-The live image contains two partitions: a boot partition and the root partition. The bad news is that the root partition is only 2GB. The good news is that we can resize it from within Void.[^1] Normally, it's not advisable to resize a partition while you're using it, but since the root partition comes at the 'end' of the partition table, we can safely extend it into the remaining space without any issues.
+The live image contains two partitions: a boot partition and the root partition. The bad news is that the root partition is only 2GB. The good news is that we can resize it from within Void.[^size] Normally, it's not advisable to resize a partition while you're using it, but since the root partition comes at the 'end' of the partition table, we can safely extend it into the remaining space without any issues.
 
 We'll resize with sdisk so let's start it up. We need to pass `--force` so that we can change a partition that's in use:
 
@@ -111,7 +119,7 @@ Start the daemon:
 # wpa_supplicant -B -i<device> -cwpa_supplicant-<device>.conf
 ```
 
-Enable the dhcpd service:[^2]
+Enable the dhcpd service:[^runit]
 
 ```shell
 # ln -s /etc/sv/dhcpcd /var/service
@@ -199,7 +207,7 @@ Try to SSH from another machine:
 
 ### Step 10. Create an ordinary user.
 
-Create a user and add it to some basic groups:[^3]
+Create a user and add it to some basic groups:[^bsd]
 
 ```shell
 # useradd -m -s /bin/bash -g users -G wheel,network,audio,video <username>
@@ -229,8 +237,8 @@ At this point, you should be able to SSH into the Pi as your new user.
 
 At this point, you probably want to tweak your SSH configuration (`/etc/ssh/sshd_config`) but I'll leave that, and any other software you want to install up to you. Welcome to the Void!
 
-[^1]: If you create your own image from the rootfs tarballs, you can choose a different size. I found this process intimidating and went with the simpler approach of resizing the root partition.
+[^size]: If you create your own image from the rootfs tarballs, you can choose a different size. I found this process intimidating and went with the simpler approach of resizing the root partition.
 
-[^2]: One of the differences between Void Linux and most other Linux distributions is that it does not use systemd. The runit system that Void uses instead loads the entries that are in `/var/service`. The common practice is to symlink services you want to 'enable' into this directory.
+[^runit]: One of the differences between Void Linux and most other Linux distributions is that it does not use systemd. The runit system that Void uses instead loads the entries that are in `/var/service`. The common practice is to symlink services you want to 'enable' into this directory.
 
-[^3]: Perhaps betraying its BSD heritage, Void Linux calls its admin group 'wheel' by default.
+[^bsd]: Perhaps betraying its BSD heritage, Void Linux calls its admin group 'wheel' by default.
