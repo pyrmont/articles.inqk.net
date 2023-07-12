@@ -45,7 +45,7 @@ The live image contains two partitions: a boot partition and the root partition.
 
 We'll resize with sdisk so let's start it up. We need to pass `--force` so that we can change a partition that's in use:
 
-```shell
+```root
 # sfdisk -N 2 /dev/mmcblk0 --force
 ```
 
@@ -59,19 +59,19 @@ Is that it? What does it mean? Well, the `-` tells sfdisk to leave the beginning
 
 Now to resize the file system:
 
-```shell
+```root
 # resize2fs /dev/mmcblk0p2
 ```
 
 Reboot your system:
 
-```shell
+```root
 # reboot now
 ```
 
 Confirm the changes are reflected in the partition table:
 
-```shell
+```root
 # lsblk
 ```
 
@@ -91,49 +91,49 @@ Three points to note up front:
 
 We need to find out the name of our wireless device:
 
-```shell
+```root
 # ip link
 ```
 
 Change to the following directory:
 
-```shell
+```root
 # cd /etc/wpa_supplicant
 ```
 
 Make a copy of the default configuration:
 
-```shell
+```root
 # cp wpa_supplicant.conf wpa_supplicant-<device>.conf
 ```
 
 Add the network details:
 
-```shell
+```root
 # wpa_passphrase <ssid> <key> >> wpa_supplicant-<device>.conf
 ```
 
 Start the daemon:
 
-```shell
+```root
 # wpa_supplicant -B -i<device> -cwpa_supplicant-<device>.conf
 ```
 
 Enable the dhcpd service:[^runit]
 
-```shell
+```root
 # ln -s /etc/sv/dhcpcd /var/service
 ```
 
 Test the connection:
 
-```shell
+```root
 # ping voidlinux.org
 ```
 
 Hopefully you're seeing sweet responses. Enable the wpa_supplicant service:
 
-```shell
+```root
 # ln -s /etc/sv/wpa_supplicant /var/service
 ```
 
@@ -141,19 +141,19 @@ Hopefully you're seeing sweet responses. Enable the wpa_supplicant service:
 
 Unlike most computers, the Raspberry Pi does not have a battery-powered clock that it uses to 'remember' the current time when you shut it down. This can cause issues when updating packages so now that we have access to the Internet, let's enable the system time daemon:
 
-```shell
+```root
 # ln -s /etc/sv/ntpd /var/service
 ```
 
 Reconfigure chrony:
 
-```shell
+```root
 # xbps-reconfigure -f chrony
 ```
 
 Check if it works:
 
-```shell
+```root
 # date
 ```
 
@@ -161,13 +161,13 @@ Check if it works:
 
 Sync and update:
 
-```shell
+```root
 # xbps-install -Su
 ```
 
 Run this again to make sure everything is up to date:
 
-```shell
+```root
 # xbps-install -Su
 ```
 
@@ -175,13 +175,13 @@ Run this again to make sure everything is up to date:
 
 Enable the dbus daemon:
 
-```shell
+```root
 # ln -s /etc/sv/dbus /var/service
 ```
 
 Reboot:
 
-```shell
+```root
 # reboot now
 ```
 
@@ -189,19 +189,19 @@ Reboot:
 
 Enable the sshd daemon:
 
-```shell
+```root
 # ln -s /etc/sv/sshd /var/service
 ```
 
 Find your IP address:
 
-```shell
+```root
 # ip addr
 ```
 
 Try to SSH from another machine:
 
-```shell
+```root
 # ssh root@<ip-address>
 ```
 
@@ -209,19 +209,19 @@ Try to SSH from another machine:
 
 Create a user and add it to some basic groups:[^bsd]
 
-```shell
+```root
 # useradd -m -s /bin/bash -g users -G wheel,network,audio,video <username>
 ```
 
 Change the password:
 
-```shell
+```root
 # passwd <username>
 ```
 
 To give users in the wheel group the power to `sudo`, first start `visudo`:
 
-```shell
+```root
 # visudo
 ```
 
