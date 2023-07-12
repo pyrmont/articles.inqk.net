@@ -205,7 +205,7 @@ Try to SSH from another machine:
 # ssh root@<ip-address>
 ```
 
-### Step 10. Create an ordinary user.
+### Step 10. Create an ordinary user
 
 Create a user and add it to some basic groups:[^bsd]
 
