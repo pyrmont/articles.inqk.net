@@ -19,7 +19,7 @@ I used the following:
 
 Regarding the third and fourth items, we do want to get the Pi ready for SSH access as soon as possible but at the very beginning it's great to have direct access to the machine.
 
-If you have a different model of Raspberry Pi but I did mine with a Pi 3 so bear in mind that your mileage may vary.
+If you have a different model of Raspberry Pi, these instructions might still work but bear in mind that your mileage may vary.
 
 ## Steps
 
