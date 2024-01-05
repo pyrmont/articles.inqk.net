@@ -18,9 +18,9 @@ I am a subscriber to, and regular reader of, Ben Thompson's website, [Stratecher
 ### Unintended consequences only flow from certain actions
 
 Thompson has said at other times that he originally identified as more conservative than he does now. One of the principles from this tradition that he continues to hold is about the risk of actions having unintended consequences. This is commonly deployed as an argument by defenders of the status quo who caution against change that, while well meaning, ends up doing more harm than good.
-Hence the title of this week's article.[^1]
+Hence the title of this week's article.
 
-One problem with this view is the assumption that only certain actions have unintended consequences. It arises from a quirk in how we speak about 'action'. Action has consequence and inaction, by implication, does not.[^2] But since inaction is merely an outcome of the 'act' of choosing, inaction is really just a form of action and, well, unintended consequences can flow just as easily from this action as any other. Opponents of action don't typically use these words but the basis for their position is the belief that the consequences of _inaction_ will be positive. That may not be the case.
+One problem with this view is the assumption that only certain actions have unintended consequences. It arises from a quirk in how we speak about 'action'. Action has consequence and inaction, by implication, does not. But since inaction is merely an outcome of the 'act' of choosing, inaction is really just a form of action and, well, unintended consequences can flow just as easily from this action as any other. Opponents of action don't typically use these words but the basis for their position is the belief that the consequences of _inaction_ will be positive. That may not be the case.
 
 A slightly more sophisticated version of the assumption is to take issue with the 'just as easily' phrase I used above. Here, one argues that unintended consequences are more _likely_ to flow from actions that seek to change the status quo because we have the control of the status quo against which a comparison may be made. But that's not true either. We can never run a properly controlled experiment to see what would have happened if the status quo had continued. And without a proper control, we can't really assess likelihood or magnitude.
 
@@ -41,9 +41,3 @@ Similar counters can be deployed to his arguments for investors and startup foun
 None of this is to say that Thompson is completely wrong. You might agree that he's right in this case. I simply want the assumptions that underlie his argument to be clear. If you agree that unintended consequences can only flow from certain types of action and if you agree that the alternative is that nothing happened, then sure, the argument that we shouldn't regulate tech acquisitions looks pretty good.
 
 If you don't accept those assumptions, though? Well, maybe the harm was in not doing anything.
-
-[^1]: This may seem like a minor point but Thompson's claim at the beginning of his article that the 'do no harm' maxim has the danger of unintended consequences at its core is simply wrong. This is evident from a cursory reading of [the Wikipedia article][oath] to which Thompson links. I mention it because it's an example of how the assumptions affect analysis.
-
-[oath]: https://en.wikipedia.org/wiki/Hippocratic_Oath "Read 'The Hippocratic Oath' on Wikipedia"
-
-[^2]: This doesn't actually flow logically but let's assume for the sake of argument that it does.
