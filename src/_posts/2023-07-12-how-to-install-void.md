@@ -25,7 +25,7 @@ If you have a different model of Raspberry Pi, these instructions might still wo
 
 ### Step 1. Download a live image
 
-Void Linux makes [live images][rpi-images] available for Raspberry Pi devices. I downloaded the glibc version because I'm afraid of trying new things but if you live life on the edge try the musl image and let me know if the rest of this guide worked for you!
+Void Linux makes [live images][rpi-images] available for Raspberry Pi devices. I downloaded the glibc version of the rpi-armv7l live image because I'm afraid of trying new things but if you live life on the edge try the musl version and let me know if the rest of this guide worked for you!
 
 [rpi-images]: https://voidlinux.org/download/ "Download the Void Linux live images for Raspberry Pi devices"
 
@@ -43,7 +43,7 @@ Install the SD card into your Pi and start it up. If all goes well, you should f
 
 The live image contains two partitions: a boot partition and the root partition. The bad news is that the root partition is only 2GB. The good news is that we can resize it from within Void.[^size] Normally, it's not advisable to resize a partition while you're using it, but since the root partition comes at the 'end' of the partition table, we can safely extend it into the remaining space without any issues.
 
-We'll resize with sdisk so let's start it up. We need to pass `--force` so that we can change a partition that's in use:
+We'll resize with sfdisk so let's start it up. We need to pass `--force` so that we can change a partition that's in use:
 
 ```console
 # sfdisk -N 2 /dev/mmcblk0 --force
@@ -69,7 +69,7 @@ Reboot your system:
 # reboot now
 ```
 
-Confirm the changes are reflected in the partition table:
+Log back in and confirm the changes are reflected in the partition table:
 
 ```console
 # lsblk
@@ -89,7 +89,9 @@ Three points to note up front:
 
 - If you're not using WiFi, feel free to skip this step.
 
-We need to find out the name of our wireless device:
+We need to find out the name of our wireless device. It's probably something like `wlan0` but for the rest of this post, I'll refer to it as `<device>`.
+
+Find the name:
 
 ```console
 # ip link
@@ -122,7 +124,7 @@ Start the daemon:
 Enable the dhcpd service:[^runit]
 
 ```console
-# ln -s /etc/sv/dhcpcd /var/service
+# ln -s /etc/sv/dhcpcd /var/service/
 ```
 
 Test the connection:
@@ -134,7 +136,7 @@ Test the connection:
 Hopefully you're seeing sweet responses. Enable the wpa_supplicant service:
 
 ```console
-# ln -s /etc/sv/wpa_supplicant /var/service
+# ln -s /etc/sv/wpa_supplicant /var/service/
 ```
 
 ### Step 6. Set up the system time
@@ -142,7 +144,7 @@ Hopefully you're seeing sweet responses. Enable the wpa_supplicant service:
 Unlike most computers, the Raspberry Pi does not have a battery-powered clock that it uses to 'remember' the current time when you shut it down. This can cause issues when updating packages so now that we have access to the Internet, let's enable the system time daemon:
 
 ```console
-# ln -s /etc/sv/ntpd /var/service
+# ln -s /etc/sv/ntpd /var/service/
 ```
 
 Reconfigure chrony:
@@ -151,7 +153,7 @@ Reconfigure chrony:
 # xbps-reconfigure -f chrony
 ```
 
-Check if it works:
+Check if it works (you might need to wait a little for chrony to contact the server and update):
 
 ```console
 # date
@@ -176,7 +178,7 @@ Run this again to make sure everything is up to date:
 Enable the dbus daemon:
 
 ```console
-# ln -s /etc/sv/dbus /var/service
+# ln -s /etc/sv/dbus /var/service/
 ```
 
 Reboot:
@@ -190,7 +192,7 @@ Reboot:
 Enable the sshd daemon:
 
 ```console
-# ln -s /etc/sv/sshd /var/service
+# ln -s /etc/sv/sshd /var/service/
 ```
 
 Find your IP address:
