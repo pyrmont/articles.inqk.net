@@ -57,27 +57,27 @@ sfdisk will greet you with a scary warning. Fear not; we don't have much to do. 
 
 Is that it? What does it mean? Well, the `-` tells sfdisk to leave the beginning of the partition where it is and the `+` tells it to fill the remaining space. After the command is received, sfdisk will show you the new partition table and ask if you want to write this to disk. Press `y` to confirm.
 
-Now to resize the file system:
-
-```console
-# resize2fs /dev/mmcblk0p2
-```
-
 Reboot your system:
 
 ```console
 # reboot now
 ```
 
-Log back in and confirm the changes are reflected in the partition table:
+Log back in and resize the file system:
 
 ```console
-# lsblk
+# resize2fs /dev/mmcblk0p2
 ```
 
-You should see the root partition fills up the remaining space.
+Restart, log in and confirm the changes are reflected in the partition table:
 
-### Step 5. Get on WiFi
+```console
+# df -h
+```
+
+You should see `/dev/root` is now almost the full size of the SD card.
+
+### Step 5. Get on Wi-Fi
 
 Three points to note up front:
 
@@ -87,7 +87,7 @@ Three points to note up front:
 
 - The default shell for the root user is Dash. It does not have the same niceties as Bash (particularly tab completion) and so while I've omitted the invocations to focus on the key aspects, I strongly recommend running `bash` after every reboot.
 
-- If you're not using WiFi, feel free to skip this step.
+- If you're not using Wi-Fi, feel free to skip this step.
 
 We need to find out the name of our wireless device. It's probably something like `wlan0` but for the rest of this post, I'll refer to it as `<device>`.
 
@@ -153,7 +153,7 @@ Reconfigure chrony:
 # xbps-reconfigure -f chrony
 ```
 
-Check if it works (you might need to wait a little for chrony to contact the server and update):
+Reboot again, log in and check if it works (you might need to wait a little for chrony to contact the server and update):
 
 ```console
 # date
