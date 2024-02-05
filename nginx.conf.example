@@ -26,5 +26,4 @@ server {
 server {
     listen 80;
     server_name articles.inqk.net;
-    return 301 http://$host$request_uri;
 }
