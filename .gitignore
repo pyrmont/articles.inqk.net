@@ -1,9 +1,4 @@
 # Compiled source #
-/src/.bundle
-/src/.sass-cache/
-/src/_site/
-/src/vendor/
-/tmp/
 ###################
 *.com
 *.class
@@ -58,4 +53,6 @@ Thumbs.db
 # Miscellaneous #
 #################
 *.swp
+/public/
+!/public/.gitkeep
 /tmp/
