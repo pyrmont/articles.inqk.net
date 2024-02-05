@@ -51,6 +51,7 @@ Thumbs.db
 # Configuration #
 #################
 *.conf
+hooks.yaml
 
 # Miscellaneous #
 #################
