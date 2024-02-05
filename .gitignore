@@ -41,7 +41,7 @@ Thumbs.db
 ###############
 .jekyll-cache
 .jekyll-metadata
-/public/
+/public/*
 !/public/.gitkeep
 /src/.bundle
 /src/.sass-cache/
