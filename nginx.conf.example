@@ -1,0 +1,30 @@
+server {
+    server_name articles.inqk.net;
+    root /var/www/articles.inqk.net/public;
+
+    access_log /var/www/articles.inqk.net/log/access.log;
+    error_log /var/www/articles.inqk.net/log/error.log;
+
+    location / {
+        index index.html;
+    }
+
+    # Directives to send expires headers and turn off 404 error logging.
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico)$ {
+        expires 24h;
+        log_not_found off;
+    }
+
+    # this prevents hidden files (beginning with a period) from being served
+    location ~ /\. {
+        access_log off;
+        log_not_found off;
+        deny all;
+    }
+}
+
+server {
+    listen 80;
+    server_name articles.inqk.net;
+    return 301 http://$host$request_uri;
+}
