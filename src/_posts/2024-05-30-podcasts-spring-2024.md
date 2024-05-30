@@ -49,7 +49,7 @@ Happy listening!
 
 - [The REPL](https://www.therepl.net/): This podcast from Clojurist Daniel Compton is pretty close to being cut if I’m being honest. I still love Clojure but it’s a slow-moving ecosystem and there’s not that much to talk about. Fortunately, Compton seems aware of this and so only records episodes sporadically.
 
-- [Revisionist History](https://revisionisthistory.com/): Last year I said that this podcast needs to leave longer gaps between its seasons. It didn’t do that but to his credit, Gladwell did maintain a pretty healthy output of new episodes. As mentioned about other podcasts, I do wish there were a lot fewer cross-promotional episodes.
+- [Revisionist History](https://revisionisthistory.com/): Last year I said that this podcast needs to leave longer gaps between its seasons. It didn’t do that but to his credit, author Malcolm Gladwell did maintain a pretty healthy output of new episodes. As mentioned about other podcasts, I do wish there were a lot fewer cross-promotional episodes.
 
 - [Serious Trouble](https://serioustrouble.show/) 💰: Similar to _The Party Room_, I can’t believe this was new to the list last year. Journalist Josh Barro and lawyer Ken White do an excellent job breaking down the legal troubles affecting those at the centre of American politics.
 
@@ -69,15 +69,15 @@ Happy listening!
 
 ## Previously Subscribed
 
-- [**Econ 102**](https://www.podpage.com/econ102/): I really wanted to like this show. Economist Noah Smith discusses an article from his blog with co-host Erik Torenberg. Unfortunately, Torenberg is too ill-informed about the world to make the discussion interesting. 
+- [**Econ 102**](https://www.podpage.com/econ102/): I really wanted to like this show. Economist Noah Smith discusses an article from his blog with co-host Erik Torenberg. Unfortunately, Torenberg is too ill-informed about the world to make the discussion interesting.
 
 - [**Cold Takes Audio**](https://coldtakesblog.podbean.com/): I said last year that Holden Karnofsky was doing what I wanted other bloggers to do and then he promptly stopped blogging (or at least has effectively stopped blogging).
 
 - [**Exponent**](https://exponent.fm/): I’ve kept this on the Currently Subscribed list for a while but it’s time to admit it’s gone. Farewell, James! May you long avoid barbed-wire fences!
 
-- [**MusicalSplaining**](https://twitter.com/musicalsplainin): I stopped listening to this and then, just when I was feeling guilty, Hosts Angela Meehan and Kaveh Taherian announced the show was ending. I’ll always have fond memories.
+- [**MusicalSplaining**](https://twitter.com/musicalsplainin): I stopped listening to this and then, just when I was feeling guilty, hosts Angela Meehan and Kaveh Taherian announced the show was ending. I’ll always have fond memories.
 
-- [**Philosopher's Zone**](https://www.abc.net.au/radionational/programs/philosopherszone/): I think I need to admit that I’ve stopped listening to this podcast. I’m technically still subscribed but I have a huge backlog of episodes that I periodically go through and delete. David Rutledge did a great job making philosophy accessible to the layperson and my dropping it reflects more on me than it does on the show.
+- [**Philosopher's Zone**](https://www.abc.net.au/radionational/programs/philosopherszone/): I think I need to admit that I’ve stopped listening to this podcast. I’m technically still subscribed but I have a huge backlog of episodes that I periodically go through and delete rather than listen to. David Rutledge did a great job making philosophy accessible to the layperson and my dropping it reflects more on me than it does on the show.
 
 - [**The Rewatchables**](https://www.theringer.com/the-rewatchables): Like the _Philosopher’s Zone_, I have a lot of fond memories but the reality is that I only have so many hours in the day and in the end, I’d rather spend that time watching movies than listening to Bill Simmons and friends talk about them.
 
