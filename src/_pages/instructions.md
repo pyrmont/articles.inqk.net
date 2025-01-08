@@ -14,10 +14,9 @@ At some point, I might put together a 'greatest hits' collection but for the mom
 
 [xml]: https://articles.inqk.net/feed.xml
 
-There are no comments on this blog but feedback is nevertheless encouraged. I'd love to hear from you about any article. [Bluesky][bsa] is preferred but [Mastodon][ma] is there if that's easier.
+There are no comments on this blog but feedback is nevertheless encouraged. I'd love to hear from you about any article. I'm [@pyrmont.inqk.net][bsa] on Bluesky.
 
 [bsa]: https://bsky.app/profile/pyrmont.inqk.net
-[ma]: https://social.lol/@pyrmont
 
 ## The Developer
 
