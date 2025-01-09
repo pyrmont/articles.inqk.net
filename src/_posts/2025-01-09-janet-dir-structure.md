@@ -29,7 +29,7 @@ To explain:
 
 - `bin/`: This directory contains the binscripts that your package may provide. In my [Lemongrass][lg] package, for example, I provide a CLI utility, `lg`, that is installed together with the package.
 
-[lg]: https://github.com/pyrmont/lemongrass “Visit the GitHub repository for the Lemongrass package.”
+[lg]: https://github.com/pyrmont/lemongrass "Visit the GitHub repository for the Lemongrass package."
 
 - `deps/`: This directory contains vendored dependencies that your package uses. I’ve moved to using vendored dependencies as a way to avoid some of the issues that arise when you’re trying to share dependencies across all packages.[^1]
 
@@ -51,9 +51,9 @@ To explain:
 
   My documentation tool, [Documentarian][doc], can be used with the `-O` and `-d` flags to only document functions that are exported from a file (e.g. `init.janet`) and remove the prefix (e.g. `init/`) that would otherwise prefix each binding.
 
-[dg]: https://github.com/pyrmont/digestive “Visit the GitHub repository for the Digestive package.”
+[dg]: https://github.com/pyrmont/digestive "Visit the GitHub repository for the Digestive package."
 
-[doc]: https://github.com/pyrmont/documentarian “Visit the GitHub repository for the Documentarian package.”
+[doc]: https://github.com/pyrmont/documentarian "Visit the GitHub repository for the Documentarian package."
 
 - `project.janet`: This file sets up the package for use by JPM, the Janet Package Manager. For libraries written in Janet that follow this directory structure, `declare-source` should be called with the files to copy on installation of the package together with a prefix (typically the name of the package).
 
