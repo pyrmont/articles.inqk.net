@@ -39,7 +39,7 @@ To explain:
 
 - `src/`: This directory contains code (typically C code) that is compiled for use in your package.
 
-- `test/`: This directory contains tests for your package (the Janet Package Manager includes a built-in task `jpm test` that will run all Janet files in the `test/` directory).
+- `test/`: This directory contains tests for your package (the Janet Project Manager includes a built-in task `jpm test` that will run all Janet files in the `test/` directory).
 
 - `init.janet`: This file allows a consumer of your package to import the entire library by simply writing `(import <package>`) in their Janet file. This is because `init.janet` is a 'magic file' that Janet's module loader looks for when it tries to resolve an import call. In my [Digestive][dg] package, the MD5 module that is located in `lib/md5.janet` is exported by `init.janet` with the `md5` prefix. This translates to the following usage:
 
@@ -55,7 +55,7 @@ To explain:
 
 [doc]: https://github.com/pyrmont/documentarian "Visit the GitHub repository for the Documentarian package."
 
-- `project.janet`: This file sets up the package for use by JPM, the Janet Package Manager. For libraries written in Janet that follow this directory structure, `declare-source` should be called with the files to copy on installation of the package together with a prefix (typically the name of the package).
+- `project.janet`: This file sets up the package for use by JPM, the Janet Project Manager. For libraries written in Janet that follow this directory structure, `declare-source` should be called with the files to copy on installation of the package together with a prefix (typically the name of the package).
 
   Using Digestive as an example again, this looks like:
 
