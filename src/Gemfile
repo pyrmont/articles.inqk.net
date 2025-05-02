@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'base64'
-gem 'csv'
 gem 'jekyll'
 gem 'rouge'
+
+group :jekyll_deps do
+	gem 'base64'
+	gem 'csv'
+end
 
 group :jekyll_plugins do
   gem 'commonmarker-pluggable', github: 'pyrmont/commonmarker-pluggable', branch: 'master'
