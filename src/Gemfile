@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'base64'
+gem 'csv'
 gem 'jekyll'
 gem 'rouge'
-
-# gem 'rouge', github: 'pyrmont/rouge', branch: 'bugfix.janet-unmatched-parens'
 
 group :jekyll_plugins do
   gem 'commonmarker-pluggable', github: 'pyrmont/commonmarker-pluggable', branch: 'master'
@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-github-metadata'
   gem 'jekyll-last-modified-at'
   gem 'jekyll-paginate'
-  gem 'jekyll-seo-tag'
 end
 
 group :development do
