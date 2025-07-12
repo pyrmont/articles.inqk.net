@@ -85,7 +85,7 @@ See you next year when this will hopefully be published on time!
 
 [^previous]: Previous years: [2024][], [2023][], [2022][], [2021][], [2020][], [2019][] and [2018][].
 
-[2023]: https://articles.inqk.net/2024/05/30/podcasts-spring-2024.html "Read 'Podcasts I'm Listening To: Spring 2024'"
+[2024]: https://articles.inqk.net/2024/05/30/podcasts-spring-2024.html "Read 'Podcasts I'm Listening To: Spring 2024'"
 
 [2023]: https://articles.inqk.net/2023/05/29/podcasts-spring-2023.html "Read 'Podcasts I'm Listening To: Spring 2023'"
 
