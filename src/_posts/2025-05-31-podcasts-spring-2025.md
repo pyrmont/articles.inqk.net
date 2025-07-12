@@ -77,7 +77,7 @@ Happy listening!
 
 - [**Sharp Tech**](https://sharptech.fm/) 💰: While I mostly enjoyed Andrew Sharp and Ben Thompson’s paid podcast about the consumer software industry, I unsubscribed to make way for some of the newer shows I started listening to this year.
 
-- [**Talk Easy**](https://talkeasypod.com)： Sam Fragoso’s interview show was another victim of me prioritising other podcasts. Fragoso is a terrific interviewer and I recommend it for anyone who is interested in popular culture.
+- [**Talk Easy**](https://talkeasypod.com): Sam Fragoso’s interview show was another victim of me prioritising other podcasts. Fragoso is a terrific interviewer and I recommend it for anyone who is interested in popular culture.
 
 - [**Under the Radar**](https://www.relay.fm/radar): Developers Marco Arment and David Smith produce a tight fortnightly discussion of issues in the world of iOS development. I unsubscribed to make way for other shows.
 
