@@ -7,9 +7,9 @@ category:
 tags:
 ---
 
-This is my eighth year of annually[^previous] listing the podcasts I’m listening to. As the title says, this is meant to come out in spring but this year I’m writing it well into summer[^late], though; forgive me.
+This is my eighth year of annually[^previous] listing the podcasts I’m listening to. As the title says, this is meant to come out in spring but this year I’m writing it well into summer, though[^late]; forgive me.
 
-As with previous entries, the list is broken down into 'Currently Subscribed' and 'Previously Subscribed'[^sections] sections. If a podcast came into and went out of rotation within the last 12 months it still goes in ‘Previously Subscribed’. Podcasts that are new to the list are in bold and paid podcasts are marked with a 💰 emoji.
+As with previous entries, the list is broken down into 'Currently Subscribed' and 'Previously Subscribed' sections. If a podcast came into and went out of rotation within the last 12 months it still goes in ‘Previously Subscribed’. Podcasts that are new to the list are in bold and paid podcasts are marked with a 💰 emoji.
 
 Happy listening!
 
@@ -100,6 +100,4 @@ See you next year when this will hopefully be published on time!
 [2018]: https://articles.inqk.net/2018/05/24/podcasts-spring-2018.html "Read 'Podcasts I'm Listening To: Spring 2018'"
 
 [^late]: And then backdating it like a dodgy chief financial officer.
-
-[^sections]: Note that ‘Previously Subscribed’ includes podcasts that weren’t in last year’s list if it’s a show I listened to but which I then unsubscribed from.
 
