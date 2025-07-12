@@ -35,7 +35,7 @@ Happy listening!
 
 - [**Fiasco**](https://www.pushkin.fm/podcasts/fiasco): Leon Neyfakh was the original host of _Slow Burn_ and I was extremely disappointed when he left to make the _Fiasco_ podcast for closed-platform Luminary (and then Amazon). Fortunately, those deals have now come to an end and he’s brought _Fiasco_ to the Pushkin network. The most recent series they’ve published was about Iran-Contra and it was terrific.
 
-- [**Geopolitical Cousins**](https://geopolitical-cousins.captivate.fm): Jacob Shapiro and Marko Papic are analysts who write advice for clients about geopolitics for a living. In March 2025 they started a podcast where they discuss geopolitics. They tend to look at things from a somewhat cold and calculating perspective but that’s part of what I find valuable about it.
+- [**Geopolitical Cousins**](https://geopolitical-cousins.captivate.fm): Jacob Shapiro and Marko Papic are analysts who write advice for clients about geopolitics. In March 2025, they started a podcast to discuss geopolitical topics in a more casual form. If you wish more geopolitical analysis contained references to the NBA, this is the show for you.
 
 - [Greatest of All Talk](https://greatestofalltalk.com) 💰: As I did last year, I stopped listening to this show until around the time of the NBA Playoffs. Ben Golliver of the _Washington Post_ and Andrew Sharp formerly of _Sports Illustrated_ have terrific chemistry together and when I need a hit of basketball chat, this is where I go.
 
