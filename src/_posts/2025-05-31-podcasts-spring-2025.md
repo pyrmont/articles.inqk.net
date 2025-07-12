@@ -1,8 +1,8 @@
 ---
-title: "Podcasts I'm Listening To: Spring 2025”
+title: "Podcasts I'm Listening To: Spring 2025"
 layout: post
 date: 2025-05-31 23:12:37 +0900
-excerpt: "A listing of the podcasts I’m listening to in spring of 2025.”
+excerpt: "A listing of the podcasts I’m listening to in spring of 2025."
 category:
 tags:
 ---
