@@ -9,7 +9,9 @@ tags:
 
 # Announcing Jeep
 
-[Jeep][ghr] is a bundle manager for the Janet programming language. If you use Janet, I think you should use it. You can install it like this:
+[Jeep][ghr] is a bundle manager for the Janet programming language. If you use Janet, I think you should use it. It has better documentation, does a great job supporting vendoring and can make testing a more enjoyable experience.
+
+You can install it like this:
 
 ```console
 $ git clone https://github.com/pyrmont/jeep
@@ -19,7 +21,7 @@ $ janet ./lib/cli.janet install
 
 [ghr]: https://github.com/pyrmont/jeep
 
-Jeep is an alternative to [`jpm`][jpm] and [`janet-pm`][janet-pm]. In this post, I’ll explain some of the concepts involved in Janet’s bundle system. I’ll try to explain how Jeep works, why I made the decisions that I did and why those decisions might not be right for you.
+In this post, I’ll explain some of the concepts involved in Janet’s bundle system. Then I’ll try to explain how Jeep works, why I made the decisions that I did and why those decisions might not be right for you.
 
 [jpm]: https://github.com/janet-lang/jpm
 
@@ -216,7 +218,7 @@ Worse, legacy bundles are not able to easily present bundle-related information 
 
 #### `janet-pm`
 
-The `janet-pm` is in many ways an updated version of `jpm` that add support for modern bundles. As may be expected, it better separates its modules and is easier to maintain.
+`janet-pm` is in many ways an updated version of `jpm` that add support for modern bundles. As may be expected, it better separates its modules and is easier to maintain.
 
 The problem is that `janet-pm` is part of Spork and requires it to be installed as well. Since Spork includes natively compiled modules, this means that `janet-pm` cannot be installed without a functioning compiler.
 
