@@ -7,8 +7,6 @@ category:
 tags:
 ---
 
-# Announcing Jeep
-
 [Jeep][ghr] is a bundle manager for the Janet programming language. If you use
 Janet, I think you should use it. It has better documentation, does a great job
 supporting vendoring and can make testing a more enjoyable experience. You can
