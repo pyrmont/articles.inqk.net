@@ -21,8 +21,8 @@ A _bundle_ is Janet’s term for what some languages call a package. At its most
 basic, a bundle:
 
 - is a directory of files that can contain Janet code, documentation and other
-  resources that
-- is installable
+  resources; and
+- is installable.
 
 Making a directory isn't that difficult but how do you make a directory
 'installable'?
