@@ -2,14 +2,16 @@
 title: "Bundles in Janet"
 layout: post
 date: 2025-09-15 00:44:09 +0900
-excerpt: "A summary of my understanding of bundles in Janet."
+excerpt: "Suggested terminology for concepts related to Janet's bundles."
 category:
 tags:
 ---
 
 I'm currently working on [Jeep][jeep], a bundle manager for the Janet
 programming language. As you might expect, I've had to learn quite a bit about
-how bundles work in Janet. This post summarises my understanding.
+how bundles work in Janet. One of the things that I've struggled with is what to
+call various aspects. In this post, I want to describe some of the concepts and
+suggest some terminology for the Janet community to consider using.
 
 [jeep]: https://github.com/pyrmont/jeep
 
@@ -54,11 +56,11 @@ Janet has built-in support for installing and uninstalling modern bundles using
 Installing a bundle means copying one or more of the following _targets_[^t]
 into a _target path_:[^tp]
 
-1. a **module** written in Janet
-2. a **native module** compiled to machine code
-3. an **executable** written in Janet
-4. a **native executable** compiled to machine code
-5. a **man page**
+1. a **module file** written in Janet
+2. a **native module file** compiled to machine code
+3. an **executable file** written in Janet
+4. a **native executable file** compiled to machine code
+5. a **man page file**
 
 Uninstalling means removing the files that were copied. Janet’s `bundle/install`
 function creates a manifest that lists the files that were installed. As a
@@ -67,26 +69,28 @@ is uninstalled.
 
 ## Target Paths
 
-A user can think of Janet as having three _target paths_:
+In theory, Janet should have three _target paths_:
 
 1. the **syspath**
 2. the **binpath**
 3. the **manpath**
 
-On POSIX systems, the target paths default to:
+At the moment, **the manpath is not yet a target path**. Instead, there's the
+syspath and the binpath. The binpath is created by appending `/bin` to the
+systpath.
+
+On POSIX systems, the default target paths are:
 
 1. `/usr/local/lib/janet`
 2. `/usr/local/lib/janet/bin`
-3. `/usr/local/lib/janet/man`
 
-On Windows, the target paths default to:[^w]
+On Windows, the default target paths are:
 
 1. `%APPDATA%/Janet/Library`
-2. `%APPDATA%/Janet/bin`
-3. `%APPDATA%/Janet/docs`
+2. `%APPDATA%/Janet/Library/bin`
 
-For modules, the syspath is the most important as it is the path which Janet
-uses to search when importing modules.
+The syspath is the most important as it is the path which Janet searches when
+importing modules and the path from which the binpath is created.
 
 ### Bundle Hooks
 
@@ -178,9 +182,9 @@ script. Here's a simple example:
 
 ## Conclusion
 
-Janet bundles are still a bit of a work in progress and the information here is
-subject to change. If you have questions, the [GitHub repository][gh] is a good
-place to ask.
+Janet bundles are still a bit of a work in progress and the suggested terms here
+are just that: suggestions. If you have questions, the [GitHub repository][gh]
+is a good place to ask.
 
 [gh]: https://github.com/janet-lang/janet
 
@@ -193,12 +197,6 @@ practice, most bundles will only copy one or more of the files listed here.
 
 [^tp]: I don't actually want to coin all these terms. The problem is that there
 don't seem to be any. Alternate suggestions welcome.
-
-[^w]: Unlike the POSIX version of the `janet` binary, the Windows version
-does not hard code any values into the `janet` binary and instead uses
-environment variables exclusively. If a user's system does not specify any of
-`JANET_PATH`, `JANET_BINPATH` and `JANET_MANPATH`, then the target paths will
-not resolve to a value by default.
 
 [^b]: This article uses the term 'bundle root' to refer to the top-level of the
 bundle itself. However, a bundle can also put its info file and bundle script
