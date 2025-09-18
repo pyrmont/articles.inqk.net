@@ -7,7 +7,7 @@ category:
 tags: 
 ---
 
-**_In January 2025, I [recommended a directory structure][recommend] for what I
+**_In January 2025, [I recommended a directory structure][recommend] for what I
 would now call Janet's legacy bundles. This post is a revised version for modern
 bundles._**
 
