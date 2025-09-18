@@ -8,8 +8,8 @@ tags:
 ---
 
 **_In January 2025, [I recommended a directory structure][recommend] for what I
-would now call Janet's legacy bundles. This post is a revised version for modern
-bundles._**
+would now call Janet's legacy bundles[^terms]. This post is a revised version
+for modern bundles._**
 
 [recommend]: https://articles.inqk.net/2025/01/09/janet-dir-structure.html "Read
 the article 'Recommended Directory Structure for Janet Packages'."
@@ -108,6 +108,12 @@ out.
 
 I've been using this structure for the last six months or so and have found it
 works well. I hope others find it helpful, too!
+
+[^terms]: This post uses terminology like _legacy bundle_ and _modern bundle_
+that I introduced in [this post][tp].
+
+[tp]: https://articles.inqk.net/2025/09/15/janet-bundles.html "Read the article
+'Bundles in Janet'."
 
 [^bs]: A _binscript_ is a text file that is marked executable and begins with
 `#!/usr/bin/env janet`. This will cause the OS to run the Janet code in the file
