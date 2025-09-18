@@ -1,7 +1,7 @@
 ---
 title: "Recommended Directory Structure for Janet Bundles"
 layout: post
-date: 2025-01-18 17:07:37 +0900
+date: 2025-09-18 17:07:37 +0900
 excerpt: "A revised recommended directory structure for use by Janet bundle authors."
 category: 
 tags: 
