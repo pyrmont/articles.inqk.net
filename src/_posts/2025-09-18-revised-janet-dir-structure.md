@@ -7,8 +7,12 @@ category:
 tags: 
 ---
 
-**_In January 2025, I recommended a directory structure for what I would now call
-Janet's legacy bundles. This post is a revised version for modern bundles._**
+**_In January 2025, I [recommended a directory structure][recommend] for what I
+would now call Janet's legacy bundles. This post is a revised version for modern
+bundles._**
+
+[recommend]: https://articles.inqk.net/2025/01/09/janet-dir-structure.html "Read
+the article 'Recommended Directory Structure for Janet Packages'."
 
 I like making bundles for the Janet programming language. I also like things to
 be neat and consistent. This has led to me spending too much time thinking about

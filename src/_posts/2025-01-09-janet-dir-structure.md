@@ -10,7 +10,7 @@ tags:
 **_For modern bundles, I recommend users follow my [revised recommended
 directory structure][revised]. I leave this post for historical reference._**
 
-[revised]: https://articles.inqk.net/2025/01/09/janet-dir-structure.html "Read
+[revised]: https://articles.inqk.net/2025/09/18/revised-janet-dir-structure.html "Read
 the article 'Recommended Directory Structure for Janet Bundles'."
 
 I like making packages for the Janet programming language. I also like things to be neat and consistent. This has led to me spending too much time thinking about a directory structure I can use for my Janet packages.
