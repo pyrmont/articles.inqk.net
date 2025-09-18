@@ -118,3 +118,4 @@ dependencies. I have some ideas but nothing I’m certain is the right answer.
 
 [^compile]: Seriously, just clone the repo, `cd` into the directory and then run
 `janet -e '(import ./bundle) (bundle/build (table :info (-> (slurp "info.jdn") parse)))'.`
+I think that's pretty fab.
