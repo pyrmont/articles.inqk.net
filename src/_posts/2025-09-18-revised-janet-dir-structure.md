@@ -18,7 +18,7 @@ I like making bundles for the Janet programming language. I also like things to
 be neat and consistent. This has led to me spending too much time thinking about
 a directory structure I can use for Janet bundles.
 
-Here's what I've come up with:
+For a bundle called `<bundle>`[^name], here's what I've come up with:
 
 ```
 <bundle>
@@ -111,6 +111,9 @@ works well. I hope others find it helpful, too!
 
 [^terms]: This post uses terminology like _legacy bundle_ and _modern bundle_
 that I introduced in [this post][tp].
+
+[^name]: Because of how Janet works internally, bundles should not be called
+'bin', 'bundle' or 'man'.
 
 [tp]: https://articles.inqk.net/2025/09/15/janet-bundles.html "Read the article
 'Bundles in Janet'."
