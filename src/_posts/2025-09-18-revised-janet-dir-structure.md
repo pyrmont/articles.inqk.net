@@ -59,8 +59,8 @@ Spork bundle."
 
 - `deps/`: This directory contains vendored dependencies that your bundle uses.
   I've moved to using vendored dependencies as a way to avoid some of the issues
-  that arise when you’re trying to share dependencies across all bundles.[^vend]
-  If that sounds interesting, check out my bundle manager [Jeep][jp]. It makes
+  that arise when you’re trying to share dependencies across all bundles. If
+  that sounds interesting, check out my bundle manager [Jeep][jp]. It makes
   vendoring dependencies as easy as can be.
 
 [jp]: https://github.com/pyrmont/jeep "Visit the GitHub repository for the Jeep
@@ -118,9 +118,6 @@ that I introduced in [this post][tp].
 [^bs]: A _binscript_ is a text file that is marked executable and begins with
 `#!/usr/bin/env janet`. This will cause the OS to run the Janet code in the file
 through the `janet` binary installed on the user's system.
-
-[^vend]: I’m still working on the best way to install and update vendored
-dependencies. I have some ideas but nothing I’m certain is the right answer.
 
 [^compile]: Seriously, just clone the repo, `cd` into the directory and then run
 `janet -e '(import ./bundle) (bundle/build (table :info (-> (slurp "info.jdn") parse)))'.`
