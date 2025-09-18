@@ -84,7 +84,7 @@ bundle."
   script or to consumers of your bundle.
 
 - `init.janet`: This file allows a consumer of your bundle to import the top
-  level bindings by simply writing `(import <package>`) in their Janet file.
+  level bindings by simply writing `(import <bundle>`) in their Janet file.
   This is because `init.janet` is a 'magic file' that Janet's module loader
   looks for when it tries to resolve an import call. So using Lemongrass as an
   example again, a consumer of the bundle can write:
