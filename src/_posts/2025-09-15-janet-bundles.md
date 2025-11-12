@@ -24,18 +24,18 @@ basic, a bundle:
   resources; and
 - is installable.
 
-Making a directory isn't that difficult but how do you make a directory
+Making a directory isn't that difficult but how do you make something
 'installable'?
 
 ### Bundle Types
 
 Unfortunately, for historical reasons, Janet has two types of bundles.
 
-First, there are **legacy bundles**.[^lb] A legacy bundle is made installable
+First, there are **legacy bundles**.[^lb1] A legacy bundle is made installable
 by the presence of a file titled `project.janet` in the _bundle root_. Legacy
 bundles were developed to work with the Janet Project Manager (commonly
 referred to as `jpm`). A legacy bundle cannot be installed by the `janet`
-binary alone.
+binary alone.[^lb2]
 
 Second, there are **modern bundles**.[^mb] A modern bundle is made installable
 by the presence of an _info file_ and a _bundle script_.[^ib] Once you get a
@@ -64,9 +64,10 @@ the _syspath_:
 
 Uninstalling means removing the files that were copied.
 
-When installing a modern bundle, Janet creates a manifest that lists all of the
-paths that were created during installation. As a result, Janet can make sure
-those paths are removed when the bundle is uninstalled.
+When installing a modern bundle, Janet creates a _manifest_ that, among other
+things, lists all of the paths that were created during installation. As a
+result, Janet can make sure those paths are removed when the bundle is
+uninstalled.
 
 ## syspath
 
@@ -94,83 +95,20 @@ Inside the syspath are three reserved directories:
 
 These are discussed below.
 
+## Manifest
+
+The _manifest_ is a collection of metadata concerning an installed bundle. It
+is created during the installation process by Janet and saved in
+`<syspath>/bundle/<bundle-name>/manifest.jdn`.
+
 ## Bundle Root
 
-This article uses the term _bundle root_ to refer to the top-level of the
-bundle itself (i.e. `./`). There is no mandated structure in Janet for bundles.
-However, there are three special paths relative to the bundle root:
+I use the term _bundle root_ to refer to the top-level of the bundle itself.
+Where paths in this article are of the form `./foo.bar`, this refers to a file
+called `foo.bar` that is at the top-level of the bundle (i.e. the bundle root).
 
-- `./bundle`
-- `./bundle.janet`
-- `./info.jdn`
-
-Yes, I have used the word 'bundle' so many times at this point that it may
-already have lost all meaning. Names are hard.
-
-## Bundle Hooks
-
-Janet's deliberately leaves the specifics of installation to the bundle author.
-It does this by using _bundle hooks_. A bundle author can think of a bundle
-hook as a call to an identically named function in the bundle’s _bundle
-script_.
-
-Janet calls up to five hooks during installation:
-
-1. `postdeps`[^pd]
-2. `clean` (called only if specified)
-3. `build`
-4. `install`
-5. `check` (called only if specified)
-
-One hook is called during uninstallation:
-
-1. `uninstall`
-
-The `install` hook is the most important. In the `install` function that is in
-your bundle script, you should use the functions `bundle/add`, `bundle/add-bin`
-and `bundle/add-manpage` to copy various artifacts to the syspath.
-
-## Bundle Script
-
-The _bundle script_ is a text file containing Janet code. The bundle script can
-be located in one of two places relative to the bundle root:
-
-1. `./bundle/init.janet`
-2. `./bundle.janet`
-
-As noted above, each bundle hook calls an identically named function in the
-bundle script. If a bundle author doesn’t have a function with that name,
-nothing happens and Janet moves onto the next hook. Some bundles don’t need a
-`build` step, for example, and so can simply not define that function. Others
-may not need a `postdeps` function.
-
-It is important to note that, before any of the bundle hooks are called, the
-info file and bundle script are copied to `<syspath>/bundle`. Both files are
-placed inside a subdirectory with the same name as the bundle (i.e.
-`<syspath>/bundle/<bundle-name>`). Janet in fact copies all files from the bundle's
-`./bundle` directory to `<syspath>/bundle/<bundle-name>`.
-
-As a result, a bundle script can import other modules but it **should not** do
-this relative to directories in the bundle root since at the time of
-evaluation, the bundle script will be located in
-`<syspath>/bundle/<bundle-name>`. If a user's bundle script depends on modules,
-these should be imported from the syspath:
-
-```janet
-(import foo)
-```
-
-or they should be included in the bundle's `bundle` directory and then imported
-relative to the bundle script:
-
-```janet
-(import ./foo)
-```
-
-You can see an example of doing this in the [bundle script][pe] for Predoc, my
-tool for generating man pages.
-
-[pe]: https://github.com/pyrmont/predoc/blob/ad43c7b3e48b65111fd95c62f604910791c5a10f/bundle/init.janet
+Janet does not mandate a structure for the bundle but, as noted above, modern
+bundles should contain an info file and a bundle script.
 
 ## Info File
 
@@ -188,12 +126,11 @@ with the same name.
 
 The info file should also list the external dependencies of the bundle (if any).
 This information is stored as an array/tuple that is associated with the key
-`:dependencies` at the top-level of the data structure. Janet’s `bundle/install`
-function will confirm that the dependencies listed are installed before
+`:dependencies` at the top-level of the data structure. During the installation
+process, Janet will confirm that the dependencies listed are installed before
 proceeding with installation.
 
-The info file may further contain other information that is used by the bundle
-script. Here's an example:
+Here's an example of an info file:
 
 ```janet
 {:name "foo"
@@ -217,6 +154,83 @@ keys. Some of these, like `:description`, are more for communicating to the
 potential consumer. Some, like `:artifacts` , may be used by a particular
 bundle script.[^bs]
 
+## Bundle Script
+
+The _bundle script_ is a text file containing Janet code. The bundle script can
+be located in one of two places relative to the bundle root:
+
+1. `./bundle/init.janet`
+2. `./bundle.janet`
+
+As discussed below, the bundle script contains functions that will be called
+during the installation and uninstallation process.
+
+It is important to note that, before any functions are are called, the
+info file and bundle script are copied to `<syspath>/bundle`. Both files are
+placed inside a subdirectory with the same name as the bundle (i.e.
+`<syspath>/bundle/<bundle-name>`). Janet in fact copies all files from the bundle's
+`./bundle` directory to `<syspath>/bundle/<bundle-name>`.
+
+As a result, a bundle script can import other modules but it **should not** do
+this relative to directories in the bundle root since at the time of
+evaluation, the bundle script will be located in
+`<syspath>/bundle/<bundle-name>`. If a user's bundle script depends on modules,
+these should be imported from the syspath:
+
+```janet
+(import foo)
+```
+
+or they should be included in the bundle's `./bundle` directory and then imported
+relative to the bundle script:
+
+```janet
+(import ./foo)
+```
+
+You can see an example of doing this in the [bundle script][pe] for Predoc, my
+tool for generating man pages.
+
+[pe]: https://github.com/pyrmont/predoc/blob/ad43c7b3e48b65111fd95c62f604910791c5a10f/bundle/init.janet
+
+## Bundle Hooks
+
+Janet deliberately leaves the logic for installing artifacts to the bundle
+author. It does this by using _bundle hooks_. A bundle author can think of a
+bundle hook as a call to an identically named function in the bundle’s bundle
+script.
+
+Janet calls up to five hooks during the installation process:
+
+1. `postdeps`[^pd]
+2. `clean` (optional)
+3. `build`
+4. `install`
+5. `check` (optional)
+
+The optional hooks are only called if specified in an argument to
+`bundle/install`.
+
+One hook is called during the uninstallation process:
+
+1. `uninstall`
+
+As noted above, each bundle hook effectively calls an identically named
+function in the bundle script. The function is called with the data in the
+manifest as its first argument. This importantly includes the information in
+the info file under the `:info` key.
+
+If a bundle author doesn’t define a function for a particular hook, nothing
+happens and Janet moves onto the next hook. Some bundles don’t need a build
+step, for example, and so can simply not define a `build` function. Others may
+not need a `postdeps` function.
+
+Every bundle script should include an `install` function and this function
+should make calls to some combination of `bundle/add`, `bundle/add-directory`,
+`bundle/add-bin` and `bundle/add-manpage` to copy various artifacts into the
+syspath. Using these functions ensures that the paths created are saved in the
+manifest and so can be properly removed during the uninstallation process.
+
 ## Conclusion
 
 Janet bundles are still a bit of a work in progress and the suggested terms here
@@ -225,7 +239,13 @@ is a good place to ask.
 
 [gh]: https://github.com/janet-lang/janet
 
-[^lb]: This is my term of art. Use it at parties to sound cool.
+[^lb1]: This is my term of art. Use it at parties to sound cool.
+
+[^lb2]: Legacy bundles are not a focus of Jeep and so are not discussed further
+in this article. More information about legacy bundles is available on the
+[Janet website][docs].
+
+[docs]: https://janet-lang.org/jpm/
 
 [^mb]: Again, sound cool at parties.
 
@@ -235,7 +255,7 @@ files as being required.
 
 [^bd]: The bundle manifest, the info file and the bundle script.
 
-[^pd]: Previously `dependencies`.
-
 [^bs]: Bundle scripts generated by Jeep look for this key to determine which
 artifacts to install.
+
+[^pd]: Previously `dependencies`.
