@@ -165,11 +165,11 @@ be located in one of two places relative to the bundle root:
 As discussed below, the bundle script contains functions that will be called
 during the installation and uninstallation process.
 
-It is important to note that, before any functions are are called, the
-info file and bundle script are copied to `<syspath>/bundle`. Both files are
-placed inside a subdirectory with the same name as the bundle (i.e.
-`<syspath>/bundle/<bundle-name>`). Janet in fact copies all files from the bundle's
-`./bundle` directory to `<syspath>/bundle/<bundle-name>`.
+It is important to note that, before any functions are called, the info file
+and bundle script are copied to `<syspath>/bundle`. Both files are placed
+inside a subdirectory with the same name as the bundle (i.e.
+`<syspath>/bundle/<bundle-name>`). Janet in fact copies all files from the
+bundle's `./bundle` directory to `<syspath>/bundle/<bundle-name>`.
 
 As a result, a bundle script can import other modules but it **should not** do
 this relative to directories in the bundle root since at the time of
