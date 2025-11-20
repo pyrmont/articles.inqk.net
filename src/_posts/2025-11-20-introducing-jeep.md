@@ -85,7 +85,7 @@ A few of the interesting subcommands:
 
 - `jeep api`: This subcommand creates `api.md`, a Markdown file in your bundle
   root that lists the function signatures and docstrings for the functions
-  exposed by your module.
+  exposed by your bundle's modules.
 
 - `jeep list`: This subcommand lists information about your current Janet
   environment. This includes the bundles you have installed, the version of
