@@ -22,11 +22,11 @@ Manager.
 
 Jeep is built around various _subcommands_. There are global subcommands that
 can be used anywhere (e.g. `jeep install`, `jeep uninstall`) and local
-subcommands that are run in the _bundle root_[^br] of a bundle (e.g. `jeep build`,
+subcommands that are run in the bundle root of a bundle (e.g. `jeep build`,
 `jeep prepare`).
 
-I think Jeep is cool but if you didn't develop it, you might reasonably have
-some questions about why you would want to use it. The remainder of this
+Now I think Jeep is cool but if you didn't develop it, you might reasonably
+have some questions about why you would want to use it. The remainder of this
 introduction is structured as a series of questions and answers.
 
 ### Q. If Janet can install bundles, what is the point of Jeep?
@@ -39,12 +39,13 @@ While Janet can install bundles, there are two key limitations:
    doesn't download and install them for you.
 
 Jeep comes with an `install` subcommand that will install a bundle, together
-with any external dependencies that are listed in the bundle's _info
-file_.
+with any external dependencies that are listed in the bundle's info file.
 
 ### Q. If JPM can install bundles, what is the point of Jeep?
 
-JPM can install _legacy bundles_ but it cannot install _modern bundles_.[^lb]
+JPM can install legacy bundles (i.e. bundles that use a `project.janet` file)
+but it cannot install modern bundles (i.e. bundles that use an `info.jdn`
+file).[^lb]
 
 ### Q. Why do I want to use modern bundles?
 
@@ -55,8 +56,8 @@ change. For me, modern bundles are preferable for two reasons:
    system, Janet can install them. Legacy bundles works today but they depend
    on JPM. JPM itself lacks robust tests and its heavy use of `use` can make it
    difficult to read.
-2. Modern bundles cleanly separate metadata (listed in a bundle's _info file_)
-   from management logic (listed in the bundle's _bundle script_). This makes it
+2. Modern bundles cleanly separate metadata (listed in a bundle's info file)
+   from management logic (listed in the bundle's bundle script). This makes it
    easier for other tools to extract information from your bundle without
    needing to run any code. It also means that a tool that you're not tied to
    one particular bundle manager (even Jeep!).
@@ -81,9 +82,9 @@ both legacy and modern bundles.
 
 A few of the interesting subcommands:
 
-- `jeep api`: This subcommand creates `api.md`, a Markdown file in your
-  _bundle root_ that lists the function signatures and docstrings for the
-  functions exposed by your module.
+- `jeep api`: This subcommand creates `api.md`, a Markdown file in your bundle
+  root that lists the function signatures and docstrings for the functions
+  exposed by your module.
 
 - `jeep list`: This subcommand lists information about your current Janet
   environment. This includes the bundles you have installed, the version of
@@ -107,7 +108,7 @@ they're readable as plain text right in the [GitHub repository][manpages].
 
 ### Q. Is there some way I can convert a legacy bundle into a modern bundle?
 
-Yes. Jeep's `enhance` subcommand can be run in the _bundle root_ of a legacy
+Yes. Jeep's `enhance` subcommand can be run in the bundle root of a legacy
 bundle and it will attempt to create the files for a modern bundle while
 preserving the metadata encoded in the legacy bundle's `project.janet`.
 
@@ -117,9 +118,5 @@ Do you have more questions? Feel free to open an issue in the [Issues
 section][issues] of the GitHub repository.
 
 [issues]: https://github.com/pyrmont/jeep/issues "Visit the Issues section of the GitHub repository for the Jeep proejct."
-
-[^br]: This article uses terminology I defined in my post ['Bundles in Janet'][terminology].
-
-[terminology]: https://articles.inqk.net/2025/09/15/janet-bundles.html "Read the blog post 'Bundles in Janet'."
 
 [^lb]: At least at the time of writing.
