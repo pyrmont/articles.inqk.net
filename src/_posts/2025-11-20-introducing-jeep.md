@@ -59,9 +59,9 @@ change. For me, modern bundles are preferable for two reasons:
 2. Modern bundles cleanly separate metadata (listed in a bundle's info file)
    from management logic (listed in the bundle's bundle script). This makes it
    easier for other tools to extract information from your bundle without
-   needing to run any code. Since the management logic is in your bundle script
-   and Janet, then you're not tied to one particular bundle manager (even
-   Jeep!).
+   needing to run any code. In addition, since the management logic is in your
+   bundle script and Janet, you're not tied to one particular bundle manager
+   (even Jeep!).
 
 ### Q. Can I use Jeep to install legacy bundles?
 
