@@ -22,7 +22,7 @@ Manager.
 
 Jeep is built around various _subcommands_. There are global subcommands that
 can be used anywhere (e.g. `jeep install`, `jeep uninstall`) and local
-subcommands that are run in the _bundle root_ a bundle (e.g. `jeep build`,
+subcommands that are run in the _bundle root_[^br] of a bundle (e.g. `jeep build`,
 `jeep prepare`).
 
 I think Jeep is cool but if you didn't develop it, you might reasonably have
@@ -40,7 +40,7 @@ While Janet can install bundles, there are two key limitations:
 
 Jeep comes with an `install` subcommand that will install a bundle, together
 with any external dependencies that are listed in the bundle's _info
-file_.[^if]
+file_.
 
 ### Q. If JPM can install bundles, what is the point of Jeep?
 
@@ -118,7 +118,7 @@ section][issues] of the GitHub repository.
 
 [issues]: https://github.com/pyrmont/jeep/issues "Visit the Issues section of the GitHub repository for the Jeep proejct."
 
-[^if]: This article uses terminology I defined in my article ['Bundles in Janet'][terminology].
+[^br]: This article uses terminology I defined in my post ['Bundles in Janet'][terminology].
 
 [terminology]: https://articles.inqk.net/2025/09/15/janet-bundles.html "Read the blog post 'Bundles in Janet'."
 
