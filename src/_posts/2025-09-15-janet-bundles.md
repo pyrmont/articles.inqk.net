@@ -6,7 +6,8 @@ excerpt: "Suggested terminology for concepts related to Janet's bundles."
 category:
 tags:
 ---
-**This post originally used the terms _legacy bundles_ and _modern bundles_. I now prefer _JPM bundles_ and _Janet bundles_. Naming is hard.**
+
+**_This post originally used the terms legacy bundles and modern bundles. I now prefer JPM bundles and Janet bundles. Naming is hard._**
 
 I'm currently working on [Jeep][jeep], a bundle manager for the Janet
 programming language. As you might expect, I've had to learn quite a bit about
