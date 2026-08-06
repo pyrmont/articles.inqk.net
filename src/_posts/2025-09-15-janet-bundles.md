@@ -6,6 +6,7 @@ excerpt: "Suggested terminology for concepts related to Janet's bundles."
 category:
 tags:
 ---
+**This post originally used the terms _legacy bundles_ and _modern bundles_. I now prefer _JPM bundles_ and _Janet bundles_. Naming is hard.**
 
 I'm currently working on [Jeep][jeep], a bundle manager for the Janet
 programming language. As you might expect, I've had to learn quite a bit about
@@ -31,18 +32,18 @@ Making a directory isn't that difficult but how do you make something
 
 Unfortunately, for historical reasons, Janet has two types of bundles.
 
-First, there are **legacy bundles**.[^lb1] A legacy bundle is made installable
-by the presence of a file titled `project.janet` in the _bundle root_. Legacy
+First, there are **JPM bundles**.[^jpmb1] A JPM bundle is made installable
+by the presence of a file titled `project.janet` in the _bundle root_. JPM
 bundles were developed to work with the Janet Project Manager (commonly
-referred to as `jpm`). A legacy bundle cannot be installed by the `janet`
-binary alone.[^lb2]
+referred to as `jpm`). A JPM bundle cannot be installed by the `janet`
+binary alone.[^jpmb2]
 
-Second, there are **modern bundles**.[^mb] A modern bundle is made installable
+Second, there are **Janet bundles**.[^jb] A Janet bundle is made installable
 by the presence of an _info file_ and a _bundle script_.[^ib] Once you get a
 bundle on the local file system, it can be installed by the `janet` binary
 alone.
 
-It is possible for a bundle to be _both_ a legacy bundle and a modern bundle if
+It is possible for a bundle to be _both_ a JPM bundle and a Janet bundle if
 the bundle includes all the necessary files (a `project.janet` file, an info
 file and a bundle script).
 
@@ -50,8 +51,8 @@ file and a bundle script).
 
 Saying that a bundle is 'installable' really means that it has _artifacts_ that
 can be installed. Janet has built-in support for installing and uninstalling
-artifacts from modern bundles. The `janet` binary cannot install artifacts from
-legacy bundles without an additional tool.
+artifacts from Janet bundles. The `janet` binary cannot install artifacts from
+JPM bundles without an additional tool.
 
 Installing a bundle means copying one or more of the following artifacts into
 the _syspath_:
@@ -64,7 +65,7 @@ the _syspath_:
 
 Uninstalling means removing the files that were copied.
 
-When installing a modern bundle, Janet creates a _manifest_ that, among other
+When installing a Janet bundle, Janet creates a _manifest_ that, among other
 things, lists all of the paths that were created during installation. As a
 result, Janet can make sure those paths are removed when the bundle is
 uninstalled.
@@ -107,8 +108,8 @@ I use the term _bundle root_ to refer to the top-level of the bundle itself.
 Where paths in this article are of the form `./foo.bar`, this refers to a file
 called `foo.bar` that is at the top-level of the bundle (i.e. the bundle root).
 
-Janet does not mandate a structure for the bundle but, as noted above, modern
-bundles should contain an info file and a bundle script.
+Janet does not mandate a structure for the bundle but, as noted above, Janet
+bundles (effectively) need to contain an info file and a bundle script.
 
 ## Info File
 
@@ -239,15 +240,15 @@ is a good place to ask.
 
 [gh]: https://github.com/janet-lang/janet
 
-[^lb1]: This is my term of art. Use it at parties to sound cool.
+[^jpmb1]: This is my second stab at trying to come up with a term of art that would get me invited to parties. It has not worked.
 
-[^lb2]: Legacy bundles are not a focus of Jeep and so are not discussed further
-in this article. More information about legacy bundles is available on the
+[^jpmb2]: JPM bundles are not a focus of Jeep and so are not discussed further
+in this article. More information about JPM bundles is available on the
 [Janet website][docs].
 
 [docs]: https://janet-lang.org/jpm/
 
-[^mb]: Again, sound cool at parties.
+[^jb]: Again, sound cool at parties.
 
 [^ib]: Strictly speaking, you can install bundles without these files but this
 isn't documented at the time of writing and I think it is simpler to treat these
