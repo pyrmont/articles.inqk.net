@@ -43,39 +43,39 @@ with any external dependencies that are listed in the bundle's info file.
 
 ### Q. If JPM can install bundles, what is the point of Jeep?
 
-JPM can install legacy bundles (i.e. bundles that use a `project.janet` file)
-but it cannot install modern bundles (i.e. bundles that use an `info.jdn`
-file).[^lb]
+JPM can install JPM bundles (i.e. bundles that use a `project.janet` file)
+but it cannot install Janet bundles (i.e. bundles that use an `info.jdn`
+file).[^jpmb]
 
-### Q. Why do I want to use modern bundles?
+### Q. Why do I want to use Janet bundles?
 
-Legacy bundles continue to work fine and there's no reason you _have_ to
-change. For me, modern bundles are preferable for two reasons:
+JPM bundles continue to work fine and there's no reason you _have_ to
+change. For me, Janet bundles are preferable for two reasons:
 
-1. Modern bundles aren't tied to a particular tool. Once they're on the file
-   system, Janet can install them. Legacy bundles works today but they depend
+1. Janet bundles aren't tied to a particular tool. Once they're on the file
+   system, Janet can install them. JPM bundles works today but they depend
    on JPM. JPM itself lacks robust tests and its heavy use of `use` can make it
    difficult to read.
-2. Modern bundles cleanly separate metadata (listed in a bundle's info file)
+2. Janet bundles cleanly separate metadata (listed in a bundle's info file)
    from management logic (listed in the bundle's bundle script). This makes it
    easier for other tools to extract information from your bundle without
    needing to run any code. In addition, since the management logic is in your
    bundle script and Janet, you're not tied to one particular bundle manager
    (even Jeep!).
 
-### Q. Can I use Jeep to install legacy bundles?
+### Q. Can I use Jeep to install JPM bundles?
 
 No. I realise this might reasonably be a deal breaker for many people. If you
-are installing a modern bundle but it depends on a legacy bundle, Jeep cannot
+are installing a Janet bundle but it depends on a JPM bundle, Jeep cannot
 install it. janet-pm (discussed below) does not have this limitation.
 
 ### Q. Are there any alternatives?
 
 Apart from JPM, the only other alternative at the time of writing is janet-pm.
 janet-pm is part of the [Spork][] library, the official contrib library (and
-one that many people install). janet-pm makes a best effort to install legacy
+one that many people install). janet-pm makes a best effort to install JPM
 bundles and so can be a good solution for someone who wants one tool to support
-both legacy and modern bundles.
+both JPM and Janet bundles.
 
 [Spork]: https://github.com/janet-lang/spork "Visit the GitHub repository for the Spork project."
 
@@ -93,11 +93,11 @@ A few of the interesting subcommands:
 
 - `jeep test`: This subcommand runs the Janet files that are in `./test` similar
   to how `jpm test` works. Unlike JPM, Jeep can run specific files using the
-  `-f` option for situations where you don't need to run the entire suite.
+  `-f` option for situations where you don't want to run the entire suite.
 
 ### Q. How can I learn more about Jeep's subcommands?
 
-Jeep includes a rich suite of man pages that describe its features. You can
+Jeep includes a rich collection of man pages that describe its features. You can
 read them by typing `jeep help <subcommand>` at the command line. For those
 who'd like to see what Jeep can offer before installation, the pages are
 written in [Predoc][], a Markdown flavour that I developed. As Markdown,
@@ -107,11 +107,11 @@ they're readable as plain text right in the [GitHub repository][manpages].
 
 [manpages]: https://github.com/pyrmont/jeep/tree/master/man/man1 "See a listing of the manpages in the GitHub repository."
 
-### Q. Is there some way I can convert a legacy bundle into a modern bundle?
+### Q. Is there some way I can convert a JPM bundle into a Janet bundle?
 
-Yes. Jeep's `enhance` subcommand can be run in the bundle root of a legacy
-bundle and it will attempt to create the files for a modern bundle while
-preserving the metadata encoded in the legacy bundle's `project.janet`.
+Yes. Jeep's `enhance` subcommand can be run in the bundle root of a JPM
+bundle and it will attempt to create the files for a Janet bundle while
+preserving the metadata encoded in the JPM bundle's `project.janet`.
 
 ----
 
@@ -120,4 +120,4 @@ section][issues] of the GitHub repository.
 
 [issues]: https://github.com/pyrmont/jeep/issues "Visit the Issues section of the GitHub repository for the Jeep proejct."
 
-[^lb]: At least at the time of writing.
+[^jpmb]: At least at the time of writing.
