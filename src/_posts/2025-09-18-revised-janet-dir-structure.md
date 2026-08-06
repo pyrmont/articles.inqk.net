@@ -1,5 +1,5 @@
 ---
-title: "Recommended Directory Structure for Janet's Modern Bundles"
+title: "Recommended Directory Structure for Janet Bundles"
 layout: post
 date: 2025-09-18 17:07:37 +0900
 excerpt: "A revised recommended directory structure for use by Janet bundle authors."
@@ -8,8 +8,8 @@ tags:
 ---
 
 **_In January 2025, [I recommended a directory structure][recommend] for what I
-would now call Janet's legacy bundles[^terms]. This post is a revised version
-for modern bundles._**
+would now call JPM bundles[^terms]. This post is a revised version
+for Janet bundles._**
 
 [recommend]: https://articles.inqk.net/2025/01/09/janet-dir-structure.html "Read
 the article 'Recommended Directory Structure for Janet Packages'."
@@ -109,8 +109,8 @@ out.
 I've been using this structure for the last six months or so and have found it
 works well. I hope others find it helpful, too!
 
-[^terms]: This post uses terminology like _legacy bundle_ and _modern bundle_
-that I introduced in [this post][tp].
+[^terms]: This post uses terminology like _JPM bundle_ and _Janet bundle_
+that I introduced in [this post][tp] (and subsequently revised).
 
 [^name]: Because of how Janet works internally, bundles should not be called
 'bin', 'bundle' or 'man'.
