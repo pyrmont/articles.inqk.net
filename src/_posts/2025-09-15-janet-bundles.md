@@ -249,7 +249,7 @@ in this article. More information about JPM bundles is available on the
 
 [docs]: https://janet-lang.org/jpm/
 
-[^jb]: Again, sound cool at parties.
+[^jb]: Still not working, is it?
 
 [^ib]: Strictly speaking, you can install bundles without these files but this
 isn't documented at the time of writing and I think it is simpler to treat these
