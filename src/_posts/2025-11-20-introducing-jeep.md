@@ -103,7 +103,7 @@ who'd like to see what Jeep can offer before installation, the pages are
 written in [Predoc][], a Markdown flavour that I developed. As Markdown,
 they're readable as plain text right in the [GitHub repository][manpages].
 
-[Predoc]: https://pyrmont.github.io/pyrmont "Visit the official Predoc website."
+[Predoc]: https://pyrmont.github.io/predoc/ "Visit the official Predoc website."
 
 [manpages]: https://github.com/pyrmont/jeep/tree/master/man/man1 "See a listing of the manpages in the GitHub repository."
 
@@ -118,6 +118,6 @@ preserving the metadata encoded in the JPM bundle's `project.janet`.
 Do you have more questions? Feel free to open an issue in the [Issues
 section][issues] of the GitHub repository.
 
-[issues]: https://github.com/pyrmont/jeep/issues "Visit the Issues section of the GitHub repository for the Jeep proejct."
+[issues]: https://github.com/pyrmont/jeep/issues "Visit the Issues section of the GitHub repository for the Jeep project."
 
 [^jpmb]: At least at the time of writing.
