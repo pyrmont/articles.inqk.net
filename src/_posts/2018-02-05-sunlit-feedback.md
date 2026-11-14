@@ -114,7 +114,7 @@ As I hopefull made clear at the beginning, I really want Sunlit to be great. I t
 
 [^2]: In [an earlier version][aev] of this article, I said I wasn't sure if Jonathan Hays, the other half of the original development team, was still working on Sunlit. [He very much is][mfm]. I've made adjustments to the text to reflect this.
 
-[aev]: https://github.com/pyrmont/articles/commits/master/_posts/2018-02-05-sunlit-feedback.md
+[aev]: https://github.com/pyrmont/articles.inqk.net/commits/master/_posts/2018-02-05-sunlit-feedback.md
 [mfm]: https://micro.blog/manton/316365
 
 [^3]: Since this is an additional feature, rather than feedback on Sunlit's existing feature set, I don't discuss it any further in this article. But it would be cool.

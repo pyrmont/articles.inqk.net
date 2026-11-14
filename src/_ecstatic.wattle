@@ -198,7 +198,7 @@
                     [:time {:datetime (date-attr (post :date))}
                      (date/format "%-d %B %Y" (post :date) offset)]
                     [:span.history
-                     [:a {:href (string "https://github.com/pyrmont/articles/commits/master/src/"
+                     [:a {:href (string "https://github.com/pyrmont/articles.inqk.net/commits/master/src/"
                                         (post :path))}
                       "Revision History"]]]
                    (hiccup/raw (add-colophon (post :html)))]])})
