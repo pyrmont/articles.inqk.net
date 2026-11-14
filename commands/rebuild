@@ -1,6 +1,9 @@
 #!/bin/sh
 
+PATH=/usr/local/bin:/usr/bin:/bin
+export PATH
+
 cd ..
-/usr/bin/git pull
+git pull
 cd src
-/usr/bin/bundle exec jekyll build --destination ../public
+ecstatic build --destination ../public

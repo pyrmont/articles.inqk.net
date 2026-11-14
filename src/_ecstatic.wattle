@@ -1,0 +1,279 @@
+; The theme for articles.inqk.net, built with Ecstatic.
+
+(def site-title "articles.inqk.net")
+(def site-url "https://articles.inqk.net")
+(def site-author "Michael Camilleri")
+(def site-description
+  "Usually more extended thoughts by <a href=\"http://inqk.net/\">Michael Camilleri</a>.")
+
+(def- per-page 10)
+(def- feed-size 10)
+
+; Markdown
+
+(defn fix-footnotes
+  """
+  Wraps each footnote reference in `<span class="connector">` with a
+  zero-width no-break space, so that the reference does not wrap onto a line
+  of its own.
+  """
+  [root]
+  (each node (cmark/nodes root)
+    (when (= :footnote-reference (cmark/type node))
+      (cmark/insert-before! node (cmark/set-literal! (cmark/new root :html-inline)
+                                                     "<span class=\"connector\">&#65279;"))
+      (cmark/insert-after! node (cmark/set-literal! (cmark/new root :html-inline)
+                                                    "</span>")))))
+
+; The grammars are in `_grammars/` beside this file. A code block's language
+; is the first part of its info string, before any `-` (so `sh-root` is
+; `sh`), as it was with Rouge.
+(def- grammars
+  (let [file (dyn :current-file)
+        i (last (string/find-all "/" file))]
+    (highlight/load-grammars (string (if i (string/slice file 0 i) ".") "/_grammars"))))
+
+(def- languages
+  {"sh" "source.shell"
+   "janet" "source.janet"
+   "clojure" "source.clojure"
+   "clj" "source.clojure"
+   "cl" "source.commonlisp"
+   "ruby" "source.ruby"
+   "js" "source.js"
+   "javascript" "source.js"
+   "html" "text.html.basic"
+   "yaml" "source.yaml"
+   "conf" "source.conf"})
+
+(def- prompt-peg (peg/compile '(* (<- (set "$#%>")) (? " ") (<- (any 1)) -1)))
+
+(defn- console-lines
+  """
+  Returns the HTML of each line of a console session. A line that begins
+  with a prompt is a shell command and any other line is output.
+  """
+  [code]
+  (def shell (grammars "source.shell"))
+  (map (fn [line]
+         (if-let [[p command] (peg/match prompt-peg line)]
+           (string "<span class=\"hl-prompt\">" p "</span> "
+                   (first (highlight/lines shell (string command "\n"))))
+           (if (empty? line)
+             ""
+             (string "<span class=\"hl-output\">" (hiccup/escape line) "</span>"))))
+       (let [ls (string/split "\n" code)]
+         (if (= "" (last ls)) (slice ls 0 -2) ls))))
+
+(defn highlight-code
+  """
+  Replaces each code block with highlighted HTML: a `<pre>` with the class
+  `language-<info>` (or `language-txt`) whose lines are each a `<span>` with
+  the class `line-<n>`.
+  """
+  [root]
+  (each node (cmark/nodes root)
+    (when (= :code-block (cmark/type node))
+      (def info (string/trim (or (cmark/fence-info node) "")))
+      (def lang (first (string/split "-" info)))
+      (def code (cmark/literal node))
+      (def lines (if (= lang "console")
+                   (console-lines code)
+                   (highlight/lines (grammars (languages lang)) code)))
+      (def out !"")
+      (buffer/push! out "<pre class=\"code highlight language-"
+                    (hiccup/escape (if (empty? info) "txt" info)) "\"><code>")
+      (var n 0)
+      (each line lines
+        (++ n)
+        (buffer/push! out "<span class=\"line-" (string n) "\">" line "\n</span>"))
+      (buffer/push! out "</code></pre>\n")
+      (cmark/insert-before! node (cmark/set-literal! (cmark/new root :html-block) (string out)))
+      (cmark/unlink! node))))
+
+(def config {:offset "+0900"
+             :include ["_pages"]
+             :exclude ["vendor"]
+             :future? true
+             :markdown {:options [:footnotes :smart :unsafe]
+                        :transforms [fix-footnotes highlight-code]}})
+
+(def- offset (date/parse-offset (config :offset)))
+
+(defn- md [text] (markdown/render text (config :markdown)))
+(defn- line [text] (markdown/inline text (config :markdown)))
+
+; Helpers
+
+(def- tag-peg (peg/compile '(* "<" (any (if-not ">" 1)) ">")))
+
+(defn- strip-html [s] (string (peg/replace-all tag-peg "" s)))
+
+(defn- heading
+  "Returns the title as HTML, with hyphens that do not break."
+  [title]
+  (hiccup/raw (line (string/replace-all "-" "&#8209;" title))))
+
+(defn- add-colophon
+  "Adds the colophon after the last paragraph before the footnotes."
+  [html]
+  (def fn-pos (string/find "<section class=\"footnotes\"" html))
+  (def ends (filter #(or (nil? fn-pos) (< $ fn-pos)) (string/find-all "</p>" html)))
+  (if (empty? ends)
+    html
+    (let [i (last ends)]
+      (string (string/slice html 0 i) "&nbsp;&#10042;" (string/slice html i)))))
+
+(defn- date-attr [t] (date/format "%Y-%m-%d %H:%M:%S %z" t offset))
+
+(defn- output-path
+  "Returns the path of the file for url."
+  [url]
+  (def rel (string/trim url "/"))
+  (cond
+    (string/has-suffix? "/" url) (if (empty? rel) "index.html" (string rel "/index.html"))
+    rel))
+
+(defn- list-url [n] (if (= 1 n) "/" (string "/list/" n "/")))
+
+; Layout
+
+(defn- layout
+  "Returns the page with the layout's header and footer around the body."
+  [site {:keys [kind title description url]} & body]
+  (def asset (fn [path] (string path "?v=" (site :revision))))
+  (hiccup/html5
+    [:html {:lang "en-US"}
+     [:head
+      [:title title]
+      [:meta {:charset "utf-8"}]
+      [:meta {:name "generator" :content "Ecstatic"}]
+      [:meta {:name "author" :content site-author}]
+      [:meta {:name "description" :content description}]
+      [:meta {:property "og:title" :content title}]
+      [:meta {:property "og:description" :content description}]
+      [:meta {:property "og:site_name" :content site-title}]
+      [:meta {:property "og:type" :content "website"}]
+      [:meta {:property "og:url" :content (string site-url url)}]
+      [:meta {:name "viewport" :content "width=device-width"}]
+      [:link {:rel "alternate" :type "application/atom+xml" :href "/feed.xml"}]
+      [:link {:rel "canonical" :href (string site-url url)}]
+      [:link {:rel "icon" :href (asset "/assets/icons/favicon.ico")}]
+      [:link {:rel "stylesheet" :href (asset "/assets/css/style.css")}]
+      [:link {:rel "stylesheet" :href (asset "/assets/css/barefoot.min.css")}]]
+     [:body
+      [:div.wrapper
+       [:header {:class kind}
+        [:a {:href site-url} " " [:h1 (hiccup/raw "&#10042; ") site-title] " "]
+        [:p (hiccup/raw (line site-description))]
+        [:p.instructions "Read " [:a {:href "/instructions.html"} "how"] " to use this blog."]]
+       body
+       [:footer {:class kind}
+        [:p [:small
+             (when (= kind "post")
+               (hiccup/raw (string "This post was written by <a href=\"https://inqk.net/\">"
+                                   site-author "</a>, a person on the Internet. If you have "
+                                   "any comments, please reach out on "
+                                   "<a href=\"https://bsky.app/profile/pyrmont.inqk.net\">"
+                                   "Bluesky</a>. ")))
+             "Original work placed in the public domain. All rights are disclaimed. "
+             [:a {:href "/licence.html"} "Why?"]]]]]
+      [:script {:src (asset "/assets/js/barefoot.min.js")}]
+      [:script (hiccup/raw "lf = new BareFoot(); lf.init();")]]]))
+
+; Pages
+
+(defn- post-page [site post]
+  {:path (output-path (post :url))
+   :body (layout site {:kind "post"
+                       :title (string (post :title) " | " site-title)
+                       :description (strip-html (or (post :excerpt) site-description))
+                       :url (post :url)}
+                 [:section.post
+                  [:div.tldr
+                   [:div.heading "TLDR"]
+                   (hiccup/raw (md (or (post :excerpt) "")))]
+                  [:article
+                   [:h1 (heading (post :title))]
+                   [:div.metadata
+                    [:time {:datetime (date-attr (post :date))}
+                     (date/format "%-d %B %Y" (post :date) offset)]
+                    [:span.history
+                     [:a {:href (string "https://github.com/pyrmont/articles/commits/master/src/"
+                                        (post :path))}
+                      "Revision History"]]]
+                   (hiccup/raw (add-colophon (post :html)))]])})
+
+(defn- plain-page [site page]
+  {:path (output-path (page :url))
+   :body (layout site {:kind "page"
+                       :title (string (page :title) " | " site-title)
+                       :description (strip-html site-description)
+                       :url (page :url)}
+                 [:section.page
+                  [:article
+                   [:h1 (heading (page :title))]
+                   (hiccup/raw (add-colophon (page :html)))]])})
+
+(defn- list-page [site {:keys [number items previous next]}]
+  (def url (list-url number))
+  {:path (output-path url)
+   :body (layout site {:kind "default"
+                       :title (if (= 1 number)
+                                site-title
+                                (string "Article List | Page " number " | " site-title))
+                       :description (strip-html site-description)
+                       :url url}
+                 [:section.default
+                  [:ul#post-list
+                   (map (fn [post]
+                          [:li
+                           [:a.date {:href (post :url)}
+                            [:time {:datetime (date-attr (post :date))}
+                             (date/format "%-d %b %Y" (post :date) offset)]]
+                           [:h3 [:a {:href (post :url)} (hiccup/raw (line (post :title)))]]
+                           [:p (hiccup/raw (line (or (post :excerpt) "")))]])
+                        items)]
+                  (when (or previous next)
+                    [:nav#post-nav
+                     (when previous
+                       [:span.prev
+                        [:a {:href (list-url previous)
+                             :title (when (= 1 previous) "Previous Page")}
+                         [:span.arrow "←"] " Newer Posts"]])
+                     (when next
+                       [:span.next
+                        [:a {:href (list-url next)}
+                         "Older Posts " [:span.arrow "→"]]])])])})
+
+(defn- feed [site]
+  {:path "feed.xml"
+   :body (feed/atom
+           {:title site-title
+            :subtitle (strip-html site-description)
+            :url site-url
+            :feed-url (string site-url "/feed.xml")
+            :id (string site-url "/feed.xml")
+            :updated (site :time)
+            :offset offset
+            :rights "http://unlicense.org"
+            :lang "en"
+            :entries (map (fn [post]
+                            {:title (post :title)
+                             :url (string site-url (post :url))
+                             :id (string "tag:" site-title ","
+                                         (date/format "%Y-%m-%d" (post :date) offset)
+                                         ":" (post :slug))
+                             :published (post :date)
+                             :updated (post :modified)
+                             :author (get-in post [:front-matter :author] site-author)
+                             :summary (post :excerpt)
+                             :content (post :html)})
+                          (take feed-size (site :posts)))})})
+
+(defn build [site]
+  [|(map #(post-page site $) (site :posts))
+   |(map #(plain-page site $)
+         (filter #(= "page" (get-in $ [:front-matter :layout])) (site :pages)))
+   |(map #(list-page site $) (paginate/pages (site :posts) per-page))
+   (feed site)])

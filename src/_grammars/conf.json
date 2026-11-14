@@ -1,0 +1,26 @@
+{
+  "name": "Configuration File",
+  "scopeName": "source.conf",
+  "patterns": [
+    {
+      "match": "(#).*$",
+      "name": "comment.line.number-sign.conf",
+      "captures": {"1": {"name": "punctuation.definition.comment.conf"}}
+    },
+    {
+      "begin": "\"",
+      "end": "\"",
+      "name": "string.quoted.double.conf",
+      "patterns": [{"match": "\\\\.", "name": "constant.character.escape.conf"}]
+    },
+    {
+      "begin": "'",
+      "end": "'",
+      "name": "string.quoted.single.conf"
+    },
+    {
+      "match": "\\b\\d+(?:\\.\\d+)?\\b",
+      "name": "constant.numeric.conf"
+    }
+  ]
+}
