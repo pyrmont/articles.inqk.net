@@ -93,7 +93,6 @@
 
 (def config {:offset "+0900"
              :include ["_pages"]
-             :exclude ["vendor"]
              :future? true
              :markdown {:options [:footnotes :smart :unsafe]
                         :transforms [fix-footnotes highlight-code]}})
